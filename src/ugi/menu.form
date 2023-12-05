@@ -31,7 +31,7 @@
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Component id="PanelMenu" alignment="0" max="32767" attributes="0"/>
+          <Component id="PanelMenu" min="-2" pref="601" max="-2" attributes="0"/>
       </Group>
     </DimensionLayout>
   </Layout>
@@ -55,32 +55,38 @@
           </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-              <AbsoluteConstraints x="0" y="0" width="230" height="640"/>
+              <AbsoluteConstraints x="0" y="0" width="230" height="610"/>
             </Constraint>
           </Constraints>
 
           <Layout>
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="Funcion" max="32767" attributes="0"/>
                   <Group type="102" attributes="0">
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Component id="Alumnos" alignment="0" max="32767" attributes="0"/>
-                          <Group type="102" attributes="0">
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="Inicio" min="-2" pref="229" max="-2" attributes="0"/>
-                                  <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
-                                  <Component id="Personal" alignment="0" min="-2" pref="228" max="-2" attributes="0"/>
-                                  <Group type="102" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Component id="Funcion" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="Inicio" alignment="0" pref="229" max="32767" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
                                       <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
                                       <Component id="TextoUNIVERSIDAD" min="-2" max="-2" attributes="0"/>
                                   </Group>
-                                  <Component id="Enfermeria" alignment="0" min="-2" pref="228" max="-2" attributes="0"/>
+                                  <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                      <Component id="Personal" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="Enfermeria" alignment="0" pref="228" max="32767" attributes="0"/>
+                                  </Group>
                               </Group>
                               <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                           </Group>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -99,8 +105,8 @@
                       <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
                       <Component id="Personal" min="-2" max="-2" attributes="0"/>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Component id="Enfermeria" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace pref="207" max="32767" attributes="0"/>
+                      <Component id="Enfermeria" min="-2" pref="27" max="-2" attributes="0"/>
+                      <EmptySpace pref="185" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -146,7 +152,10 @@
             <Container class="javax.swing.JPanel" name="Funcion">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="cc" green="ff" red="cc" type="rgb"/>
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
                 </Property>
               </Properties>
               <Events>
@@ -273,7 +282,7 @@
                   </Properties>
                   <Constraints>
                     <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                      <AbsoluteConstraints x="60" y="10" width="-1" height="-1"/>
+                      <AbsoluteConstraints x="60" y="0" width="-1" height="-1"/>
                     </Constraint>
                   </Constraints>
                 </Component>
@@ -306,7 +315,7 @@
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
                           <Component id="CierreCompleto" min="-2" pref="42" max="-2" attributes="0"/>
-                          <EmptySpace min="0" pref="782" max="32767" attributes="0"/>
+                          <EmptySpace min="0" pref="173" max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -350,7 +359,7 @@
           </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-              <AbsoluteConstraints x="230" y="0" width="600" height="80"/>
+              <AbsoluteConstraints x="230" y="0" width="600" height="90"/>
             </Constraint>
           </Constraints>
 
@@ -358,18 +367,18 @@
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="-2" pref="103" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="117" max="-2" attributes="0"/>
                       <Component id="TxtInicio2" min="-2" pref="75" max="-2" attributes="0"/>
-                      <EmptySpace pref="422" max="32767" attributes="0"/>
+                      <EmptySpace pref="408" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
             <DimensionLayout dim="1">
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="1" attributes="0">
-                      <EmptySpace pref="28" max="32767" attributes="0"/>
+                      <EmptySpace pref="16" max="32767" attributes="0"/>
                       <Component id="TxtInicio2" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -419,29 +428,32 @@
               <Layout>
                 <DimensionLayout dim="0">
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="102" alignment="0" attributes="0">
+                      <Group type="102" attributes="0">
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="CuadroFuncion" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
-                          <Component id="CuadroAlumnos" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
-                          <Component id="CuadroPersonal" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace type="unrelated" max="32767" attributes="0"/>
-                          <Component id="CuadrosEnfermeria" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
-                          <Component id="Bienvenidos" min="-2" pref="152" max="-2" attributes="0"/>
-                          <EmptySpace max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="CuadroFuncion" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                                  <Component id="CuadroAlumnos" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+                                  <Component id="CuadroPersonal" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" pref="36" max="32767" attributes="0"/>
+                                  <Component id="CuadrosEnfermeria" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="Bienvenidos" min="-2" pref="152" max="-2" attributes="0"/>
+                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
                       </Group>
                   </Group>
                 </DimensionLayout>
                 <DimensionLayout dim="1">
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="1" attributes="0">
-                          <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
                           <Component id="Bienvenidos" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Component id="CuadrosEnfermeria" max="32767" attributes="0"/>
                               <Component id="CuadroPersonal" max="32767" attributes="0"/>
@@ -761,7 +773,7 @@
                     <DimensionLayout dim="1">
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="1" attributes="0">
-                              <EmptySpace pref="240" max="32767" attributes="0"/>
+                              <EmptySpace pref="238" max="32767" attributes="0"/>
                               <Component id="TxtEnfermeria2" min="-2" max="-2" attributes="0"/>
                               <EmptySpace min="-2" pref="139" max="-2" attributes="0"/>
                               <Component id="PanelVerMas4" min="-2" max="-2" attributes="0"/>
@@ -849,10 +861,10 @@
                 </DimensionLayout>
                 <DimensionLayout dim="1">
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="102" attributes="0">
-                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace max="32767" attributes="0"/>
                           <Component id="TituloFuncion" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -885,8 +897,9 @@
                           <Group type="102" alignment="0" attributes="0">
                               <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
                               <Component id="TituloComoFunciona1" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace pref="441" max="32767" attributes="0"/>
+                              <EmptySpace pref="422" max="32767" attributes="0"/>
                               <Component id="CuadroSalirFun" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
                           </Group>
                       </Group>
                     </DimensionLayout>
@@ -916,18 +929,18 @@
                         <DimensionLayout dim="0">
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" alignment="1" attributes="0">
-                                  <EmptySpace pref="28" max="32767" attributes="0"/>
+                                  <EmptySpace pref="31" max="32767" attributes="0"/>
                                   <Component id="TxtSalirFun" min="-2" pref="37" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                         </DimensionLayout>
                         <DimensionLayout dim="1">
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Group type="102" alignment="0" attributes="0">
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="TxtSalirFun" min="-2" max="-2" attributes="0"/>
+                              <Group type="102" alignment="1" attributes="0">
                                   <EmptySpace pref="15" max="32767" attributes="0"/>
+                                  <Component id="TxtSalirFun" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
                               </Group>
                           </Group>
                         </DimensionLayout>
@@ -965,7 +978,7 @@
                 <DimensionLayout dim="0">
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
-                          <Component id="TablaAlumno" min="-2" pref="591" max="-2" attributes="0"/>
+                          <Component id="TablaAlumno" min="-2" pref="599" max="-2" attributes="0"/>
                           <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                       </Group>
                   </Group>
@@ -1019,7 +1032,7 @@
                                                   <Component id="CuadroCA" min="-2" max="-2" attributes="0"/>
                                               </Group>
                                           </Group>
-                                          <EmptySpace pref="189" max="32767" attributes="0"/>
+                                          <EmptySpace pref="197" max="32767" attributes="0"/>
                                           <Group type="103" groupAlignment="0" max="-2" attributes="0">
                                               <Component id="CuadroMA" max="32767" attributes="0"/>
                                               <Component id="CuadroRIA" max="32767" attributes="0"/>
@@ -1028,15 +1041,15 @@
                                       </Group>
                                   </Group>
                               </Group>
-                              <Group type="102" alignment="1" attributes="0">
-                                  <EmptySpace max="32767" attributes="0"/>
-                                  <Component id="CuadroSalirAl" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
-                              </Group>
                               <Group type="102" alignment="0" attributes="0">
                                   <EmptySpace min="-2" pref="68" max="-2" attributes="0"/>
                                   <Component id="TxtConsultaAl" min="-2" pref="87" max="-2" attributes="0"/>
                                   <EmptySpace max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="CuadroSalirAl" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
                               </Group>
                           </Group>
                         </DimensionLayout>
@@ -1055,18 +1068,11 @@
                                       <Component id="CuadroRIA" max="32767" attributes="0"/>
                                       <Component id="CuadroCA" max="32767" attributes="0"/>
                                   </Group>
-                                  <Group type="103" groupAlignment="0" attributes="0">
-                                      <Group type="102" alignment="0" attributes="0">
-                                          <EmptySpace max="-2" attributes="0"/>
-                                          <Component id="TxtConsultaAl" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace max="32767" attributes="0"/>
-                                      </Group>
-                                      <Group type="102" attributes="0">
-                                          <EmptySpace pref="197" max="32767" attributes="0"/>
-                                          <Component id="CuadroSalirAl" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace min="-2" pref="86" max="-2" attributes="0"/>
-                                      </Group>
-                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="TxtConsultaAl" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace pref="148" max="32767" attributes="0"/>
+                                  <Component id="CuadroSalirAl" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="111" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                         </DimensionLayout>
@@ -1265,18 +1271,18 @@
                             <DimensionLayout dim="0">
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Group type="102" alignment="1" attributes="0">
-                                      <EmptySpace pref="28" max="32767" attributes="0"/>
+                                      <EmptySpace pref="30" max="32767" attributes="0"/>
                                       <Component id="TxtSalirAl" min="-2" pref="37" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
                             </DimensionLayout>
                             <DimensionLayout dim="1">
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <EmptySpace pref="14" max="32767" attributes="0"/>
                                       <Component id="TxtSalirAl" min="-2" max="-2" attributes="0"/>
-                                      <EmptySpace pref="19" max="32767" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
                                   </Group>
                               </Group>
                             </DimensionLayout>
@@ -1321,169 +1327,168 @@
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" alignment="0" attributes="0">
                                   <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="1" attributes="0">
-                                      <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="1" attributes="0">
                                           <Component id="TxtRNAlu" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace max="32767" attributes="0"/>
+                                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                                       </Group>
                                       <Group type="102" alignment="1" attributes="0">
-                                          <Group type="103" groupAlignment="0" attributes="0">
-                                              <Group type="102" alignment="1" attributes="0">
-                                                  <Group type="103" groupAlignment="0" attributes="0">
-                                                      <Component id="TxtViveConRNA" alignment="0" max="32767" attributes="0"/>
-                                                      <Group type="102" attributes="0">
-                                                          <Group type="103" groupAlignment="0" attributes="0">
-                                                              <Component id="TxtGeneroA" min="-2" pref="63" max="-2" attributes="0"/>
-                                                              <Component id="TxtAlergiasA" min="-2" pref="56" max="-2" attributes="0"/>
-                                                              <Component id="TxtDesnutricionA" min="-2" pref="81" max="-2" attributes="0"/>
-                                                              <Component id="TxtObesidadA1" alignment="0" min="-2" pref="76" max="-2" attributes="0"/>
-                                                              <Component id="TxtSobrepesoA1" alignment="0" min="-2" pref="76" max="-2" attributes="0"/>
-                                                              <Component id="TxtDiabetesA1" alignment="0" min="-2" pref="76" max="-2" attributes="0"/>
-                                                              <Component id="TxtOtraEnfRNA" min="-2" max="-2" attributes="0"/>
-                                                              <Component id="TxtCarreraRNA" alignment="0" min="-2" max="-2" attributes="0"/>
-                                                          </Group>
-                                                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                                                      </Group>
-                                                  </Group>
-                                                  <EmptySpace type="separate" max="-2" attributes="0"/>
-                                                  <Group type="103" groupAlignment="0" attributes="0">
-                                                      <Component id="ComboBoxCarreraA1" min="-2" pref="205" max="-2" attributes="0"/>
-                                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                                          <Component id="ComboBoxSexoA1" alignment="0" max="32767" attributes="0"/>
-                                                          <Component id="ComboBoxDesnutricionA1" alignment="0" max="32767" attributes="0"/>
-                                                          <Component id="ComboBoxObesidadA1" alignment="0" max="32767" attributes="0"/>
-                                                          <Component id="ComboBoxSobrepesoA1" alignment="0" max="32767" attributes="0"/>
-                                                          <Component id="ComboBoxDiabetesA1" alignment="0" max="32767" attributes="0"/>
-                                                          <Component id="ComboBoxAlergiasA1" alignment="0" max="32767" attributes="0"/>
-                                                          <Component id="otrasenfermedades" alignment="0" max="32767" attributes="0"/>
-                                                          <Component id="ComboBoxViveConA1" min="-2" pref="205" max="-2" attributes="0"/>
-                                                      </Group>
-                                                  </Group>
-                                              </Group>
+                                          <Group type="103" groupAlignment="1" attributes="0">
                                               <Group type="102" attributes="0">
-                                                  <EmptySpace min="-2" pref="67" max="-2" attributes="0"/>
-                                                  <Component id="BotonAceptarRNA" min="-2" max="-2" attributes="0"/>
-                                                  <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
-                                                  <Component id="BotonCancelarAlum" min="-2" max="-2" attributes="0"/>
-                                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                                  <Component id="TxtCarreraRNA" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace max="32767" attributes="0"/>
+                                                  <Component id="ComboBoxCarreraA1" min="-2" pref="205" max="-2" attributes="0"/>
                                               </Group>
                                               <Group type="102" alignment="0" attributes="0">
                                                   <Group type="103" groupAlignment="0" attributes="0">
                                                       <Component id="TxtApellidoPatRNA" min="-2" max="-2" attributes="0"/>
                                                       <Component id="TxtApellidoMatRNA" alignment="0" min="-2" pref="105" max="-2" attributes="0"/>
-                                                      <Component id="TxtNombreRNA" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                      <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                                                          <Component id="TxtMatriculaRNA" alignment="1" max="32767" attributes="0"/>
+                                                          <Component id="TxtNombreRNA" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                      </Group>
                                                   </Group>
-                                                  <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                                                  <EmptySpace min="23" pref="23" max="-2" attributes="0"/>
                                                   <Group type="103" groupAlignment="0" attributes="0">
                                                       <Component id="nombre" max="32767" attributes="0"/>
-                                                      <Component id="segundoAp" max="32767" attributes="0"/>
                                                       <Component id="primerAp" max="32767" attributes="0"/>
+                                                      <Component id="segundoAp" alignment="0" max="32767" attributes="0"/>
+                                                      <Component id="cve" max="32767" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                              <Group type="102" alignment="1" attributes="0">
+                                                  <Group type="103" groupAlignment="1" attributes="0">
+                                                      <Component id="TxtViveConRNA" alignment="0" max="32767" attributes="0"/>
+                                                      <Group type="102" alignment="0" attributes="0">
+                                                          <Group type="103" groupAlignment="0" attributes="0">
+                                                              <Component id="TxtGeneroA" min="-2" pref="63" max="-2" attributes="0"/>
+                                                              <Component id="TxtAlergiasA" min="-2" pref="56" max="-2" attributes="0"/>
+                                                              <Component id="TxtDesnutricionA" min="-2" pref="81" max="-2" attributes="0"/>
+                                                              <Component id="TxtDiabetesA1" alignment="0" min="-2" pref="76" max="-2" attributes="0"/>
+                                                              <Component id="TxtSobrepesoA1" alignment="0" min="-2" pref="76" max="-2" attributes="0"/>
+                                                              <Component id="TxtObesidadA1" min="-2" pref="76" max="-2" attributes="0"/>
+                                                          </Group>
+                                                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                                      </Group>
+                                                      <Group type="102" attributes="0">
+                                                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                                          <Group type="103" groupAlignment="1" attributes="0">
+                                                              <Component id="BotonAceptarRNA" min="-2" max="-2" attributes="0"/>
+                                                              <Component id="TxtOtraEnfRNA" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                          </Group>
+                                                      </Group>
+                                                  </Group>
+                                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Group type="103" groupAlignment="1" attributes="0">
+                                                          <Group type="103" groupAlignment="0" attributes="0">
+                                                              <Component id="ComboBoxDiabetesA1" min="-2" pref="205" max="-2" attributes="0"/>
+                                                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                                                  <Component id="ComboBoxObesidadA1" alignment="0" max="32767" attributes="0"/>
+                                                                  <Component id="ComboBoxSobrepesoA1" alignment="0" max="32767" attributes="0"/>
+                                                                  <Component id="otrasenfermedades" alignment="0" max="32767" attributes="0"/>
+                                                                  <Component id="ComboBoxViveConA1" alignment="1" min="-2" pref="205" max="-2" attributes="0"/>
+                                                              </Group>
+                                                              <Component id="ComboBoxSexoA1" alignment="1" min="-2" pref="205" max="-2" attributes="0"/>
+                                                          </Group>
+                                                          <Component id="ComboBoxDesnutricionA1" min="-2" pref="205" max="-2" attributes="0"/>
+                                                          <Component id="ComboBoxAlergiasA1" min="-2" pref="205" max="-2" attributes="0"/>
+                                                      </Group>
+                                                      <Group type="102" alignment="1" attributes="0">
+                                                          <Component id="BotonCancelarAlum" min="-2" max="-2" attributes="0"/>
+                                                          <EmptySpace min="-2" pref="63" max="-2" attributes="0"/>
+                                                      </Group>
                                                   </Group>
                                               </Group>
                                           </Group>
-                                          <EmptySpace type="separate" max="-2" attributes="0"/>
-                                          <Group type="103" groupAlignment="0" attributes="0">
-                                              <Group type="102" attributes="0">
-                                                  <Component id="TxtMatriculaRNA" max="32767" attributes="0"/>
-                                                  <EmptySpace max="-2" attributes="0"/>
-                                                  <Component id="cve" min="-2" pref="144" max="-2" attributes="0"/>
-                                              </Group>
-                                              <Group type="102" attributes="0">
-                                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                                                  <Component id="CuadroSalirRNA" min="-2" max="-2" attributes="0"/>
-                                              </Group>
-                                          </Group>
-                                          <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="138" max="-2" attributes="0"/>
+                                          <Component id="CuadroSalirRNA" min="-2" max="-2" attributes="0"/>
                                       </Group>
                                   </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
                               </Group>
                           </Group>
                         </DimensionLayout>
                         <DimensionLayout dim="1">
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                                  <Component id="TxtRNAlu" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="TxtMatriculaRNA" min="-2" max="-2" attributes="0"/>
+                                      <Component id="cve" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="nombre" min="-2" max="-2" attributes="0"/>
+                                      <Component id="TxtNombreRNA" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="0" attributes="0">
-                                      <Group type="102" attributes="0">
-                                          <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
-                                          <Component id="TxtRNAlu" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace type="separate" max="-2" attributes="0"/>
-                                          <Group type="103" groupAlignment="3" attributes="0">
-                                              <Component id="TxtNombreRNA" alignment="3" min="-2" max="-2" attributes="0"/>
-                                              <Component id="nombre" alignment="3" min="-2" max="-2" attributes="0"/>
-                                          </Group>
+                                      <Component id="TxtApellidoPatRNA" min="-2" max="-2" attributes="0"/>
+                                      <Component id="primerAp" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="TxtApellidoMatRNA" min="-2" max="-2" attributes="0"/>
+                                      <Component id="segundoAp" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="TxtGeneroA" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <Component id="TxtDesnutricionA" min="-2" max="-2" attributes="0"/>
                                       </Group>
                                       <Group type="102" alignment="0" attributes="0">
-                                          <EmptySpace min="-2" pref="58" max="-2" attributes="0"/>
-                                          <Group type="103" groupAlignment="3" attributes="0">
-                                              <Component id="TxtMatriculaRNA" alignment="3" min="-2" max="-2" attributes="0"/>
-                                              <Component id="cve" alignment="3" min="-2" max="-2" attributes="0"/>
-                                          </Group>
+                                          <Component id="ComboBoxSexoA1" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="ComboBoxDesnutricionA1" min="-2" max="-2" attributes="0"/>
                                       </Group>
                                   </Group>
                                   <EmptySpace max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="3" attributes="0">
-                                      <Component id="TxtApellidoPatRNA" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="primerAp" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="3" attributes="0">
-                                      <Component id="TxtApellidoMatRNA" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="segundoAp" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="3" attributes="0">
-                                      <Component id="TxtGeneroA" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="ComboBoxSexoA1" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="3" attributes="0">
-                                      <Component id="ComboBoxDesnutricionA1" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="TxtDesnutricionA" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="3" attributes="0">
-                                      <Component id="ComboBoxAlergiasA1" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="TxtAlergiasA" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="ComboBoxObesidadA1" min="-2" max="-2" attributes="0"/>
-                                      <Component id="TxtObesidadA1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="ComboBoxAlergiasA1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="TxtAlergiasA" alignment="0" min="-2" max="-2" attributes="0"/>
                                   </Group>
                                   <EmptySpace max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="ComboBoxSobrepesoA1" min="-2" max="-2" attributes="0"/>
-                                      <Component id="TxtSobrepesoA1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="ComboBoxObesidadA1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="TxtObesidadA1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="ComboBoxSobrepesoA1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="TxtSobrepesoA1" alignment="3" min="-2" max="-2" attributes="0"/>
                                   </Group>
                                   <EmptySpace max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="0" attributes="0">
                                       <Component id="ComboBoxDiabetesA1" min="-2" max="-2" attributes="0"/>
-                                      <Component id="TxtDiabetesA1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="TxtDiabetesA1" min="-2" max="-2" attributes="0"/>
                                   </Group>
                                   <EmptySpace max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="3" attributes="0">
-                                      <Component id="TxtOtraEnfRNA" alignment="3" min="-2" max="-2" attributes="0"/>
                                       <Component id="otrasenfermedades" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="TxtOtraEnfRNA" alignment="3" min="-2" max="-2" attributes="0"/>
                                   </Group>
                                   <EmptySpace max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="TxtViveConRNA" min="-2" max="-2" attributes="0"/>
-                                      <Component id="ComboBoxViveConA1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="ComboBoxViveConA1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="TxtViveConRNA" alignment="3" min="-2" max="-2" attributes="0"/>
                                   </Group>
                                   <EmptySpace max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="0" attributes="0">
                                       <Component id="TxtCarreraRNA" min="-2" max="-2" attributes="0"/>
-                                      <Component id="ComboBoxCarreraA1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="ComboBoxCarreraA1" min="-2" max="-2" attributes="0"/>
                                   </Group>
-                                  <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="0" attributes="0">
-                                      <Group type="103" groupAlignment="3" attributes="0">
-                                          <Component id="BotonCancelarAlum" alignment="3" min="-2" max="-2" attributes="0"/>
-                                          <Component id="BotonAceptarRNA" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      </Group>
+                                      <Component id="BotonAceptarRNA" min="-2" max="-2" attributes="0"/>
+                                      <Component id="BotonCancelarAlum" min="-2" max="-2" attributes="0"/>
                                       <Component id="CuadroSalirRNA" min="-2" max="-2" attributes="0"/>
                                   </Group>
-                                  <EmptySpace max="32767" attributes="0"/>
+                                  <EmptySpace pref="110" max="32767" attributes="0"/>
                               </Group>
                           </Group>
                         </DimensionLayout>
@@ -1854,7 +1859,7 @@
                               <Group type="102" alignment="0" attributes="0">
                                   <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
                                   <Component id="TxtMAlu" min="-2" pref="187" max="-2" attributes="0"/>
-                                  <EmptySpace pref="388" max="32767" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
                               </Group>
                               <Group type="102" alignment="1" attributes="0">
                                   <EmptySpace max="32767" attributes="0"/>
@@ -2045,7 +2050,7 @@
                               <Group type="102" alignment="0" attributes="0">
                                   <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
                                   <Component id="TxtRIAlu" min="-2" pref="288" max="-2" attributes="0"/>
-                                  <EmptySpace pref="284" max="32767" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
                               </Group>
                               <Group type="102" alignment="1" attributes="0">
                                   <EmptySpace max="32767" attributes="0"/>
@@ -2483,127 +2488,146 @@
                                               <Component id="TxtNombreRNP" min="-2" max="-2" attributes="0"/>
                                               <Component id="TxtMatriculaRNP" min="-2" max="-2" attributes="0"/>
                                               <Component id="TxtApePatRNP" alignment="0" min="-2" max="-2" attributes="0"/>
-                                              <Component id="TxtApeMatP" alignment="0" min="-2" max="-2" attributes="0"/>
-                                              <Component id="TxtGeneroRNP" alignment="0" min="-2" pref="49" max="-2" attributes="0"/>
-                                              <Component id="TxtDesnutricionRNP" alignment="0" min="-2" max="-2" attributes="0"/>
-                                              <Component id="TxtAlergiasRNP" alignment="0" min="-2" max="-2" attributes="0"/>
-                                              <Component id="TxtObesidadA2" alignment="0" min="-2" pref="76" max="-2" attributes="0"/>
-                                              <Component id="TxtSobrepesoA2" alignment="0" min="-2" pref="76" max="-2" attributes="0"/>
-                                              <Component id="TxtDiabetesA2" alignment="0" min="-2" pref="76" max="-2" attributes="0"/>
-                                              <Component id="TxtOtraEnferRNP" alignment="0" min="-2" max="-2" attributes="0"/>
-                                              <Component id="TxtViveConRNP" alignment="0" min="-2" pref="65" max="-2" attributes="0"/>
                                           </Group>
                                       </Group>
                                       <Group type="102" alignment="1" attributes="0">
                                           <EmptySpace max="-2" attributes="0"/>
-                                          <Component id="BotonAceptarRNP" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace min="-2" pref="77" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="1" attributes="0">
+                                              <Component id="BotonAceptarRNP" min="-2" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="TxtOtraEnferRNP" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="TxtGeneroRNP" min="-2" pref="49" max="-2" attributes="0"/>
+                                                  <Component id="TxtApeMatP" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="TxtDesnutricionRNP" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="TxtAlergiasRNP" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="TxtObesidadA2" alignment="0" min="-2" pref="76" max="-2" attributes="0"/>
+                                                  <Component id="TxtSobrepesoA2" alignment="0" min="-2" pref="76" max="-2" attributes="0"/>
+                                                  <Component id="TxtDiabetesA2" alignment="0" min="-2" pref="76" max="-2" attributes="0"/>
+                                                  <Component id="TxtViveConRNP" alignment="0" min="-2" pref="65" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
                                       </Group>
                                   </Group>
-                                  <EmptySpace max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="ComboBoxAlergiasP1" min="-2" pref="205" max="-2" attributes="0"/>
+                                              <Component id="ComboBoxObesidadP1" min="-2" pref="205" max="-2" attributes="0"/>
+                                              <Component id="ComboBoxSobrepesoP1" alignment="0" min="-2" pref="205" max="-2" attributes="0"/>
+                                              <Component id="ComboBoxDiabetesP1" min="-2" pref="205" max="-2" attributes="0"/>
+                                              <Component id="oEnferPer" min="-2" pref="205" max="-2" attributes="0"/>
+                                              <Component id="ComboBoxEstatusP1" min="-2" pref="205" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="32767" attributes="0"/>
+                                      </Group>
                                       <Group type="102" alignment="0" attributes="0">
                                           <Group type="103" groupAlignment="1" attributes="0">
                                               <Component id="cvePer" min="-2" pref="206" max="-2" attributes="0"/>
                                               <Component id="nombrePer" alignment="1" min="-2" pref="206" max="-2" attributes="0"/>
                                               <Component id="primerApPer" alignment="1" min="-2" pref="206" max="-2" attributes="0"/>
-                                              <Component id="ComboBoxEstatusP1" alignment="1" min="-2" pref="205" max="-2" attributes="0"/>
-                                              <Component id="BotonCancelarPer" alignment="1" min="-2" max="-2" attributes="0"/>
+                                              <Component id="segundoApPer" alignment="1" min="-2" pref="206" max="-2" attributes="0"/>
+                                              <Component id="ComboBoxSexoP1" alignment="1" min="-2" pref="208" max="-2" attributes="0"/>
+                                              <Component id="ComboBoxDesnutricionP1" alignment="1" min="-2" pref="208" max="-2" attributes="0"/>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <EmptySpace min="-2" pref="53" max="-2" attributes="0"/>
+                                                  <Component id="BotonCancelarPer" min="-2" max="-2" attributes="0"/>
+                                              </Group>
                                           </Group>
-                                          <EmptySpace min="-2" pref="96" max="-2" attributes="0"/>
+                                          <EmptySpace pref="108" max="32767" attributes="0"/>
                                           <Component id="CuadroSalirRNPer" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
                                       </Group>
-                                      <Component id="ComboBoxSexoP1" alignment="0" min="-2" pref="208" max="-2" attributes="0"/>
-                                      <Component id="segundoApPer" min="-2" pref="206" max="-2" attributes="0"/>
-                                      <Component id="ComboBoxDesnutricionP1" min="-2" pref="208" max="-2" attributes="0"/>
-                                      <Component id="ComboBoxAlergiasP1" min="-2" pref="205" max="-2" attributes="0"/>
-                                      <Component id="ComboBoxObesidadP1" min="-2" pref="205" max="-2" attributes="0"/>
-                                      <Component id="ComboBoxSobrepesoP1" alignment="0" min="-2" pref="205" max="-2" attributes="0"/>
-                                      <Component id="ComboBoxDiabetesP1" min="-2" pref="205" max="-2" attributes="0"/>
-                                      <Component id="oEnferPer" min="-2" pref="205" max="-2" attributes="0"/>
                                   </Group>
-                                  <EmptySpace pref="44" max="32767" attributes="0"/>
                               </Group>
                           </Group>
                         </DimensionLayout>
                         <DimensionLayout dim="1">
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Group type="102" alignment="1" attributes="0">
-                                  <Group type="103" groupAlignment="1" attributes="0">
-                                      <Group type="102" attributes="0">
-                                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                                          <Component id="CuadroSalirRNPer" min="-2" max="-2" attributes="0"/>
-                                      </Group>
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
                                       <Group type="102" attributes="0">
                                           <Component id="TxtPersonalRN" min="-2" max="-2" attributes="0"/>
                                           <EmptySpace max="32767" attributes="0"/>
-                                          <Group type="103" groupAlignment="3" attributes="0">
-                                              <Component id="TxtMatriculaRNP" alignment="3" min="-2" max="-2" attributes="0"/>
-                                              <Component id="cvePer" alignment="3" min="-2" max="-2" attributes="0"/>
-                                          </Group>
-                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                          <Group type="103" groupAlignment="3" attributes="0">
-                                              <Component id="TxtNombreRNP" alignment="3" min="-2" max="-2" attributes="0"/>
-                                              <Component id="nombrePer" alignment="3" min="-2" max="-2" attributes="0"/>
-                                          </Group>
-                                          <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
-                                          <Group type="103" groupAlignment="3" attributes="0">
-                                              <Component id="TxtApePatRNP" alignment="0" min="-2" max="-2" attributes="0"/>
-                                              <Component id="primerApPer" alignment="3" min="-2" max="-2" attributes="0"/>
-                                          </Group>
-                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                          <Group type="103" groupAlignment="3" attributes="0">
-                                              <Component id="TxtApeMatP" alignment="3" min="-2" max="-2" attributes="0"/>
-                                              <Component id="segundoApPer" alignment="3" min="-2" max="-2" attributes="0"/>
-                                          </Group>
-                                          <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
-                                          <Group type="103" groupAlignment="3" attributes="0">
-                                              <Component id="TxtGeneroRNP" alignment="0" min="-2" max="-2" attributes="0"/>
-                                              <Component id="ComboBoxSexoP1" alignment="1" min="-2" max="-2" attributes="0"/>
-                                          </Group>
-                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                          <Group type="103" groupAlignment="3" attributes="0">
-                                              <Component id="TxtDesnutricionRNP" alignment="3" min="-2" max="-2" attributes="0"/>
-                                              <Component id="ComboBoxDesnutricionP1" alignment="3" min="-2" max="-2" attributes="0"/>
-                                          </Group>
-                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                          <Group type="103" groupAlignment="3" attributes="0">
-                                              <Component id="TxtAlergiasRNP" alignment="3" min="-2" max="-2" attributes="0"/>
-                                              <Component id="ComboBoxAlergiasP1" alignment="3" min="-2" max="-2" attributes="0"/>
-                                          </Group>
-                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                          <Group type="103" groupAlignment="3" attributes="0">
-                                              <Component id="TxtObesidadA2" alignment="3" min="-2" max="-2" attributes="0"/>
-                                              <Component id="ComboBoxObesidadP1" alignment="3" min="-2" max="-2" attributes="0"/>
-                                          </Group>
-                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                          <Group type="103" groupAlignment="3" attributes="0">
-                                              <Component id="TxtSobrepesoA2" alignment="3" min="-2" max="-2" attributes="0"/>
-                                              <Component id="ComboBoxSobrepesoP1" alignment="3" min="-2" max="-2" attributes="0"/>
-                                          </Group>
-                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                          <Group type="103" groupAlignment="3" attributes="0">
-                                              <Component id="ComboBoxDiabetesP1" alignment="3" min="-2" max="-2" attributes="0"/>
-                                              <Component id="TxtDiabetesA2" alignment="3" min="-2" max="-2" attributes="0"/>
-                                          </Group>
-                                          <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
-                                          <Group type="103" groupAlignment="3" attributes="0">
-                                              <Component id="oEnferPer" alignment="3" min="-2" max="-2" attributes="0"/>
-                                              <Component id="TxtOtraEnferRNP" alignment="3" min="-2" max="-2" attributes="0"/>
-                                          </Group>
-                                          <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
-                                          <Group type="103" groupAlignment="3" attributes="0">
-                                              <Component id="ComboBoxEstatusP1" alignment="3" min="-2" max="-2" attributes="0"/>
-                                              <Component id="TxtViveConRNP" alignment="3" min="-2" pref="18" max="-2" attributes="0"/>
-                                          </Group>
-                                          <EmptySpace type="separate" max="-2" attributes="0"/>
-                                          <Group type="103" groupAlignment="3" attributes="0">
-                                              <Component id="BotonCancelarPer" alignment="3" min="-2" max="-2" attributes="0"/>
-                                              <Component id="BotonAceptarRNP" alignment="3" min="-2" max="-2" attributes="0"/>
-                                          </Group>
+                                          <Component id="TxtMatriculaRNP" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                          <Component id="cvePer" min="-2" max="-2" attributes="0"/>
                                       </Group>
                                   </Group>
-                                  <EmptySpace min="-2" pref="79" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="TxtNombreRNP" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <Component id="TxtApePatRNP" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="nombrePer" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="primerApPer" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="segundoApPer" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="TxtApeMatP" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="TxtGeneroRNP" min="-2" max="-2" attributes="0"/>
+                                      <Component id="ComboBoxSexoP1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="TxtDesnutricionRNP" min="-2" max="-2" attributes="0"/>
+                                      <Component id="ComboBoxDesnutricionP1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="TxtAlergiasRNP" min="-2" max="-2" attributes="0"/>
+                                      <Component id="ComboBoxAlergiasP1" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="ComboBoxObesidadP1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="TxtObesidadA2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="TxtSobrepesoA2" min="-2" max="-2" attributes="0"/>
+                                      <Component id="ComboBoxSobrepesoP1" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                                          <Component id="ComboBoxDiabetesP1" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <Component id="TxtDiabetesA2" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="TxtOtraEnferRNP" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="oEnferPer" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="TxtViveConRNP" alignment="3" min="-2" pref="18" max="-2" attributes="0"/>
+                                      <Component id="ComboBoxEstatusP1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="BotonAceptarRNP" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="BotonCancelarPer" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Component id="CuadroSalirRNPer" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="130" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                         </DimensionLayout>
@@ -3233,18 +3257,18 @@
                 <DimensionLayout dim="0">
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
                           <Component id="TituloEnfermeria" min="-2" pref="131" max="-2" attributes="0"/>
-                          <EmptySpace pref="445" max="32767" attributes="0"/>
+                          <EmptySpace pref="453" max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
                 <DimensionLayout dim="1">
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
                           <Component id="TituloEnfermeria" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace pref="481" max="32767" attributes="0"/>
+                          <EmptySpace pref="459" max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
