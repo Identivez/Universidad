@@ -54,7 +54,8 @@ public class menu extends javax.swing.JFrame
 
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
-    private void initComponents() {
+    private void initComponents()
+    {
 
         PanelMenu = new javax.swing.JPanel();
         PanelIzq = new javax.swing.JPanel();
@@ -175,7 +176,7 @@ public class menu extends javax.swing.JFrame
         CuadroSalirCA = new javax.swing.JPanel();
         TxtSalirCA = new javax.swing.JLabel();
         jScrollPane5 = new javax.swing.JScrollPane();
-        jTextArea5 = new javax.swing.JTextArea();
+        ConsulAlum = new javax.swing.JTextArea();
         CuadroRIAlu = new javax.swing.JPanel();
         TxtRIAlu = new javax.swing.JLabel();
         CuadroSalirRIA = new javax.swing.JPanel();
@@ -255,7 +256,7 @@ public class menu extends javax.swing.JFrame
         CuadroSalirCPer = new javax.swing.JPanel();
         TxtSalirCPer = new javax.swing.JLabel();
         jScrollPane1 = new javax.swing.JScrollPane();
-        jTextArea1 = new javax.swing.JTextArea();
+        ConsulPerso = new javax.swing.JTextArea();
         CuadroRIPer = new javax.swing.JPanel();
         TxtRIPer = new javax.swing.JLabel();
         CuadroSalirRIPer = new javax.swing.JPanel();
@@ -286,16 +287,21 @@ public class menu extends javax.swing.JFrame
         PanelIzq.setBackground(new java.awt.Color(204, 204, 255));
 
         Inicio.setBackground(new java.awt.Color(255, 255, 204));
-        Inicio.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
-            public void mouseMoved(java.awt.event.MouseEvent evt) {
+        Inicio.addMouseMotionListener(new java.awt.event.MouseMotionAdapter()
+        {
+            public void mouseMoved(java.awt.event.MouseEvent evt)
+            {
                 InicioMouseMoved(evt);
             }
         });
-        Inicio.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
+        Inicio.addMouseListener(new java.awt.event.MouseAdapter()
+        {
+            public void mouseClicked(java.awt.event.MouseEvent evt)
+            {
                 InicioMouseClicked(evt);
             }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
+            public void mouseExited(java.awt.event.MouseEvent evt)
+            {
                 InicioMouseExited(evt);
             }
         });
@@ -304,24 +310,31 @@ public class menu extends javax.swing.JFrame
         TxtInicio.setFont(new java.awt.Font("Segoe UI Semibold", 0, 18)); // NOI18N
         TxtInicio.setForeground(new java.awt.Color(51, 51, 51));
         TxtInicio.setText("Inicio");
-        TxtInicio.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
+        TxtInicio.addMouseListener(new java.awt.event.MouseAdapter()
+        {
+            public void mouseClicked(java.awt.event.MouseEvent evt)
+            {
                 TxtInicioMouseClicked(evt);
             }
         });
         Inicio.add(TxtInicio, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 10, -1, -1));
 
         Funcion.setBackground(new java.awt.Color(204, 255, 204));
-        Funcion.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
-            public void mouseMoved(java.awt.event.MouseEvent evt) {
+        Funcion.addMouseMotionListener(new java.awt.event.MouseMotionAdapter()
+        {
+            public void mouseMoved(java.awt.event.MouseEvent evt)
+            {
                 FuncionMouseMoved(evt);
             }
         });
-        Funcion.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
+        Funcion.addMouseListener(new java.awt.event.MouseAdapter()
+        {
+            public void mouseClicked(java.awt.event.MouseEvent evt)
+            {
                 FuncionMouseClicked(evt);
             }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
+            public void mouseExited(java.awt.event.MouseEvent evt)
+            {
                 FuncionMouseExited(evt);
             }
         });
@@ -333,16 +346,21 @@ public class menu extends javax.swing.JFrame
         Funcion.add(TxtFuncion, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 0, -1, -1));
 
         Alumnos.setBackground(new java.awt.Color(204, 0, 153));
-        Alumnos.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
-            public void mouseMoved(java.awt.event.MouseEvent evt) {
+        Alumnos.addMouseMotionListener(new java.awt.event.MouseMotionAdapter()
+        {
+            public void mouseMoved(java.awt.event.MouseEvent evt)
+            {
                 AlumnosMouseMoved(evt);
             }
         });
-        Alumnos.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
+        Alumnos.addMouseListener(new java.awt.event.MouseAdapter()
+        {
+            public void mouseClicked(java.awt.event.MouseEvent evt)
+            {
                 AlumnosMouseClicked(evt);
             }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
+            public void mouseExited(java.awt.event.MouseEvent evt)
+            {
                 AlumnosMouseExited(evt);
             }
         });
@@ -354,16 +372,21 @@ public class menu extends javax.swing.JFrame
         Alumnos.add(TxtAlumnos, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 0, -1, -1));
 
         Personal.setBackground(new java.awt.Color(0, 153, 153));
-        Personal.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
-            public void mouseMoved(java.awt.event.MouseEvent evt) {
+        Personal.addMouseMotionListener(new java.awt.event.MouseMotionAdapter()
+        {
+            public void mouseMoved(java.awt.event.MouseEvent evt)
+            {
                 PersonalMouseMoved(evt);
             }
         });
-        Personal.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
+        Personal.addMouseListener(new java.awt.event.MouseAdapter()
+        {
+            public void mouseClicked(java.awt.event.MouseEvent evt)
+            {
                 PersonalMouseClicked(evt);
             }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
+            public void mouseExited(java.awt.event.MouseEvent evt)
+            {
                 PersonalMouseExited(evt);
             }
         });
@@ -375,16 +398,21 @@ public class menu extends javax.swing.JFrame
         Personal.add(TxtPersonal, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 0, -1, -1));
 
         Enfermeria.setBackground(new java.awt.Color(0, 102, 102));
-        Enfermeria.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
-            public void mouseMoved(java.awt.event.MouseEvent evt) {
+        Enfermeria.addMouseMotionListener(new java.awt.event.MouseMotionAdapter()
+        {
+            public void mouseMoved(java.awt.event.MouseEvent evt)
+            {
                 EnfermeriaMouseMoved(evt);
             }
         });
-        Enfermeria.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
+        Enfermeria.addMouseListener(new java.awt.event.MouseAdapter()
+        {
+            public void mouseClicked(java.awt.event.MouseEvent evt)
+            {
                 EnfermeriaMouseClicked(evt);
             }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
+            public void mouseExited(java.awt.event.MouseEvent evt)
+            {
                 EnfermeriaMouseExited(evt);
             }
         });
@@ -400,13 +428,17 @@ public class menu extends javax.swing.JFrame
         TextoUNIVERSIDAD.setText("UNIVERSIDAD");
 
         jPanel1.setBackground(new java.awt.Color(204, 204, 255));
-        jPanel1.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
-            public void mouseDragged(java.awt.event.MouseEvent evt) {
+        jPanel1.addMouseMotionListener(new java.awt.event.MouseMotionAdapter()
+        {
+            public void mouseDragged(java.awt.event.MouseEvent evt)
+            {
                 jPanel1MouseDragged(evt);
             }
         });
-        jPanel1.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mousePressed(java.awt.event.MouseEvent evt) {
+        jPanel1.addMouseListener(new java.awt.event.MouseAdapter()
+        {
+            public void mousePressed(java.awt.event.MouseEvent evt)
+            {
                 jPanel1MousePressed(evt);
             }
         });
@@ -415,11 +447,14 @@ public class menu extends javax.swing.JFrame
         CierreCompleto.setFont(new java.awt.Font("Segoe UI Semibold", 0, 18)); // NOI18N
         CierreCompleto.setText("   X");
         CierreCompleto.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        CierreCompleto.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
+        CierreCompleto.addMouseListener(new java.awt.event.MouseAdapter()
+        {
+            public void mouseClicked(java.awt.event.MouseEvent evt)
+            {
                 CierreCompletoMouseClicked(evt);
             }
-            public void mouseEntered(java.awt.event.MouseEvent evt) {
+            public void mouseEntered(java.awt.event.MouseEvent evt)
+            {
                 CierreCompletoMouseEntered(evt);
             }
         });
@@ -516,16 +551,21 @@ public class menu extends javax.swing.JFrame
         TxtFuncion2.setText("Función");
 
         PanelVerMas.setBackground(new java.awt.Color(204, 204, 255));
-        PanelVerMas.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
-            public void mouseMoved(java.awt.event.MouseEvent evt) {
+        PanelVerMas.addMouseMotionListener(new java.awt.event.MouseMotionAdapter()
+        {
+            public void mouseMoved(java.awt.event.MouseEvent evt)
+            {
                 PanelVerMasMouseMoved(evt);
             }
         });
-        PanelVerMas.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
+        PanelVerMas.addMouseListener(new java.awt.event.MouseAdapter()
+        {
+            public void mouseClicked(java.awt.event.MouseEvent evt)
+            {
                 PanelVerMasMouseClicked(evt);
             }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
+            public void mouseExited(java.awt.event.MouseEvent evt)
+            {
                 PanelVerMasMouseExited(evt);
             }
         });
@@ -578,16 +618,21 @@ public class menu extends javax.swing.JFrame
         TxtAlumnos2.setText("Alumnos");
 
         PanelVerMas2.setBackground(new java.awt.Color(204, 204, 255));
-        PanelVerMas2.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
-            public void mouseMoved(java.awt.event.MouseEvent evt) {
+        PanelVerMas2.addMouseMotionListener(new java.awt.event.MouseMotionAdapter()
+        {
+            public void mouseMoved(java.awt.event.MouseEvent evt)
+            {
                 PanelVerMas2MouseMoved(evt);
             }
         });
-        PanelVerMas2.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
+        PanelVerMas2.addMouseListener(new java.awt.event.MouseAdapter()
+        {
+            public void mouseClicked(java.awt.event.MouseEvent evt)
+            {
                 PanelVerMas2MouseClicked(evt);
             }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
+            public void mouseExited(java.awt.event.MouseEvent evt)
+            {
                 PanelVerMas2MouseExited(evt);
             }
         });
@@ -640,16 +685,21 @@ public class menu extends javax.swing.JFrame
         TxtPersonal2.setText("Personal");
 
         PanelVerMas3.setBackground(new java.awt.Color(204, 204, 255));
-        PanelVerMas3.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
-            public void mouseMoved(java.awt.event.MouseEvent evt) {
+        PanelVerMas3.addMouseMotionListener(new java.awt.event.MouseMotionAdapter()
+        {
+            public void mouseMoved(java.awt.event.MouseEvent evt)
+            {
                 PanelVerMas3MouseMoved(evt);
             }
         });
-        PanelVerMas3.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
+        PanelVerMas3.addMouseListener(new java.awt.event.MouseAdapter()
+        {
+            public void mouseClicked(java.awt.event.MouseEvent evt)
+            {
                 PanelVerMas3MouseClicked(evt);
             }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
+            public void mouseExited(java.awt.event.MouseEvent evt)
+            {
                 PanelVerMas3MouseExited(evt);
             }
         });
@@ -702,16 +752,21 @@ public class menu extends javax.swing.JFrame
         TxtEnfermeria2.setText("Enfermeria");
 
         PanelVerMas4.setBackground(new java.awt.Color(204, 204, 255));
-        PanelVerMas4.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
-            public void mouseMoved(java.awt.event.MouseEvent evt) {
+        PanelVerMas4.addMouseMotionListener(new java.awt.event.MouseMotionAdapter()
+        {
+            public void mouseMoved(java.awt.event.MouseEvent evt)
+            {
                 PanelVerMas4MouseMoved(evt);
             }
         });
-        PanelVerMas4.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
+        PanelVerMas4.addMouseListener(new java.awt.event.MouseAdapter()
+        {
+            public void mouseClicked(java.awt.event.MouseEvent evt)
+            {
                 PanelVerMas4MouseClicked(evt);
             }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
+            public void mouseExited(java.awt.event.MouseEvent evt)
+            {
                 PanelVerMas4MouseExited(evt);
             }
         });
@@ -799,16 +854,21 @@ public class menu extends javax.swing.JFrame
         TituloComoFunciona1.setText("¿Cómo funciona el panel?");
 
         CuadroSalirFun.setBackground(new java.awt.Color(204, 204, 255));
-        CuadroSalirFun.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
-            public void mouseMoved(java.awt.event.MouseEvent evt) {
+        CuadroSalirFun.addMouseMotionListener(new java.awt.event.MouseMotionAdapter()
+        {
+            public void mouseMoved(java.awt.event.MouseEvent evt)
+            {
                 CuadroSalirFunMouseMoved(evt);
             }
         });
-        CuadroSalirFun.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
+        CuadroSalirFun.addMouseListener(new java.awt.event.MouseAdapter()
+        {
+            public void mouseClicked(java.awt.event.MouseEvent evt)
+            {
                 CuadroSalirFunMouseClicked(evt);
             }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
+            public void mouseExited(java.awt.event.MouseEvent evt)
+            {
                 CuadroSalirFunMouseExited(evt);
             }
         });
@@ -882,16 +942,21 @@ public class menu extends javax.swing.JFrame
         TxtAlumnoPanel.setText("Alumnos");
 
         CuadroRNA.setBackground(new java.awt.Color(204, 204, 255));
-        CuadroRNA.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
-            public void mouseMoved(java.awt.event.MouseEvent evt) {
+        CuadroRNA.addMouseMotionListener(new java.awt.event.MouseMotionAdapter()
+        {
+            public void mouseMoved(java.awt.event.MouseEvent evt)
+            {
                 CuadroRNAMouseMoved(evt);
             }
         });
-        CuadroRNA.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
+        CuadroRNA.addMouseListener(new java.awt.event.MouseAdapter()
+        {
+            public void mouseClicked(java.awt.event.MouseEvent evt)
+            {
                 CuadroRNAMouseClicked(evt);
             }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
+            public void mouseExited(java.awt.event.MouseEvent evt)
+            {
                 CuadroRNAMouseExited(evt);
             }
         });
@@ -917,16 +982,21 @@ public class menu extends javax.swing.JFrame
         );
 
         CuadroMA.setBackground(new java.awt.Color(204, 204, 255));
-        CuadroMA.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
-            public void mouseMoved(java.awt.event.MouseEvent evt) {
+        CuadroMA.addMouseMotionListener(new java.awt.event.MouseMotionAdapter()
+        {
+            public void mouseMoved(java.awt.event.MouseEvent evt)
+            {
                 CuadroMAMouseMoved(evt);
             }
         });
-        CuadroMA.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
+        CuadroMA.addMouseListener(new java.awt.event.MouseAdapter()
+        {
+            public void mouseClicked(java.awt.event.MouseEvent evt)
+            {
                 CuadroMAMouseClicked(evt);
             }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
+            public void mouseExited(java.awt.event.MouseEvent evt)
+            {
                 CuadroMAMouseExited(evt);
             }
         });
@@ -952,16 +1022,21 @@ public class menu extends javax.swing.JFrame
         );
 
         CuadroCA.setBackground(new java.awt.Color(204, 204, 255));
-        CuadroCA.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
-            public void mouseMoved(java.awt.event.MouseEvent evt) {
+        CuadroCA.addMouseMotionListener(new java.awt.event.MouseMotionAdapter()
+        {
+            public void mouseMoved(java.awt.event.MouseEvent evt)
+            {
                 CuadroCAMouseMoved(evt);
             }
         });
-        CuadroCA.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
+        CuadroCA.addMouseListener(new java.awt.event.MouseAdapter()
+        {
+            public void mouseClicked(java.awt.event.MouseEvent evt)
+            {
                 CuadroCAMouseClicked(evt);
             }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
+            public void mouseExited(java.awt.event.MouseEvent evt)
+            {
                 CuadroCAMouseExited(evt);
             }
         });
@@ -987,16 +1062,21 @@ public class menu extends javax.swing.JFrame
         );
 
         CuadroRIA.setBackground(new java.awt.Color(204, 204, 255));
-        CuadroRIA.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
-            public void mouseMoved(java.awt.event.MouseEvent evt) {
+        CuadroRIA.addMouseMotionListener(new java.awt.event.MouseMotionAdapter()
+        {
+            public void mouseMoved(java.awt.event.MouseEvent evt)
+            {
                 CuadroRIAMouseMoved(evt);
             }
         });
-        CuadroRIA.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
+        CuadroRIA.addMouseListener(new java.awt.event.MouseAdapter()
+        {
+            public void mouseClicked(java.awt.event.MouseEvent evt)
+            {
                 CuadroRIAMouseClicked(evt);
             }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
+            public void mouseExited(java.awt.event.MouseEvent evt)
+            {
                 CuadroRIAMouseExited(evt);
             }
         });
@@ -1022,16 +1102,21 @@ public class menu extends javax.swing.JFrame
         );
 
         CuadroSalirAl.setBackground(new java.awt.Color(204, 204, 255));
-        CuadroSalirAl.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
-            public void mouseMoved(java.awt.event.MouseEvent evt) {
+        CuadroSalirAl.addMouseMotionListener(new java.awt.event.MouseMotionAdapter()
+        {
+            public void mouseMoved(java.awt.event.MouseEvent evt)
+            {
                 CuadroSalirAlMouseMoved(evt);
             }
         });
-        CuadroSalirAl.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
+        CuadroSalirAl.addMouseListener(new java.awt.event.MouseAdapter()
+        {
+            public void mouseClicked(java.awt.event.MouseEvent evt)
+            {
                 CuadroSalirAlMouseClicked(evt);
             }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
+            public void mouseExited(java.awt.event.MouseEvent evt)
+            {
                 CuadroSalirAlMouseExited(evt);
             }
         });
@@ -1108,16 +1193,21 @@ public class menu extends javax.swing.JFrame
         TxtRNAlu.setText("Registro Nuevo");
 
         CuadroSalirRNA.setBackground(new java.awt.Color(204, 204, 255));
-        CuadroSalirRNA.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
-            public void mouseMoved(java.awt.event.MouseEvent evt) {
+        CuadroSalirRNA.addMouseMotionListener(new java.awt.event.MouseMotionAdapter()
+        {
+            public void mouseMoved(java.awt.event.MouseEvent evt)
+            {
                 CuadroSalirRNAMouseMoved(evt);
             }
         });
-        CuadroSalirRNA.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
+        CuadroSalirRNA.addMouseListener(new java.awt.event.MouseAdapter()
+        {
+            public void mouseClicked(java.awt.event.MouseEvent evt)
+            {
                 CuadroSalirRNAMouseClicked(evt);
             }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
+            public void mouseExited(java.awt.event.MouseEvent evt)
+            {
                 CuadroSalirRNAMouseExited(evt);
             }
         });
@@ -1145,16 +1235,21 @@ public class menu extends javax.swing.JFrame
         TxtNombreRNA.setFont(new java.awt.Font("Corbel", 0, 14)); // NOI18N
         TxtNombreRNA.setText("Nombre(s):");
 
-        nombre.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        nombre.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 nombreActionPerformed(evt);
             }
         });
-        nombre.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyPressed(java.awt.event.KeyEvent evt) {
+        nombre.addKeyListener(new java.awt.event.KeyAdapter()
+        {
+            public void keyPressed(java.awt.event.KeyEvent evt)
+            {
                 nombreKeyPressed(evt);
             }
-            public void keyTyped(java.awt.event.KeyEvent evt) {
+            public void keyTyped(java.awt.event.KeyEvent evt)
+            {
                 nombreKeyTyped(evt);
             }
         });
@@ -1162,16 +1257,21 @@ public class menu extends javax.swing.JFrame
         TxtApellidoPatRNA.setFont(new java.awt.Font("Corbel", 0, 14)); // NOI18N
         TxtApellidoPatRNA.setText("Apellido Paterno:");
 
-        primerAp.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        primerAp.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 primerApActionPerformed(evt);
             }
         });
-        primerAp.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyPressed(java.awt.event.KeyEvent evt) {
+        primerAp.addKeyListener(new java.awt.event.KeyAdapter()
+        {
+            public void keyPressed(java.awt.event.KeyEvent evt)
+            {
                 primerApKeyPressed(evt);
             }
-            public void keyTyped(java.awt.event.KeyEvent evt) {
+            public void keyTyped(java.awt.event.KeyEvent evt)
+            {
                 primerApKeyTyped(evt);
             }
         });
@@ -1179,8 +1279,10 @@ public class menu extends javax.swing.JFrame
         TxtApellidoMatRNA.setFont(new java.awt.Font("Corbel", 0, 14)); // NOI18N
         TxtApellidoMatRNA.setText("Apellido Materno:");
 
-        segundoAp.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyTyped(java.awt.event.KeyEvent evt) {
+        segundoAp.addKeyListener(new java.awt.event.KeyAdapter()
+        {
+            public void keyTyped(java.awt.event.KeyEvent evt)
+            {
                 segundoApKeyTyped(evt);
             }
         });
@@ -1189,13 +1291,17 @@ public class menu extends javax.swing.JFrame
         TxtGeneroA.setText("Genero:");
 
         ComboBoxSexoA1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Selecciona la opción", "M", "F" }));
-        ComboBoxSexoA1.addItemListener(new java.awt.event.ItemListener() {
-            public void itemStateChanged(java.awt.event.ItemEvent evt) {
+        ComboBoxSexoA1.addItemListener(new java.awt.event.ItemListener()
+        {
+            public void itemStateChanged(java.awt.event.ItemEvent evt)
+            {
                 ComboBoxSexoA1ItemStateChanged(evt);
             }
         });
-        ComboBoxSexoA1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        ComboBoxSexoA1.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 ComboBoxSexoA1ActionPerformed(evt);
             }
         });
@@ -1204,8 +1310,10 @@ public class menu extends javax.swing.JFrame
         TxtDesnutricionA.setText("Desnutrición:");
 
         ComboBoxDesnutricionA1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Selecciona la opcion", "Si", "No" }));
-        ComboBoxDesnutricionA1.addItemListener(new java.awt.event.ItemListener() {
-            public void itemStateChanged(java.awt.event.ItemEvent evt) {
+        ComboBoxDesnutricionA1.addItemListener(new java.awt.event.ItemListener()
+        {
+            public void itemStateChanged(java.awt.event.ItemEvent evt)
+            {
                 ComboBoxDesnutricionA1ItemStateChanged(evt);
             }
         });
@@ -1214,8 +1322,10 @@ public class menu extends javax.swing.JFrame
         TxtAlergiasA.setText("Alergias:");
 
         ComboBoxAlergiasA1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Selecciona la opcion", "Si", "No" }));
-        ComboBoxAlergiasA1.addItemListener(new java.awt.event.ItemListener() {
-            public void itemStateChanged(java.awt.event.ItemEvent evt) {
+        ComboBoxAlergiasA1.addItemListener(new java.awt.event.ItemListener()
+        {
+            public void itemStateChanged(java.awt.event.ItemEvent evt)
+            {
                 ComboBoxAlergiasA1ItemStateChanged(evt);
             }
         });
@@ -1223,16 +1333,21 @@ public class menu extends javax.swing.JFrame
         TxtOtraEnfRNA.setFont(new java.awt.Font("Corbel", 0, 14)); // NOI18N
         TxtOtraEnfRNA.setText("Otra Enfermedad:");
 
-        otrasenfermedades.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        otrasenfermedades.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 otrasenfermedadesActionPerformed(evt);
             }
         });
-        otrasenfermedades.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyPressed(java.awt.event.KeyEvent evt) {
+        otrasenfermedades.addKeyListener(new java.awt.event.KeyAdapter()
+        {
+            public void keyPressed(java.awt.event.KeyEvent evt)
+            {
                 otrasenfermedadesKeyPressed(evt);
             }
-            public void keyTyped(java.awt.event.KeyEvent evt) {
+            public void keyTyped(java.awt.event.KeyEvent evt)
+            {
                 otrasenfermedadesKeyTyped(evt);
             }
         });
@@ -1240,13 +1355,17 @@ public class menu extends javax.swing.JFrame
         TxtMatriculaRNA.setFont(new java.awt.Font("Corbel", 0, 14)); // NOI18N
         TxtMatriculaRNA.setText("Matricula: ");
 
-        cve.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        cve.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 cveActionPerformed(evt);
             }
         });
-        cve.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyTyped(java.awt.event.KeyEvent evt) {
+        cve.addKeyListener(new java.awt.event.KeyAdapter()
+        {
+            public void keyTyped(java.awt.event.KeyEvent evt)
+            {
                 cveKeyTyped(evt);
             }
         });
@@ -1255,8 +1374,10 @@ public class menu extends javax.swing.JFrame
         TxtViveConRNA.setText("Vive Con:");
 
         ComboBoxViveConA1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Selecciona la opción", "1.-Mamá y Papá", "2.-Solo Mamá", "3.-Solo Papá", "4.-Otro" }));
-        ComboBoxViveConA1.addItemListener(new java.awt.event.ItemListener() {
-            public void itemStateChanged(java.awt.event.ItemEvent evt) {
+        ComboBoxViveConA1.addItemListener(new java.awt.event.ItemListener()
+        {
+            public void itemStateChanged(java.awt.event.ItemEvent evt)
+            {
                 ComboBoxViveConA1ItemStateChanged(evt);
             }
         });
@@ -1267,15 +1388,19 @@ public class menu extends javax.swing.JFrame
         ComboBoxCarreraA1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Selecciona la opcion", "1.-Ing. Electronica", "2.-Ing.Electromecánica", "3.-Ing.Gestión empresarial", "4.-Ing. Industrial", "5.-Ing. Logística", "6.-Ing. Mecatrónica", "7.-Ing. Química", "8.-Ing. Sistemas", "9.-Ing.Tics" }));
 
         BotonAceptarRNA.setText("Aceptar");
-        BotonAceptarRNA.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        BotonAceptarRNA.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 BotonAceptarRNAActionPerformed(evt);
             }
         });
 
         BotonCancelarAlum.setText("Cancelar");
-        BotonCancelarAlum.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        BotonCancelarAlum.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 BotonCancelarAlumActionPerformed(evt);
             }
         });
@@ -1284,8 +1409,10 @@ public class menu extends javax.swing.JFrame
         TxtObesidadA1.setText("Obesidad:");
 
         ComboBoxObesidadA1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Selecciona la opcion", "Si", "No" }));
-        ComboBoxObesidadA1.addItemListener(new java.awt.event.ItemListener() {
-            public void itemStateChanged(java.awt.event.ItemEvent evt) {
+        ComboBoxObesidadA1.addItemListener(new java.awt.event.ItemListener()
+        {
+            public void itemStateChanged(java.awt.event.ItemEvent evt)
+            {
                 ComboBoxObesidadA1ItemStateChanged(evt);
             }
         });
@@ -1294,8 +1421,10 @@ public class menu extends javax.swing.JFrame
         TxtSobrepesoA1.setText("Sobrepeso:");
 
         ComboBoxSobrepesoA1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Selecciona la opcion", "Si", "No" }));
-        ComboBoxSobrepesoA1.addItemListener(new java.awt.event.ItemListener() {
-            public void itemStateChanged(java.awt.event.ItemEvent evt) {
+        ComboBoxSobrepesoA1.addItemListener(new java.awt.event.ItemListener()
+        {
+            public void itemStateChanged(java.awt.event.ItemEvent evt)
+            {
                 ComboBoxSobrepesoA1ItemStateChanged(evt);
             }
         });
@@ -1444,16 +1573,21 @@ public class menu extends javax.swing.JFrame
         CuadroMAlu.setBackground(new java.awt.Color(255, 255, 255));
 
         CuadroSalirMA.setBackground(new java.awt.Color(204, 204, 255));
-        CuadroSalirMA.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
-            public void mouseMoved(java.awt.event.MouseEvent evt) {
+        CuadroSalirMA.addMouseMotionListener(new java.awt.event.MouseMotionAdapter()
+        {
+            public void mouseMoved(java.awt.event.MouseEvent evt)
+            {
                 CuadroSalirMAMouseMoved(evt);
             }
         });
-        CuadroSalirMA.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
+        CuadroSalirMA.addMouseListener(new java.awt.event.MouseAdapter()
+        {
+            public void mouseClicked(java.awt.event.MouseEvent evt)
+            {
                 CuadroSalirMAMouseClicked(evt);
             }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
+            public void mouseExited(java.awt.event.MouseEvent evt)
+            {
                 CuadroSalirMAMouseExited(evt);
             }
         });
@@ -1479,13 +1613,17 @@ public class menu extends javax.swing.JFrame
         );
 
         ComboBoxEstatusP4.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Selecciona la opción", "1.-Base", "2.-Temporal" }));
-        ComboBoxEstatusP4.addItemListener(new java.awt.event.ItemListener() {
-            public void itemStateChanged(java.awt.event.ItemEvent evt) {
+        ComboBoxEstatusP4.addItemListener(new java.awt.event.ItemListener()
+        {
+            public void itemStateChanged(java.awt.event.ItemEvent evt)
+            {
                 ComboBoxEstatusP4ItemStateChanged(evt);
             }
         });
-        ComboBoxEstatusP4.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        ComboBoxEstatusP4.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 ComboBoxEstatusP4ActionPerformed(evt);
             }
         });
@@ -1494,13 +1632,17 @@ public class menu extends javax.swing.JFrame
         TxtGeneroRNP2.setText("Genero:");
 
         ComboBoxSexoP3.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Selecciona la opción", "M", "F" }));
-        ComboBoxSexoP3.addItemListener(new java.awt.event.ItemListener() {
-            public void itemStateChanged(java.awt.event.ItemEvent evt) {
+        ComboBoxSexoP3.addItemListener(new java.awt.event.ItemListener()
+        {
+            public void itemStateChanged(java.awt.event.ItemEvent evt)
+            {
                 ComboBoxSexoP3ItemStateChanged(evt);
             }
         });
-        ComboBoxSexoP3.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        ComboBoxSexoP3.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 ComboBoxSexoP3ActionPerformed(evt);
             }
         });
@@ -1512,8 +1654,10 @@ public class menu extends javax.swing.JFrame
         TxtMPer1.setText("Modificaciones");
 
         ComboBoxDesnutricionP3.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Selecciona la opcion", "Si", "No" }));
-        ComboBoxDesnutricionP3.addItemListener(new java.awt.event.ItemListener() {
-            public void itemStateChanged(java.awt.event.ItemEvent evt) {
+        ComboBoxDesnutricionP3.addItemListener(new java.awt.event.ItemListener()
+        {
+            public void itemStateChanged(java.awt.event.ItemEvent evt)
+            {
                 ComboBoxDesnutricionP3ItemStateChanged(evt);
             }
         });
@@ -1522,8 +1666,10 @@ public class menu extends javax.swing.JFrame
         TxtSobrepesoA4.setText("Sobrepeso:");
 
         ComboBoxSobrepesoP3.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Selecciona la opcion", "Si", "No" }));
-        ComboBoxSobrepesoP3.addItemListener(new java.awt.event.ItemListener() {
-            public void itemStateChanged(java.awt.event.ItemEvent evt) {
+        ComboBoxSobrepesoP3.addItemListener(new java.awt.event.ItemListener()
+        {
+            public void itemStateChanged(java.awt.event.ItemEvent evt)
+            {
                 ComboBoxSobrepesoP3ItemStateChanged(evt);
             }
         });
@@ -1535,13 +1681,17 @@ public class menu extends javax.swing.JFrame
         TxtMatriculaRNP2.setText("Ingrese la matricula:");
 
         ComboBoxAlergiasP3.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Selecciona la opcion", "Si", "No" }));
-        ComboBoxAlergiasP3.addItemListener(new java.awt.event.ItemListener() {
-            public void itemStateChanged(java.awt.event.ItemEvent evt) {
+        ComboBoxAlergiasP3.addItemListener(new java.awt.event.ItemListener()
+        {
+            public void itemStateChanged(java.awt.event.ItemEvent evt)
+            {
                 ComboBoxAlergiasP3ItemStateChanged(evt);
             }
         });
-        ComboBoxAlergiasP3.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        ComboBoxAlergiasP3.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 ComboBoxAlergiasP3ActionPerformed(evt);
             }
         });
@@ -1550,17 +1700,22 @@ public class menu extends javax.swing.JFrame
         TxtObesidadA4.setText("Obesidad:");
 
         ComboBoxObesidadP3.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Selecciona la opcion", "Si", "No" }));
-        ComboBoxObesidadP3.addItemListener(new java.awt.event.ItemListener() {
-            public void itemStateChanged(java.awt.event.ItemEvent evt) {
+        ComboBoxObesidadP3.addItemListener(new java.awt.event.ItemListener()
+        {
+            public void itemStateChanged(java.awt.event.ItemEvent evt)
+            {
                 ComboBoxObesidadP3ItemStateChanged(evt);
             }
         });
 
-        cvePer2.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyPressed(java.awt.event.KeyEvent evt) {
+        cvePer2.addKeyListener(new java.awt.event.KeyAdapter()
+        {
+            public void keyPressed(java.awt.event.KeyEvent evt)
+            {
                 cvePer2KeyPressed(evt);
             }
-            public void keyTyped(java.awt.event.KeyEvent evt) {
+            public void keyTyped(java.awt.event.KeyEvent evt)
+            {
                 cvePer2KeyTyped(evt);
             }
         });
@@ -1569,13 +1724,17 @@ public class menu extends javax.swing.JFrame
         TxtDiabetesA4.setText("Diabetes:");
 
         ComboBoxDiabetesP3.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Selecciona la opcion", "Si", "No" }));
-        ComboBoxDiabetesP3.addItemListener(new java.awt.event.ItemListener() {
-            public void itemStateChanged(java.awt.event.ItemEvent evt) {
+        ComboBoxDiabetesP3.addItemListener(new java.awt.event.ItemListener()
+        {
+            public void itemStateChanged(java.awt.event.ItemEvent evt)
+            {
                 ComboBoxDiabetesP3ItemStateChanged(evt);
             }
         });
-        ComboBoxDiabetesP3.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        ComboBoxDiabetesP3.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 ComboBoxDiabetesP3ActionPerformed(evt);
             }
         });
@@ -1583,25 +1742,32 @@ public class menu extends javax.swing.JFrame
         TxtOtraEnferRNP2.setFont(new java.awt.Font("Corbel", 0, 14)); // NOI18N
         TxtOtraEnferRNP2.setText("Otra Enfermedad:");
 
-        oEnferPer2.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyPressed(java.awt.event.KeyEvent evt) {
+        oEnferPer2.addKeyListener(new java.awt.event.KeyAdapter()
+        {
+            public void keyPressed(java.awt.event.KeyEvent evt)
+            {
                 oEnferPer2KeyPressed(evt);
             }
-            public void keyTyped(java.awt.event.KeyEvent evt) {
+            public void keyTyped(java.awt.event.KeyEvent evt)
+            {
                 oEnferPer2KeyTyped(evt);
             }
         });
 
         BotonAceptarRNP2.setText("Aceptar");
-        BotonAceptarRNP2.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        BotonAceptarRNP2.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 BotonAceptarRNP2ActionPerformed(evt);
             }
         });
 
         BotonCancelarPer2.setText("Cancelar");
-        BotonCancelarPer2.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        BotonCancelarPer2.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 BotonCancelarPer2ActionPerformed(evt);
             }
         });
@@ -1610,13 +1776,17 @@ public class menu extends javax.swing.JFrame
         TxtViveConRNP3.setText("Vive con");
 
         ComboBoxEstatusP5.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Selecciona la opción", "1.-Base", "2.-Temporal" }));
-        ComboBoxEstatusP5.addItemListener(new java.awt.event.ItemListener() {
-            public void itemStateChanged(java.awt.event.ItemEvent evt) {
+        ComboBoxEstatusP5.addItemListener(new java.awt.event.ItemListener()
+        {
+            public void itemStateChanged(java.awt.event.ItemEvent evt)
+            {
                 ComboBoxEstatusP5ItemStateChanged(evt);
             }
         });
-        ComboBoxEstatusP5.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        ComboBoxEstatusP5.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 ComboBoxEstatusP5ActionPerformed(evt);
             }
         });
@@ -1752,14 +1922,18 @@ public class menu extends javax.swing.JFrame
         TablaAlumno.addTab("Modificaciones", CuadroMAlu);
 
         CuadroCAlu.setBackground(new java.awt.Color(255, 255, 255));
-        CuadroCAlu.addAncestorListener(new javax.swing.event.AncestorListener() {
-            public void ancestorAdded(javax.swing.event.AncestorEvent evt) {
+        CuadroCAlu.addAncestorListener(new javax.swing.event.AncestorListener()
+        {
+            public void ancestorAdded(javax.swing.event.AncestorEvent evt)
+            {
                 CuadroCAluAncestorAdded(evt);
             }
-            public void ancestorMoved(javax.swing.event.AncestorEvent evt) {
+            public void ancestorMoved(javax.swing.event.AncestorEvent evt)
+            {
                 CuadroCAluAncestorMoved(evt);
             }
-            public void ancestorRemoved(javax.swing.event.AncestorEvent evt) {
+            public void ancestorRemoved(javax.swing.event.AncestorEvent evt)
+            {
             }
         });
 
@@ -1767,16 +1941,21 @@ public class menu extends javax.swing.JFrame
         TxtCAlu.setText("Consulta");
 
         CuadroSalirCA.setBackground(new java.awt.Color(204, 204, 255));
-        CuadroSalirCA.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
-            public void mouseMoved(java.awt.event.MouseEvent evt) {
+        CuadroSalirCA.addMouseMotionListener(new java.awt.event.MouseMotionAdapter()
+        {
+            public void mouseMoved(java.awt.event.MouseEvent evt)
+            {
                 CuadroSalirCAMouseMoved(evt);
             }
         });
-        CuadroSalirCA.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
+        CuadroSalirCA.addMouseListener(new java.awt.event.MouseAdapter()
+        {
+            public void mouseClicked(java.awt.event.MouseEvent evt)
+            {
                 CuadroSalirCAMouseClicked(evt);
             }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
+            public void mouseExited(java.awt.event.MouseEvent evt)
+            {
                 CuadroSalirCAMouseExited(evt);
             }
         });
@@ -1801,9 +1980,16 @@ public class menu extends javax.swing.JFrame
                 .addContainerGap())
         );
 
-        jTextArea5.setColumns(20);
-        jTextArea5.setRows(5);
-        jScrollPane5.setViewportView(jTextArea5);
+        ConsulAlum.setColumns(20);
+        ConsulAlum.setRows(5);
+        ConsulAlum.addMouseListener(new java.awt.event.MouseAdapter()
+        {
+            public void mouseEntered(java.awt.event.MouseEvent evt)
+            {
+                ConsulAlumMouseEntered(evt);
+            }
+        });
+        jScrollPane5.setViewportView(ConsulAlum);
 
         javax.swing.GroupLayout CuadroCAluLayout = new javax.swing.GroupLayout(CuadroCAlu);
         CuadroCAlu.setLayout(CuadroCAluLayout);
@@ -1840,16 +2026,21 @@ public class menu extends javax.swing.JFrame
         TxtRIAlu.setText("Reporte de Información");
 
         CuadroSalirRIA.setBackground(new java.awt.Color(204, 204, 255));
-        CuadroSalirRIA.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
-            public void mouseMoved(java.awt.event.MouseEvent evt) {
+        CuadroSalirRIA.addMouseMotionListener(new java.awt.event.MouseMotionAdapter()
+        {
+            public void mouseMoved(java.awt.event.MouseEvent evt)
+            {
                 CuadroSalirRIAMouseMoved(evt);
             }
         });
-        CuadroSalirRIA.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
+        CuadroSalirRIA.addMouseListener(new java.awt.event.MouseAdapter()
+        {
+            public void mouseClicked(java.awt.event.MouseEvent evt)
+            {
                 CuadroSalirRIAMouseClicked(evt);
             }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
+            public void mouseExited(java.awt.event.MouseEvent evt)
+            {
                 CuadroSalirRIAMouseExited(evt);
             }
         });
@@ -1933,8 +2124,10 @@ public class menu extends javax.swing.JFrame
         PanelPersonal.setBackground(new java.awt.Color(255, 255, 255));
 
         TablaPersonal.setBackground(new java.awt.Color(255, 255, 255));
-        TablaPersonal.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
+        TablaPersonal.addMouseListener(new java.awt.event.MouseAdapter()
+        {
+            public void mouseClicked(java.awt.event.MouseEvent evt)
+            {
                 TablaPersonalMouseClicked(evt);
             }
         });
@@ -1945,16 +2138,21 @@ public class menu extends javax.swing.JFrame
         TxtPersonalPanel.setText("Personal");
 
         CuadroRNP.setBackground(new java.awt.Color(204, 204, 255));
-        CuadroRNP.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
-            public void mouseMoved(java.awt.event.MouseEvent evt) {
+        CuadroRNP.addMouseMotionListener(new java.awt.event.MouseMotionAdapter()
+        {
+            public void mouseMoved(java.awt.event.MouseEvent evt)
+            {
                 CuadroRNPMouseMoved(evt);
             }
         });
-        CuadroRNP.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
+        CuadroRNP.addMouseListener(new java.awt.event.MouseAdapter()
+        {
+            public void mouseClicked(java.awt.event.MouseEvent evt)
+            {
                 CuadroRNPMouseClicked(evt);
             }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
+            public void mouseExited(java.awt.event.MouseEvent evt)
+            {
                 CuadroRNPMouseExited(evt);
             }
         });
@@ -1980,16 +2178,21 @@ public class menu extends javax.swing.JFrame
         );
 
         CuadroMP.setBackground(new java.awt.Color(204, 204, 255));
-        CuadroMP.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
-            public void mouseMoved(java.awt.event.MouseEvent evt) {
+        CuadroMP.addMouseMotionListener(new java.awt.event.MouseMotionAdapter()
+        {
+            public void mouseMoved(java.awt.event.MouseEvent evt)
+            {
                 CuadroMPMouseMoved(evt);
             }
         });
-        CuadroMP.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
+        CuadroMP.addMouseListener(new java.awt.event.MouseAdapter()
+        {
+            public void mouseClicked(java.awt.event.MouseEvent evt)
+            {
                 CuadroMPMouseClicked(evt);
             }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
+            public void mouseExited(java.awt.event.MouseEvent evt)
+            {
                 CuadroMPMouseExited(evt);
             }
         });
@@ -2015,16 +2218,21 @@ public class menu extends javax.swing.JFrame
         );
 
         CuadroCP.setBackground(new java.awt.Color(204, 204, 255));
-        CuadroCP.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
-            public void mouseMoved(java.awt.event.MouseEvent evt) {
+        CuadroCP.addMouseMotionListener(new java.awt.event.MouseMotionAdapter()
+        {
+            public void mouseMoved(java.awt.event.MouseEvent evt)
+            {
                 CuadroCPMouseMoved(evt);
             }
         });
-        CuadroCP.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
+        CuadroCP.addMouseListener(new java.awt.event.MouseAdapter()
+        {
+            public void mouseClicked(java.awt.event.MouseEvent evt)
+            {
                 CuadroCPMouseClicked(evt);
             }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
+            public void mouseExited(java.awt.event.MouseEvent evt)
+            {
                 CuadroCPMouseExited(evt);
             }
         });
@@ -2050,16 +2258,21 @@ public class menu extends javax.swing.JFrame
         );
 
         CuadroRIP.setBackground(new java.awt.Color(204, 204, 255));
-        CuadroRIP.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
-            public void mouseMoved(java.awt.event.MouseEvent evt) {
+        CuadroRIP.addMouseMotionListener(new java.awt.event.MouseMotionAdapter()
+        {
+            public void mouseMoved(java.awt.event.MouseEvent evt)
+            {
                 CuadroRIPMouseMoved(evt);
             }
         });
-        CuadroRIP.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
+        CuadroRIP.addMouseListener(new java.awt.event.MouseAdapter()
+        {
+            public void mouseClicked(java.awt.event.MouseEvent evt)
+            {
                 CuadroRIPMouseClicked(evt);
             }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
+            public void mouseExited(java.awt.event.MouseEvent evt)
+            {
                 CuadroRIPMouseExited(evt);
             }
         });
@@ -2085,16 +2298,21 @@ public class menu extends javax.swing.JFrame
         );
 
         CuadroSalirP.setBackground(new java.awt.Color(204, 204, 255));
-        CuadroSalirP.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
-            public void mouseMoved(java.awt.event.MouseEvent evt) {
+        CuadroSalirP.addMouseMotionListener(new java.awt.event.MouseMotionAdapter()
+        {
+            public void mouseMoved(java.awt.event.MouseEvent evt)
+            {
                 CuadroSalirPMouseMoved(evt);
             }
         });
-        CuadroSalirP.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
+        CuadroSalirP.addMouseListener(new java.awt.event.MouseAdapter()
+        {
+            public void mouseClicked(java.awt.event.MouseEvent evt)
+            {
                 CuadroSalirPMouseClicked(evt);
             }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
+            public void mouseExited(java.awt.event.MouseEvent evt)
+            {
                 CuadroSalirPMouseExited(evt);
             }
         });
@@ -2132,7 +2350,7 @@ public class menu extends javax.swing.JFrame
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 151, Short.MAX_VALUE)
                 .addGroup(PanelPersonal2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(CuadroMP, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(CuadroRIP, javax.swing.GroupLayout.PREFERRED_SIZE, 171, Short.MAX_VALUE))
+                    .addComponent(CuadroRIP, javax.swing.GroupLayout.DEFAULT_SIZE, 171, Short.MAX_VALUE))
                 .addGap(82, 82, 82))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PanelPersonal2Layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -2195,103 +2413,136 @@ public class menu extends javax.swing.JFrame
         TxtViveConRNP.setText("Estatus:");
 
         BotonAceptarRNP.setText("Aceptar");
-        BotonAceptarRNP.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        BotonAceptarRNP.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 BotonAceptarRNPActionPerformed(evt);
             }
         });
 
         BotonCancelarPer.setText("Cancelar");
-        BotonCancelarPer.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        BotonCancelarPer.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 BotonCancelarPerActionPerformed(evt);
             }
         });
 
-        nombrePer.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyPressed(java.awt.event.KeyEvent evt) {
+        nombrePer.addKeyListener(new java.awt.event.KeyAdapter()
+        {
+            public void keyPressed(java.awt.event.KeyEvent evt)
+            {
                 nombrePerKeyPressed(evt);
             }
-            public void keyTyped(java.awt.event.KeyEvent evt) {
+            public void keyTyped(java.awt.event.KeyEvent evt)
+            {
                 nombrePerKeyTyped(evt);
             }
         });
 
-        primerApPer.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyPressed(java.awt.event.KeyEvent evt) {
+        primerApPer.addKeyListener(new java.awt.event.KeyAdapter()
+        {
+            public void keyPressed(java.awt.event.KeyEvent evt)
+            {
                 primerApPerKeyPressed(evt);
             }
-            public void keyTyped(java.awt.event.KeyEvent evt) {
+            public void keyTyped(java.awt.event.KeyEvent evt)
+            {
                 primerApPerKeyTyped(evt);
             }
         });
 
-        segundoApPer.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyPressed(java.awt.event.KeyEvent evt) {
+        segundoApPer.addKeyListener(new java.awt.event.KeyAdapter()
+        {
+            public void keyPressed(java.awt.event.KeyEvent evt)
+            {
                 segundoApPerKeyPressed(evt);
             }
-            public void keyTyped(java.awt.event.KeyEvent evt) {
+            public void keyTyped(java.awt.event.KeyEvent evt)
+            {
                 segundoApPerKeyTyped(evt);
             }
         });
 
-        oEnferPer.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyPressed(java.awt.event.KeyEvent evt) {
+        oEnferPer.addKeyListener(new java.awt.event.KeyAdapter()
+        {
+            public void keyPressed(java.awt.event.KeyEvent evt)
+            {
                 oEnferPerKeyPressed(evt);
             }
-            public void keyTyped(java.awt.event.KeyEvent evt) {
+            public void keyTyped(java.awt.event.KeyEvent evt)
+            {
                 oEnferPerKeyTyped(evt);
             }
         });
 
-        cvePer.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyPressed(java.awt.event.KeyEvent evt) {
+        cvePer.addKeyListener(new java.awt.event.KeyAdapter()
+        {
+            public void keyPressed(java.awt.event.KeyEvent evt)
+            {
                 cvePerKeyPressed(evt);
             }
-            public void keyTyped(java.awt.event.KeyEvent evt) {
+            public void keyTyped(java.awt.event.KeyEvent evt)
+            {
                 cvePerKeyTyped(evt);
             }
         });
 
         ComboBoxSexoP1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Selecciona la opción", "M", "F" }));
-        ComboBoxSexoP1.addItemListener(new java.awt.event.ItemListener() {
-            public void itemStateChanged(java.awt.event.ItemEvent evt) {
+        ComboBoxSexoP1.addItemListener(new java.awt.event.ItemListener()
+        {
+            public void itemStateChanged(java.awt.event.ItemEvent evt)
+            {
                 ComboBoxSexoP1ItemStateChanged(evt);
             }
         });
-        ComboBoxSexoP1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        ComboBoxSexoP1.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 ComboBoxSexoP1ActionPerformed(evt);
             }
         });
 
         ComboBoxDesnutricionP1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Selecciona la opcion", "Si", "No" }));
-        ComboBoxDesnutricionP1.addItemListener(new java.awt.event.ItemListener() {
-            public void itemStateChanged(java.awt.event.ItemEvent evt) {
+        ComboBoxDesnutricionP1.addItemListener(new java.awt.event.ItemListener()
+        {
+            public void itemStateChanged(java.awt.event.ItemEvent evt)
+            {
                 ComboBoxDesnutricionP1ItemStateChanged(evt);
             }
         });
 
         ComboBoxAlergiasP1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Selecciona la opcion", "Si", "No" }));
-        ComboBoxAlergiasP1.addItemListener(new java.awt.event.ItemListener() {
-            public void itemStateChanged(java.awt.event.ItemEvent evt) {
+        ComboBoxAlergiasP1.addItemListener(new java.awt.event.ItemListener()
+        {
+            public void itemStateChanged(java.awt.event.ItemEvent evt)
+            {
                 ComboBoxAlergiasP1ItemStateChanged(evt);
             }
         });
-        ComboBoxAlergiasP1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        ComboBoxAlergiasP1.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 ComboBoxAlergiasP1ActionPerformed(evt);
             }
         });
 
         ComboBoxEstatusP1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Selecciona la opción", "1.-Base", "2.-Temporal" }));
-        ComboBoxEstatusP1.addItemListener(new java.awt.event.ItemListener() {
-            public void itemStateChanged(java.awt.event.ItemEvent evt) {
+        ComboBoxEstatusP1.addItemListener(new java.awt.event.ItemListener()
+        {
+            public void itemStateChanged(java.awt.event.ItemEvent evt)
+            {
                 ComboBoxEstatusP1ItemStateChanged(evt);
             }
         });
-        ComboBoxEstatusP1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        ComboBoxEstatusP1.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 ComboBoxEstatusP1ActionPerformed(evt);
             }
         });
@@ -2306,42 +2557,55 @@ public class menu extends javax.swing.JFrame
         TxtDiabetesA2.setText("Diabetes:");
 
         ComboBoxObesidadP1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Selecciona la opcion", "Si", "No" }));
-        ComboBoxObesidadP1.addItemListener(new java.awt.event.ItemListener() {
-            public void itemStateChanged(java.awt.event.ItemEvent evt) {
+        ComboBoxObesidadP1.addItemListener(new java.awt.event.ItemListener()
+        {
+            public void itemStateChanged(java.awt.event.ItemEvent evt)
+            {
                 ComboBoxObesidadP1ItemStateChanged(evt);
             }
         });
 
         ComboBoxSobrepesoP1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Selecciona la opcion", "Si", "No" }));
-        ComboBoxSobrepesoP1.addItemListener(new java.awt.event.ItemListener() {
-            public void itemStateChanged(java.awt.event.ItemEvent evt) {
+        ComboBoxSobrepesoP1.addItemListener(new java.awt.event.ItemListener()
+        {
+            public void itemStateChanged(java.awt.event.ItemEvent evt)
+            {
                 ComboBoxSobrepesoP1ItemStateChanged(evt);
             }
         });
 
         ComboBoxDiabetesP1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Selecciona la opcion", "Si", "No" }));
-        ComboBoxDiabetesP1.addItemListener(new java.awt.event.ItemListener() {
-            public void itemStateChanged(java.awt.event.ItemEvent evt) {
+        ComboBoxDiabetesP1.addItemListener(new java.awt.event.ItemListener()
+        {
+            public void itemStateChanged(java.awt.event.ItemEvent evt)
+            {
                 ComboBoxDiabetesP1ItemStateChanged(evt);
             }
         });
-        ComboBoxDiabetesP1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        ComboBoxDiabetesP1.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 ComboBoxDiabetesP1ActionPerformed(evt);
             }
         });
 
         CuadroSalirRNPer.setBackground(new java.awt.Color(204, 204, 255));
-        CuadroSalirRNPer.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
-            public void mouseMoved(java.awt.event.MouseEvent evt) {
+        CuadroSalirRNPer.addMouseMotionListener(new java.awt.event.MouseMotionAdapter()
+        {
+            public void mouseMoved(java.awt.event.MouseEvent evt)
+            {
                 CuadroSalirRNPerMouseMoved(evt);
             }
         });
-        CuadroSalirRNPer.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
+        CuadroSalirRNPer.addMouseListener(new java.awt.event.MouseAdapter()
+        {
+            public void mouseClicked(java.awt.event.MouseEvent evt)
+            {
                 CuadroSalirRNPerMouseClicked(evt);
             }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
+            public void mouseExited(java.awt.event.MouseEvent evt)
+            {
                 CuadroSalirRNPerMouseExited(evt);
             }
         });
@@ -2487,16 +2751,21 @@ public class menu extends javax.swing.JFrame
         TxtMPer.setText("Modificaciones");
 
         CuadroSalirMPer.setBackground(new java.awt.Color(204, 204, 255));
-        CuadroSalirMPer.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
-            public void mouseMoved(java.awt.event.MouseEvent evt) {
+        CuadroSalirMPer.addMouseMotionListener(new java.awt.event.MouseMotionAdapter()
+        {
+            public void mouseMoved(java.awt.event.MouseEvent evt)
+            {
                 CuadroSalirMPerMouseMoved(evt);
             }
         });
-        CuadroSalirMPer.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
+        CuadroSalirMPer.addMouseListener(new java.awt.event.MouseAdapter()
+        {
+            public void mouseClicked(java.awt.event.MouseEvent evt)
+            {
                 CuadroSalirMPerMouseClicked(evt);
             }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
+            public void mouseExited(java.awt.event.MouseEvent evt)
+            {
                 CuadroSalirMPerMouseExited(evt);
             }
         });
@@ -2524,11 +2793,14 @@ public class menu extends javax.swing.JFrame
         TxtMatriculaRNP1.setFont(new java.awt.Font("Corbel", 0, 14)); // NOI18N
         TxtMatriculaRNP1.setText("Ingrese numero de empleado:");
 
-        cvePer1.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyPressed(java.awt.event.KeyEvent evt) {
+        cvePer1.addKeyListener(new java.awt.event.KeyAdapter()
+        {
+            public void keyPressed(java.awt.event.KeyEvent evt)
+            {
                 cvePer1KeyPressed(evt);
             }
-            public void keyTyped(java.awt.event.KeyEvent evt) {
+            public void keyTyped(java.awt.event.KeyEvent evt)
+            {
                 cvePer1KeyTyped(evt);
             }
         });
@@ -2537,13 +2809,17 @@ public class menu extends javax.swing.JFrame
         TxtGeneroRNP1.setText("Genero:");
 
         ComboBoxSexoP2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Selecciona la opción", "M", "F" }));
-        ComboBoxSexoP2.addItemListener(new java.awt.event.ItemListener() {
-            public void itemStateChanged(java.awt.event.ItemEvent evt) {
+        ComboBoxSexoP2.addItemListener(new java.awt.event.ItemListener()
+        {
+            public void itemStateChanged(java.awt.event.ItemEvent evt)
+            {
                 ComboBoxSexoP2ItemStateChanged(evt);
             }
         });
-        ComboBoxSexoP2.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        ComboBoxSexoP2.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 ComboBoxSexoP2ActionPerformed(evt);
             }
         });
@@ -2552,8 +2828,10 @@ public class menu extends javax.swing.JFrame
         TxtDesnutricionRNP1.setText("Desnutrición:");
 
         ComboBoxDesnutricionP2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Selecciona la opcion", "Si", "No" }));
-        ComboBoxDesnutricionP2.addItemListener(new java.awt.event.ItemListener() {
-            public void itemStateChanged(java.awt.event.ItemEvent evt) {
+        ComboBoxDesnutricionP2.addItemListener(new java.awt.event.ItemListener()
+        {
+            public void itemStateChanged(java.awt.event.ItemEvent evt)
+            {
                 ComboBoxDesnutricionP2ItemStateChanged(evt);
             }
         });
@@ -2562,8 +2840,10 @@ public class menu extends javax.swing.JFrame
         TxtSobrepesoA3.setText("Sobrepeso:");
 
         ComboBoxSobrepesoP2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Selecciona la opcion", "Si", "No" }));
-        ComboBoxSobrepesoP2.addItemListener(new java.awt.event.ItemListener() {
-            public void itemStateChanged(java.awt.event.ItemEvent evt) {
+        ComboBoxSobrepesoP2.addItemListener(new java.awt.event.ItemListener()
+        {
+            public void itemStateChanged(java.awt.event.ItemEvent evt)
+            {
                 ComboBoxSobrepesoP2ItemStateChanged(evt);
             }
         });
@@ -2572,13 +2852,17 @@ public class menu extends javax.swing.JFrame
         TxtAlergiasRNP1.setText("Alergías:");
 
         ComboBoxAlergiasP2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Selecciona la opcion", "Si", "No" }));
-        ComboBoxAlergiasP2.addItemListener(new java.awt.event.ItemListener() {
-            public void itemStateChanged(java.awt.event.ItemEvent evt) {
+        ComboBoxAlergiasP2.addItemListener(new java.awt.event.ItemListener()
+        {
+            public void itemStateChanged(java.awt.event.ItemEvent evt)
+            {
                 ComboBoxAlergiasP2ItemStateChanged(evt);
             }
         });
-        ComboBoxAlergiasP2.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        ComboBoxAlergiasP2.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 ComboBoxAlergiasP2ActionPerformed(evt);
             }
         });
@@ -2587,8 +2871,10 @@ public class menu extends javax.swing.JFrame
         TxtObesidadA3.setText("Obesidad:");
 
         ComboBoxObesidadP2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Selecciona la opcion", "Si", "No" }));
-        ComboBoxObesidadP2.addItemListener(new java.awt.event.ItemListener() {
-            public void itemStateChanged(java.awt.event.ItemEvent evt) {
+        ComboBoxObesidadP2.addItemListener(new java.awt.event.ItemListener()
+        {
+            public void itemStateChanged(java.awt.event.ItemEvent evt)
+            {
                 ComboBoxObesidadP2ItemStateChanged(evt);
             }
         });
@@ -2597,13 +2883,17 @@ public class menu extends javax.swing.JFrame
         TxtDiabetesA3.setText("Diabetes:");
 
         ComboBoxDiabetesP2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Selecciona la opcion", "Si", "No" }));
-        ComboBoxDiabetesP2.addItemListener(new java.awt.event.ItemListener() {
-            public void itemStateChanged(java.awt.event.ItemEvent evt) {
+        ComboBoxDiabetesP2.addItemListener(new java.awt.event.ItemListener()
+        {
+            public void itemStateChanged(java.awt.event.ItemEvent evt)
+            {
                 ComboBoxDiabetesP2ItemStateChanged(evt);
             }
         });
-        ComboBoxDiabetesP2.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        ComboBoxDiabetesP2.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 ComboBoxDiabetesP2ActionPerformed(evt);
             }
         });
@@ -2611,25 +2901,32 @@ public class menu extends javax.swing.JFrame
         TxtOtraEnferRNP1.setFont(new java.awt.Font("Corbel", 0, 14)); // NOI18N
         TxtOtraEnferRNP1.setText("Otra Enfermedad:");
 
-        oEnferPer1.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyPressed(java.awt.event.KeyEvent evt) {
+        oEnferPer1.addKeyListener(new java.awt.event.KeyAdapter()
+        {
+            public void keyPressed(java.awt.event.KeyEvent evt)
+            {
                 oEnferPer1KeyPressed(evt);
             }
-            public void keyTyped(java.awt.event.KeyEvent evt) {
+            public void keyTyped(java.awt.event.KeyEvent evt)
+            {
                 oEnferPer1KeyTyped(evt);
             }
         });
 
         BotonAceptarRNP1.setText("Aceptar");
-        BotonAceptarRNP1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        BotonAceptarRNP1.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 BotonAceptarRNP1ActionPerformed(evt);
             }
         });
 
         BotonCancelarPer1.setText("Cancelar");
-        BotonCancelarPer1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        BotonCancelarPer1.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 BotonCancelarPer1ActionPerformed(evt);
             }
         });
@@ -2638,13 +2935,17 @@ public class menu extends javax.swing.JFrame
         TxtViveConRNP1.setText("Estatus");
 
         ComboBoxEstatusP2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Selecciona la opción", "1.-Base", "2.-Temporal" }));
-        ComboBoxEstatusP2.addItemListener(new java.awt.event.ItemListener() {
-            public void itemStateChanged(java.awt.event.ItemEvent evt) {
+        ComboBoxEstatusP2.addItemListener(new java.awt.event.ItemListener()
+        {
+            public void itemStateChanged(java.awt.event.ItemEvent evt)
+            {
                 ComboBoxEstatusP2ItemStateChanged(evt);
             }
         });
-        ComboBoxEstatusP2.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        ComboBoxEstatusP2.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 ComboBoxEstatusP2ActionPerformed(evt);
             }
         });
@@ -2771,16 +3072,21 @@ public class menu extends javax.swing.JFrame
         TxtCPer.setText("Consulta");
 
         CuadroSalirCPer.setBackground(new java.awt.Color(204, 204, 255));
-        CuadroSalirCPer.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
-            public void mouseMoved(java.awt.event.MouseEvent evt) {
+        CuadroSalirCPer.addMouseMotionListener(new java.awt.event.MouseMotionAdapter()
+        {
+            public void mouseMoved(java.awt.event.MouseEvent evt)
+            {
                 CuadroSalirCPerMouseMoved(evt);
             }
         });
-        CuadroSalirCPer.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
+        CuadroSalirCPer.addMouseListener(new java.awt.event.MouseAdapter()
+        {
+            public void mouseClicked(java.awt.event.MouseEvent evt)
+            {
                 CuadroSalirCPerMouseClicked(evt);
             }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
+            public void mouseExited(java.awt.event.MouseEvent evt)
+            {
                 CuadroSalirCPerMouseExited(evt);
             }
         });
@@ -2805,9 +3111,16 @@ public class menu extends javax.swing.JFrame
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        jTextArea1.setColumns(20);
-        jTextArea1.setRows(5);
-        jScrollPane1.setViewportView(jTextArea1);
+        ConsulPerso.setColumns(20);
+        ConsulPerso.setRows(5);
+        ConsulPerso.addMouseListener(new java.awt.event.MouseAdapter()
+        {
+            public void mouseEntered(java.awt.event.MouseEvent evt)
+            {
+                ConsulPersoMouseEntered(evt);
+            }
+        });
+        jScrollPane1.setViewportView(ConsulPerso);
 
         javax.swing.GroupLayout CuadroCPerLayout = new javax.swing.GroupLayout(CuadroCPer);
         CuadroCPer.setLayout(CuadroCPerLayout);
@@ -2847,16 +3160,21 @@ public class menu extends javax.swing.JFrame
         TxtRIPer.setText("Reporte de Información");
 
         CuadroSalirRIPer.setBackground(new java.awt.Color(204, 204, 255));
-        CuadroSalirRIPer.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
-            public void mouseMoved(java.awt.event.MouseEvent evt) {
+        CuadroSalirRIPer.addMouseMotionListener(new java.awt.event.MouseMotionAdapter()
+        {
+            public void mouseMoved(java.awt.event.MouseEvent evt)
+            {
                 CuadroSalirRIPerMouseMoved(evt);
             }
         });
-        CuadroSalirRIPer.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
+        CuadroSalirRIPer.addMouseListener(new java.awt.event.MouseAdapter()
+        {
+            public void mouseClicked(java.awt.event.MouseEvent evt)
+            {
                 CuadroSalirRIPerMouseClicked(evt);
             }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
+            public void mouseExited(java.awt.event.MouseEvent evt)
+            {
                 CuadroSalirRIPerMouseExited(evt);
             }
         });
@@ -2940,11 +3258,14 @@ public class menu extends javax.swing.JFrame
         TxtMatriculaRNP3.setFont(new java.awt.Font("Corbel", 0, 14)); // NOI18N
         TxtMatriculaRNP3.setText("Clave del paciente");
 
-        cvePer3.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyPressed(java.awt.event.KeyEvent evt) {
+        cvePer3.addKeyListener(new java.awt.event.KeyAdapter()
+        {
+            public void keyPressed(java.awt.event.KeyEvent evt)
+            {
                 cvePer3KeyPressed(evt);
             }
-            public void keyTyped(java.awt.event.KeyEvent evt) {
+            public void keyTyped(java.awt.event.KeyEvent evt)
+            {
                 cvePer3KeyTyped(evt);
             }
         });
@@ -2952,11 +3273,14 @@ public class menu extends javax.swing.JFrame
         TxtMatriculaRNP4.setFont(new java.awt.Font("Corbel", 0, 14)); // NOI18N
         TxtMatriculaRNP4.setText("Padecimiento actual");
 
-        cvePer4.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyPressed(java.awt.event.KeyEvent evt) {
+        cvePer4.addKeyListener(new java.awt.event.KeyAdapter()
+        {
+            public void keyPressed(java.awt.event.KeyEvent evt)
+            {
                 cvePer4KeyPressed(evt);
             }
-            public void keyTyped(java.awt.event.KeyEvent evt) {
+            public void keyTyped(java.awt.event.KeyEvent evt)
+            {
                 cvePer4KeyTyped(evt);
             }
         });
@@ -2964,11 +3288,14 @@ public class menu extends javax.swing.JFrame
         TxtMatriculaRNP5.setFont(new java.awt.Font("Corbel", 0, 14)); // NOI18N
         TxtMatriculaRNP5.setText("Antecedentes personales");
 
-        cvePer5.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyPressed(java.awt.event.KeyEvent evt) {
+        cvePer5.addKeyListener(new java.awt.event.KeyAdapter()
+        {
+            public void keyPressed(java.awt.event.KeyEvent evt)
+            {
                 cvePer5KeyPressed(evt);
             }
-            public void keyTyped(java.awt.event.KeyEvent evt) {
+            public void keyTyped(java.awt.event.KeyEvent evt)
+            {
                 cvePer5KeyTyped(evt);
             }
         });
@@ -2976,11 +3303,14 @@ public class menu extends javax.swing.JFrame
         TxtMatriculaRNP6.setFont(new java.awt.Font("Corbel", 0, 14)); // NOI18N
         TxtMatriculaRNP6.setText("Medicamento a recetar");
 
-        cvePer6.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyPressed(java.awt.event.KeyEvent evt) {
+        cvePer6.addKeyListener(new java.awt.event.KeyAdapter()
+        {
+            public void keyPressed(java.awt.event.KeyEvent evt)
+            {
                 cvePer6KeyPressed(evt);
             }
-            public void keyTyped(java.awt.event.KeyEvent evt) {
+            public void keyTyped(java.awt.event.KeyEvent evt)
+            {
                 cvePer6KeyTyped(evt);
             }
         });
@@ -2988,11 +3318,14 @@ public class menu extends javax.swing.JFrame
         TxtMatriculaRNP7.setFont(new java.awt.Font("Corbel", 0, 14)); // NOI18N
         TxtMatriculaRNP7.setText("Plan de tratamiento medico");
 
-        cvePer7.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyPressed(java.awt.event.KeyEvent evt) {
+        cvePer7.addKeyListener(new java.awt.event.KeyAdapter()
+        {
+            public void keyPressed(java.awt.event.KeyEvent evt)
+            {
                 cvePer7KeyPressed(evt);
             }
-            public void keyTyped(java.awt.event.KeyEvent evt) {
+            public void keyTyped(java.awt.event.KeyEvent evt)
+            {
                 cvePer7KeyTyped(evt);
             }
         });
@@ -4042,6 +4375,17 @@ public class menu extends javax.swing.JFrame
     private void cvePer7KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_cvePer7KeyTyped
         // TODO add your handling code here:
     }//GEN-LAST:event_cvePer7KeyTyped
+
+    private void ConsulAlumMouseEntered(java.awt.event.MouseEvent evt)//GEN-FIRST:event_ConsulAlumMouseEntered
+    {//GEN-HEADEREND:event_ConsulAlumMouseEntered
+        ConsulAlum.setText(Menu.consulta(menu.a, 1));
+        
+    }//GEN-LAST:event_ConsulAlumMouseEntered
+
+    private void ConsulPersoMouseEntered(java.awt.event.MouseEvent evt)//GEN-FIRST:event_ConsulPersoMouseEntered
+    {//GEN-HEADEREND:event_ConsulPersoMouseEntered
+       ConsulPerso.setText(Menu.consulta(menu.a, 2));
+    }//GEN-LAST:event_ConsulPersoMouseEntered
    
   
     // Variables declaration - do not modify//GEN-BEGIN:variables
@@ -4086,6 +4430,8 @@ public class menu extends javax.swing.JFrame
     private javax.swing.JComboBox<String> ComboBoxSobrepesoP2;
     private javax.swing.JComboBox<String> ComboBoxSobrepesoP3;
     private javax.swing.JComboBox<String> ComboBoxViveConA1;
+    private javax.swing.JTextArea ConsulAlum;
+    private javax.swing.JTextArea ConsulPerso;
     private javax.swing.JPanel CuadroAlumnos;
     private javax.swing.JPanel CuadroCA;
     private javax.swing.JPanel CuadroCAlu;
@@ -4249,10 +4595,8 @@ public class menu extends javax.swing.JFrame
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane3;
     private javax.swing.JScrollPane jScrollPane5;
-    private javax.swing.JTextArea jTextArea1;
     private javax.swing.JTextArea jTextArea2;
     private javax.swing.JTextArea jTextArea3;
-    private javax.swing.JTextArea jTextArea5;
     private javax.swing.JTextField nombre;
     private javax.swing.JTextField nombrePer;
     private javax.swing.JTextField oEnferPer;
