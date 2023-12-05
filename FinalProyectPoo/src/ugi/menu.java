@@ -14,7 +14,10 @@ import menu.HistorialClinico;
 import menu.Menu;
 import static menu.Menu.convertirStringABoolean;
 import menu.Personal;
-import ugi.ca;
+
+
+
+
 
 /**
  *
@@ -230,7 +233,6 @@ public class menu extends javax.swing.JFrame
                 InicioMouseExited(evt);
             }
         });
-        Inicio.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         TxtInicio.setFont(new java.awt.Font("Segoe UI Semibold", 0, 18)); // NOI18N
         TxtInicio.setForeground(new java.awt.Color(51, 51, 51));
@@ -242,7 +244,21 @@ public class menu extends javax.swing.JFrame
                 TxtInicioMouseClicked(evt);
             }
         });
-        Inicio.add(TxtInicio, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 10, -1, -1));
+
+        javax.swing.GroupLayout InicioLayout = new javax.swing.GroupLayout(Inicio);
+        Inicio.setLayout(InicioLayout);
+        InicioLayout.setHorizontalGroup(
+            InicioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(InicioLayout.createSequentialGroup()
+                .addGap(70, 70, 70)
+                .addComponent(TxtInicio))
+        );
+        InicioLayout.setVerticalGroup(
+            InicioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(InicioLayout.createSequentialGroup()
+                .addGap(10, 10, 10)
+                .addComponent(TxtInicio))
+        );
 
         Funcion.setBackground(new java.awt.Color(204, 255, 204));
         Funcion.addMouseMotionListener(new java.awt.event.MouseMotionAdapter()
@@ -263,12 +279,23 @@ public class menu extends javax.swing.JFrame
                 FuncionMouseExited(evt);
             }
         });
-        Funcion.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         TxtFuncion.setFont(new java.awt.Font("Segoe UI Semibold", 0, 18)); // NOI18N
         TxtFuncion.setForeground(new java.awt.Color(51, 51, 51));
         TxtFuncion.setText("Función");
-        Funcion.add(TxtFuncion, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 0, -1, -1));
+
+        javax.swing.GroupLayout FuncionLayout = new javax.swing.GroupLayout(Funcion);
+        Funcion.setLayout(FuncionLayout);
+        FuncionLayout.setHorizontalGroup(
+            FuncionLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(FuncionLayout.createSequentialGroup()
+                .addGap(70, 70, 70)
+                .addComponent(TxtFuncion))
+        );
+        FuncionLayout.setVerticalGroup(
+            FuncionLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(TxtFuncion)
+        );
 
         Alumnos.setBackground(new java.awt.Color(204, 0, 153));
         Alumnos.addMouseMotionListener(new java.awt.event.MouseMotionAdapter()
@@ -289,12 +316,23 @@ public class menu extends javax.swing.JFrame
                 AlumnosMouseExited(evt);
             }
         });
-        Alumnos.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         TxtAlumnos.setFont(new java.awt.Font("Segoe UI Semibold", 0, 18)); // NOI18N
         TxtAlumnos.setForeground(new java.awt.Color(51, 51, 51));
         TxtAlumnos.setText("Alumnos");
-        Alumnos.add(TxtAlumnos, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 0, -1, -1));
+
+        javax.swing.GroupLayout AlumnosLayout = new javax.swing.GroupLayout(Alumnos);
+        Alumnos.setLayout(AlumnosLayout);
+        AlumnosLayout.setHorizontalGroup(
+            AlumnosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(AlumnosLayout.createSequentialGroup()
+                .addGap(70, 70, 70)
+                .addComponent(TxtAlumnos))
+        );
+        AlumnosLayout.setVerticalGroup(
+            AlumnosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(TxtAlumnos)
+        );
 
         Personal.setBackground(new java.awt.Color(0, 153, 153));
         Personal.addMouseMotionListener(new java.awt.event.MouseMotionAdapter()
@@ -315,12 +353,23 @@ public class menu extends javax.swing.JFrame
                 PersonalMouseExited(evt);
             }
         });
-        Personal.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         TxtPersonal.setFont(new java.awt.Font("Segoe UI Semibold", 0, 18)); // NOI18N
         TxtPersonal.setForeground(new java.awt.Color(51, 51, 51));
         TxtPersonal.setText("Personal");
-        Personal.add(TxtPersonal, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 0, -1, -1));
+
+        javax.swing.GroupLayout PersonalLayout = new javax.swing.GroupLayout(Personal);
+        Personal.setLayout(PersonalLayout);
+        PersonalLayout.setHorizontalGroup(
+            PersonalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(PersonalLayout.createSequentialGroup()
+                .addGap(70, 70, 70)
+                .addComponent(TxtPersonal))
+        );
+        PersonalLayout.setVerticalGroup(
+            PersonalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(TxtPersonal)
+        );
 
         Enfermeria.setBackground(new java.awt.Color(0, 102, 102));
         Enfermeria.addMouseMotionListener(new java.awt.event.MouseMotionAdapter()
@@ -341,12 +390,25 @@ public class menu extends javax.swing.JFrame
                 EnfermeriaMouseExited(evt);
             }
         });
-        Enfermeria.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         TxtEnfermeria.setFont(new java.awt.Font("Segoe UI Semibold", 0, 18)); // NOI18N
         TxtEnfermeria.setForeground(new java.awt.Color(51, 51, 51));
         TxtEnfermeria.setText("Enfermeria");
-        Enfermeria.add(TxtEnfermeria, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 10, -1, -1));
+
+        javax.swing.GroupLayout EnfermeriaLayout = new javax.swing.GroupLayout(Enfermeria);
+        Enfermeria.setLayout(EnfermeriaLayout);
+        EnfermeriaLayout.setHorizontalGroup(
+            EnfermeriaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(EnfermeriaLayout.createSequentialGroup()
+                .addGap(60, 60, 60)
+                .addComponent(TxtEnfermeria))
+        );
+        EnfermeriaLayout.setVerticalGroup(
+            EnfermeriaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(EnfermeriaLayout.createSequentialGroup()
+                .addGap(10, 10, 10)
+                .addComponent(TxtEnfermeria))
+        );
 
         TextoUNIVERSIDAD.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
         TextoUNIVERSIDAD.setForeground(new java.awt.Color(0, 51, 51));
@@ -596,7 +658,7 @@ public class menu extends javax.swing.JFrame
         CuadroAlumnosLayout.setVerticalGroup(
             CuadroAlumnosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, CuadroAlumnosLayout.createSequentialGroup()
-                .addContainerGap(242, Short.MAX_VALUE)
+                .addContainerGap(333, Short.MAX_VALUE)
                 .addComponent(TxtAlumnos2)
                 .addGap(137, 137, 137)
                 .addComponent(PanelVerMas2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -730,7 +792,7 @@ public class menu extends javax.swing.JFrame
         CuadrosEnfermeriaLayout.setVerticalGroup(
             CuadrosEnfermeriaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, CuadrosEnfermeriaLayout.createSequentialGroup()
-                .addContainerGap(240, Short.MAX_VALUE)
+                .addContainerGap(331, Short.MAX_VALUE)
                 .addComponent(TxtEnfermeria2)
                 .addGap(139, 139, 139)
                 .addComponent(PanelVerMas4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -1979,7 +2041,7 @@ public class menu extends javax.swing.JFrame
                     .addComponent(CuadroRNP, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(TxtPersonalPanel)
                     .addComponent(CuadroCP, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 151, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 152, Short.MAX_VALUE)
                 .addGroup(PanelPersonal2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(CuadroMP, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(CuadroRIP, javax.swing.GroupLayout.DEFAULT_SIZE, 171, Short.MAX_VALUE))
@@ -2001,7 +2063,7 @@ public class menu extends javax.swing.JFrame
                     .addGroup(PanelPersonal2Layout.createSequentialGroup()
                         .addGap(34, 34, 34)
                         .addComponent(CuadroMP, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 74, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 76, Short.MAX_VALUE)
                 .addGroup(PanelPersonal2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(CuadroRIP, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(CuadroCP, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
@@ -2299,7 +2361,7 @@ public class menu extends javax.swing.JFrame
                     .addComponent(ComboBoxSobrepesoP1, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(ComboBoxDiabetesP1, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(oEnferPer, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(52, Short.MAX_VALUE))
+                .addContainerGap(53, Short.MAX_VALUE))
         );
         CuadroRNPerLayout.setVerticalGroup(
             CuadroRNPerLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -2430,7 +2492,7 @@ public class menu extends javax.swing.JFrame
             .addGroup(CuadroMPerLayout.createSequentialGroup()
                 .addGap(17, 17, 17)
                 .addComponent(TxtMPer)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 405, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 407, Short.MAX_VALUE)
                 .addComponent(CuadroSalirMPer, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(32, 32, 32))
         );
@@ -2489,7 +2551,7 @@ public class menu extends javax.swing.JFrame
             .addGroup(CuadroCPerLayout.createSequentialGroup()
                 .addGap(18, 18, 18)
                 .addComponent(TxtCPer, javax.swing.GroupLayout.PREFERRED_SIZE, 163, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(409, Short.MAX_VALUE))
+                .addContainerGap(410, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, CuadroCPerLayout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(CuadroSalirCPer, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -2500,7 +2562,7 @@ public class menu extends javax.swing.JFrame
             .addGroup(CuadroCPerLayout.createSequentialGroup()
                 .addGap(21, 21, 21)
                 .addComponent(TxtCPer)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 408, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 410, Short.MAX_VALUE)
                 .addComponent(CuadroSalirCPer, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(27, 27, 27))
         );
@@ -2570,7 +2632,7 @@ public class menu extends javax.swing.JFrame
             .addGroup(CuadroRIPerLayout.createSequentialGroup()
                 .addGap(17, 17, 17)
                 .addComponent(TxtRIPer)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 395, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 397, Short.MAX_VALUE)
                 .addComponent(CuadroSalirRIPer, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(32, 32, 32))
         );
@@ -2604,14 +2666,14 @@ public class menu extends javax.swing.JFrame
             .addGroup(PanelEnfermeriaLayout.createSequentialGroup()
                 .addGap(14, 14, 14)
                 .addComponent(TituloEnfermeria, javax.swing.GroupLayout.PREFERRED_SIZE, 131, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(445, Short.MAX_VALUE))
+                .addContainerGap(446, Short.MAX_VALUE))
         );
         PanelEnfermeriaLayout.setVerticalGroup(
             PanelEnfermeriaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(PanelEnfermeriaLayout.createSequentialGroup()
                 .addGap(16, 16, 16)
                 .addComponent(TituloEnfermeria)
-                .addContainerGap(481, Short.MAX_VALUE))
+                .addContainerGap(572, Short.MAX_VALUE))
         );
 
         TablaOpciones.addTab("tab5", PanelEnfermeria);
