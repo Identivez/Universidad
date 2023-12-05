@@ -86,18 +86,19 @@ public class menu extends javax.swing.JFrame
         TxtSalirFun = new javax.swing.JLabel();
         PanelAlumnos = new javax.swing.JPanel();
         TablaAlumno = new javax.swing.JTabbedPane();
-        CuadroMAlu = new javax.swing.JPanel();
-        TxtMAlu = new javax.swing.JLabel();
-        CuadroSalirMA = new javax.swing.JPanel();
-        TxtModAlu = new javax.swing.JLabel();
-        CuadroCAlu = new javax.swing.JPanel();
-        TxtCAlu = new javax.swing.JLabel();
-        CuadroSalirCA = new javax.swing.JPanel();
-        TxtSalirCA = new javax.swing.JLabel();
-        CuadroRIAlu = new javax.swing.JPanel();
-        TxtRIAlu = new javax.swing.JLabel();
-        CuadroSalirRIA = new javax.swing.JPanel();
-        TxtSalirRIA = new javax.swing.JLabel();
+        PanelAlumno = new javax.swing.JPanel();
+        TxtAlumnoPanel = new javax.swing.JLabel();
+        CuadroRNA = new javax.swing.JPanel();
+        TxtRegistroAl = new javax.swing.JLabel();
+        CuadroMA = new javax.swing.JPanel();
+        TxtModificacionesAl = new javax.swing.JLabel();
+        CuadroCA = new javax.swing.JPanel();
+        jToggleButton1 = new javax.swing.JToggleButton();
+        CuadroRIA = new javax.swing.JPanel();
+        TxtReporteInfAl = new javax.swing.JLabel();
+        CuadroSalirAl = new javax.swing.JPanel();
+        TxtSalirAl = new javax.swing.JLabel();
+        TxtConsultaAl = new javax.swing.JLabel();
         CuadroRNAl = new javax.swing.JPanel();
         TxtRNAlu = new javax.swing.JLabel();
         CuadroSalirRNA = new javax.swing.JPanel();
@@ -130,19 +131,18 @@ public class menu extends javax.swing.JFrame
         ComboBoxSobrepesoA1 = new javax.swing.JComboBox<>();
         TxtDiabetesA1 = new javax.swing.JLabel();
         ComboBoxDiabetesA1 = new javax.swing.JComboBox<>();
-        PanelAlumno = new javax.swing.JPanel();
-        TxtAlumnoPanel = new javax.swing.JLabel();
-        CuadroRNA = new javax.swing.JPanel();
-        TxtRegistroAl = new javax.swing.JLabel();
-        CuadroMA = new javax.swing.JPanel();
-        TxtModificacionesAl = new javax.swing.JLabel();
-        CuadroCA = new javax.swing.JPanel();
-        jToggleButton1 = new javax.swing.JToggleButton();
-        CuadroRIA = new javax.swing.JPanel();
-        TxtReporteInfAl = new javax.swing.JLabel();
-        CuadroSalirAl = new javax.swing.JPanel();
-        TxtSalirAl = new javax.swing.JLabel();
-        TxtConsultaAl = new javax.swing.JLabel();
+        CuadroMAlu = new javax.swing.JPanel();
+        TxtMAlu = new javax.swing.JLabel();
+        CuadroSalirMA = new javax.swing.JPanel();
+        TxtModAlu = new javax.swing.JLabel();
+        CuadroCAlu = new javax.swing.JPanel();
+        TxtCAlu = new javax.swing.JLabel();
+        CuadroSalirCA = new javax.swing.JPanel();
+        TxtSalirCA = new javax.swing.JLabel();
+        CuadroRIAlu = new javax.swing.JPanel();
+        TxtRIAlu = new javax.swing.JLabel();
+        CuadroSalirRIA = new javax.swing.JPanel();
+        TxtSalirRIA = new javax.swing.JLabel();
         PanelPersonal = new javax.swing.JPanel();
         TablaPersonal = new javax.swing.JTabbedPane();
         PanelPersonal2 = new javax.swing.JPanel();
@@ -411,11 +411,14 @@ public class menu extends javax.swing.JFrame
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(PanelIzqLayout.createSequentialGroup()
                 .addGroup(PanelIzqLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(Personal, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(Alumnos, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(Enfermeria, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(Inicio, javax.swing.GroupLayout.PREFERRED_SIZE, 229, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(PanelIzqLayout.createSequentialGroup()
+                        .addGroup(PanelIzqLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(Inicio, javax.swing.GroupLayout.PREFERRED_SIZE, 229, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(Personal, javax.swing.GroupLayout.PREFERRED_SIZE, 228, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(0, 0, Short.MAX_VALUE)))
                 .addContainerGap())
         );
         PanelIzqLayout.setVerticalGroup(
@@ -864,226 +867,272 @@ public class menu extends javax.swing.JFrame
 
         PanelAlumnos.setBackground(new java.awt.Color(255, 255, 255));
 
-        CuadroMAlu.setBackground(new java.awt.Color(255, 255, 255));
+        PanelAlumno.setBackground(new java.awt.Color(255, 255, 255));
 
-        TxtMAlu.setFont(new java.awt.Font("Segoe UI Semibold", 0, 24)); // NOI18N
-        TxtMAlu.setText("Modificaciones");
+        TxtAlumnoPanel.setFont(new java.awt.Font("Segoe UI Semibold", 0, 24)); // NOI18N
+        TxtAlumnoPanel.setText("Alumnos");
 
-        CuadroSalirMA.setBackground(new java.awt.Color(204, 204, 255));
-        CuadroSalirMA.addMouseMotionListener(new java.awt.event.MouseMotionAdapter()
+        CuadroRNA.setBackground(new java.awt.Color(204, 204, 255));
+        CuadroRNA.addMouseMotionListener(new java.awt.event.MouseMotionAdapter()
         {
             public void mouseMoved(java.awt.event.MouseEvent evt)
             {
-                CuadroSalirMAMouseMoved(evt);
+                CuadroRNAMouseMoved(evt);
             }
         });
-        CuadroSalirMA.addMouseListener(new java.awt.event.MouseAdapter()
+        CuadroRNA.addMouseListener(new java.awt.event.MouseAdapter()
         {
             public void mouseClicked(java.awt.event.MouseEvent evt)
             {
-                CuadroSalirMAMouseClicked(evt);
+                CuadroRNAMouseClicked(evt);
             }
             public void mouseExited(java.awt.event.MouseEvent evt)
             {
-                CuadroSalirMAMouseExited(evt);
+                CuadroRNAMouseExited(evt);
             }
         });
 
-        TxtModAlu.setFont(new java.awt.Font("Corbel", 0, 18)); // NOI18N
-        TxtModAlu.setText("Salir");
+        TxtRegistroAl.setFont(new java.awt.Font("Corbel", 0, 18)); // NOI18N
+        TxtRegistroAl.setText("Registro Nuevo");
 
-        javax.swing.GroupLayout CuadroSalirMALayout = new javax.swing.GroupLayout(CuadroSalirMA);
-        CuadroSalirMA.setLayout(CuadroSalirMALayout);
-        CuadroSalirMALayout.setHorizontalGroup(
-            CuadroSalirMALayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, CuadroSalirMALayout.createSequentialGroup()
-                .addContainerGap(33, Short.MAX_VALUE)
-                .addComponent(TxtModAlu)
-                .addGap(24, 24, 24))
-        );
-        CuadroSalirMALayout.setVerticalGroup(
-            CuadroSalirMALayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, CuadroSalirMALayout.createSequentialGroup()
-                .addContainerGap(16, Short.MAX_VALUE)
-                .addComponent(TxtModAlu)
+        javax.swing.GroupLayout CuadroRNALayout = new javax.swing.GroupLayout(CuadroRNA);
+        CuadroRNA.setLayout(CuadroRNALayout);
+        CuadroRNALayout.setHorizontalGroup(
+            CuadroRNALayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, CuadroRNALayout.createSequentialGroup()
+                .addContainerGap(18, Short.MAX_VALUE)
+                .addComponent(TxtRegistroAl, javax.swing.GroupLayout.PREFERRED_SIZE, 133, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
         );
+        CuadroRNALayout.setVerticalGroup(
+            CuadroRNALayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(CuadroRNALayout.createSequentialGroup()
+                .addGap(14, 14, 14)
+                .addComponent(TxtRegistroAl)
+                .addContainerGap(14, Short.MAX_VALUE))
+        );
 
-        javax.swing.GroupLayout CuadroMAluLayout = new javax.swing.GroupLayout(CuadroMAlu);
-        CuadroMAlu.setLayout(CuadroMAluLayout);
-        CuadroMAluLayout.setHorizontalGroup(
-            CuadroMAluLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(CuadroMAluLayout.createSequentialGroup()
+        CuadroMA.setBackground(new java.awt.Color(204, 204, 255));
+        CuadroMA.addMouseMotionListener(new java.awt.event.MouseMotionAdapter()
+        {
+            public void mouseMoved(java.awt.event.MouseEvent evt)
+            {
+                CuadroMAMouseMoved(evt);
+            }
+        });
+        CuadroMA.addMouseListener(new java.awt.event.MouseAdapter()
+        {
+            public void mouseClicked(java.awt.event.MouseEvent evt)
+            {
+                CuadroMAMouseClicked(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt)
+            {
+                CuadroMAMouseExited(evt);
+            }
+        });
+
+        TxtModificacionesAl.setFont(new java.awt.Font("Corbel", 0, 18)); // NOI18N
+        TxtModificacionesAl.setText("Modificaciones");
+
+        javax.swing.GroupLayout CuadroMALayout = new javax.swing.GroupLayout(CuadroMA);
+        CuadroMA.setLayout(CuadroMALayout);
+        CuadroMALayout.setHorizontalGroup(
+            CuadroMALayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, CuadroMALayout.createSequentialGroup()
+                .addContainerGap(18, Short.MAX_VALUE)
+                .addComponent(TxtModificacionesAl, javax.swing.GroupLayout.PREFERRED_SIZE, 133, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
+        );
+        CuadroMALayout.setVerticalGroup(
+            CuadroMALayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(CuadroMALayout.createSequentialGroup()
+                .addGap(14, 14, 14)
+                .addComponent(TxtModificacionesAl)
+                .addContainerGap(14, Short.MAX_VALUE))
+        );
+
+        CuadroCA.setBackground(new java.awt.Color(204, 204, 255));
+        CuadroCA.addMouseMotionListener(new java.awt.event.MouseMotionAdapter()
+        {
+            public void mouseMoved(java.awt.event.MouseEvent evt)
+            {
+                CuadroCAMouseMoved(evt);
+            }
+        });
+        CuadroCA.addMouseListener(new java.awt.event.MouseAdapter()
+        {
+            public void mouseClicked(java.awt.event.MouseEvent evt)
+            {
+                CuadroCAMouseClicked(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt)
+            {
+                CuadroCAMouseExited(evt);
+            }
+        });
+
+        jToggleButton1.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
+                jToggleButton1ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout CuadroCALayout = new javax.swing.GroupLayout(CuadroCA);
+        CuadroCA.setLayout(CuadroCALayout);
+        CuadroCALayout.setHorizontalGroup(
+            CuadroCALayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(CuadroCALayout.createSequentialGroup()
                 .addGap(16, 16, 16)
-                .addComponent(TxtMAlu, javax.swing.GroupLayout.PREFERRED_SIZE, 187, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, CuadroMAluLayout.createSequentialGroup()
+                .addComponent(jToggleButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 88, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(12, Short.MAX_VALUE))
+        );
+        CuadroCALayout.setVerticalGroup(
+            CuadroCALayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(CuadroCALayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jToggleButton1, javax.swing.GroupLayout.DEFAULT_SIZE, 23, Short.MAX_VALUE)
+                .addContainerGap())
+        );
+
+        CuadroRIA.setBackground(new java.awt.Color(204, 204, 255));
+        CuadroRIA.addMouseMotionListener(new java.awt.event.MouseMotionAdapter()
+        {
+            public void mouseMoved(java.awt.event.MouseEvent evt)
+            {
+                CuadroRIAMouseMoved(evt);
+            }
+        });
+        CuadroRIA.addMouseListener(new java.awt.event.MouseAdapter()
+        {
+            public void mouseClicked(java.awt.event.MouseEvent evt)
+            {
+                CuadroRIAMouseClicked(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt)
+            {
+                CuadroRIAMouseExited(evt);
+            }
+        });
+
+        TxtReporteInfAl.setFont(new java.awt.Font("Corbel", 0, 18)); // NOI18N
+        TxtReporteInfAl.setText("Reporte de Informacion");
+
+        javax.swing.GroupLayout CuadroRIALayout = new javax.swing.GroupLayout(CuadroRIA);
+        CuadroRIA.setLayout(CuadroRIALayout);
+        CuadroRIALayout.setHorizontalGroup(
+            CuadroRIALayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, CuadroRIALayout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(CuadroSalirMA, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(TxtReporteInfAl, javax.swing.GroupLayout.PREFERRED_SIZE, 133, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
         );
-        CuadroMAluLayout.setVerticalGroup(
-            CuadroMAluLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(CuadroMAluLayout.createSequentialGroup()
-                .addGap(19, 19, 19)
-                .addComponent(TxtMAlu)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 396, Short.MAX_VALUE)
-                .addComponent(CuadroSalirMA, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(29, 29, 29))
+        CuadroRIALayout.setVerticalGroup(
+            CuadroRIALayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(CuadroRIALayout.createSequentialGroup()
+                .addGap(14, 14, 14)
+                .addComponent(TxtReporteInfAl)
+                .addContainerGap(14, Short.MAX_VALUE))
         );
 
-        TablaAlumno.addTab("tab3", CuadroMAlu);
-
-        CuadroCAlu.setBackground(new java.awt.Color(255, 255, 255));
-        CuadroCAlu.addAncestorListener(new javax.swing.event.AncestorListener()
-        {
-            public void ancestorAdded(javax.swing.event.AncestorEvent evt)
-            {
-                CuadroCAluAncestorAdded(evt);
-            }
-            public void ancestorMoved(javax.swing.event.AncestorEvent evt)
-            {
-                CuadroCAluAncestorMoved(evt);
-            }
-            public void ancestorRemoved(javax.swing.event.AncestorEvent evt)
-            {
-            }
-        });
-
-        TxtCAlu.setFont(new java.awt.Font("Segoe UI Semibold", 0, 24)); // NOI18N
-        TxtCAlu.setText("Consulta");
-
-        CuadroSalirCA.setBackground(new java.awt.Color(204, 204, 255));
-        CuadroSalirCA.addMouseMotionListener(new java.awt.event.MouseMotionAdapter()
+        CuadroSalirAl.setBackground(new java.awt.Color(204, 204, 255));
+        CuadroSalirAl.addMouseMotionListener(new java.awt.event.MouseMotionAdapter()
         {
             public void mouseMoved(java.awt.event.MouseEvent evt)
             {
-                CuadroSalirCAMouseMoved(evt);
+                CuadroSalirAlMouseMoved(evt);
             }
         });
-        CuadroSalirCA.addMouseListener(new java.awt.event.MouseAdapter()
+        CuadroSalirAl.addMouseListener(new java.awt.event.MouseAdapter()
         {
             public void mouseClicked(java.awt.event.MouseEvent evt)
             {
-                CuadroSalirCAMouseClicked(evt);
+                CuadroSalirAlMouseClicked(evt);
             }
             public void mouseExited(java.awt.event.MouseEvent evt)
             {
-                CuadroSalirCAMouseExited(evt);
+                CuadroSalirAlMouseExited(evt);
             }
         });
 
-        TxtSalirCA.setFont(new java.awt.Font("Corbel", 0, 18)); // NOI18N
-        TxtSalirCA.setText("Salir");
+        TxtSalirAl.setFont(new java.awt.Font("Corbel", 0, 18)); // NOI18N
+        TxtSalirAl.setText("Salir");
 
-        javax.swing.GroupLayout CuadroSalirCALayout = new javax.swing.GroupLayout(CuadroSalirCA);
-        CuadroSalirCA.setLayout(CuadroSalirCALayout);
-        CuadroSalirCALayout.setHorizontalGroup(
-            CuadroSalirCALayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, CuadroSalirCALayout.createSequentialGroup()
-                .addContainerGap(30, Short.MAX_VALUE)
-                .addComponent(TxtSalirCA, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(24, 24, 24))
+        javax.swing.GroupLayout CuadroSalirAlLayout = new javax.swing.GroupLayout(CuadroSalirAl);
+        CuadroSalirAl.setLayout(CuadroSalirAlLayout);
+        CuadroSalirAlLayout.setHorizontalGroup(
+            CuadroSalirAlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, CuadroSalirAlLayout.createSequentialGroup()
+                .addContainerGap(29, Short.MAX_VALUE)
+                .addComponent(TxtSalirAl, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(23, 23, 23))
         );
-        CuadroSalirCALayout.setVerticalGroup(
-            CuadroSalirCALayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, CuadroSalirCALayout.createSequentialGroup()
-                .addContainerGap(16, Short.MAX_VALUE)
-                .addComponent(TxtSalirCA)
-                .addContainerGap())
-        );
-
-        javax.swing.GroupLayout CuadroCAluLayout = new javax.swing.GroupLayout(CuadroCAlu);
-        CuadroCAlu.setLayout(CuadroCAluLayout);
-        CuadroCAluLayout.setHorizontalGroup(
-            CuadroCAluLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(CuadroCAluLayout.createSequentialGroup()
-                .addGap(19, 19, 19)
-                .addComponent(TxtCAlu, javax.swing.GroupLayout.PREFERRED_SIZE, 109, javax.swing.GroupLayout.PREFERRED_SIZE))
-            .addGroup(CuadroCAluLayout.createSequentialGroup()
-                .addGap(493, 493, 493)
-                .addComponent(CuadroSalirCA, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-        );
-        CuadroCAluLayout.setVerticalGroup(
-            CuadroCAluLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(CuadroCAluLayout.createSequentialGroup()
-                .addGap(20, 20, 20)
-                .addComponent(TxtCAlu)
-                .addGap(399, 399, 399)
-                .addComponent(CuadroSalirCA, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-        );
-
-        TablaAlumno.addTab("Consul", CuadroCAlu);
-
-        CuadroRIAlu.setBackground(new java.awt.Color(255, 255, 255));
-
-        TxtRIAlu.setFont(new java.awt.Font("Segoe UI Semibold", 0, 24)); // NOI18N
-        TxtRIAlu.setText("Reporte de Información");
-
-        CuadroSalirRIA.setBackground(new java.awt.Color(204, 204, 255));
-        CuadroSalirRIA.addMouseMotionListener(new java.awt.event.MouseMotionAdapter()
-        {
-            public void mouseMoved(java.awt.event.MouseEvent evt)
-            {
-                CuadroSalirRIAMouseMoved(evt);
-            }
-        });
-        CuadroSalirRIA.addMouseListener(new java.awt.event.MouseAdapter()
-        {
-            public void mouseClicked(java.awt.event.MouseEvent evt)
-            {
-                CuadroSalirRIAMouseClicked(evt);
-            }
-            public void mouseExited(java.awt.event.MouseEvent evt)
-            {
-                CuadroSalirRIAMouseExited(evt);
-            }
-        });
-
-        TxtSalirRIA.setFont(new java.awt.Font("Corbel", 0, 18)); // NOI18N
-        TxtSalirRIA.setText("Salir");
-
-        javax.swing.GroupLayout CuadroSalirRIALayout = new javax.swing.GroupLayout(CuadroSalirRIA);
-        CuadroSalirRIA.setLayout(CuadroSalirRIALayout);
-        CuadroSalirRIALayout.setHorizontalGroup(
-            CuadroSalirRIALayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, CuadroSalirRIALayout.createSequentialGroup()
-                .addContainerGap(32, Short.MAX_VALUE)
-                .addComponent(TxtSalirRIA, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(21, 21, 21))
-        );
-        CuadroSalirRIALayout.setVerticalGroup(
-            CuadroSalirRIALayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, CuadroSalirRIALayout.createSequentialGroup()
+        CuadroSalirAlLayout.setVerticalGroup(
+            CuadroSalirAlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, CuadroSalirAlLayout.createSequentialGroup()
                 .addContainerGap(14, Short.MAX_VALUE)
-                .addComponent(TxtSalirRIA)
+                .addComponent(TxtSalirAl)
                 .addContainerGap())
         );
 
-        javax.swing.GroupLayout CuadroRIAluLayout = new javax.swing.GroupLayout(CuadroRIAlu);
-        CuadroRIAlu.setLayout(CuadroRIAluLayout);
-        CuadroRIAluLayout.setHorizontalGroup(
-            CuadroRIAluLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(CuadroRIAluLayout.createSequentialGroup()
-                .addGap(19, 19, 19)
-                .addComponent(TxtRIAlu, javax.swing.GroupLayout.PREFERRED_SIZE, 288, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, CuadroRIAluLayout.createSequentialGroup()
+        TxtConsultaAl.setFont(new java.awt.Font("Corbel", 0, 18)); // NOI18N
+        TxtConsultaAl.setText("Consulta");
+
+        javax.swing.GroupLayout PanelAlumnoLayout = new javax.swing.GroupLayout(PanelAlumno);
+        PanelAlumno.setLayout(PanelAlumnoLayout);
+        PanelAlumnoLayout.setHorizontalGroup(
+            PanelAlumnoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(PanelAlumnoLayout.createSequentialGroup()
+                .addGap(23, 23, 23)
+                .addGroup(PanelAlumnoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(PanelAlumnoLayout.createSequentialGroup()
+                        .addComponent(TxtAlumnoPanel, javax.swing.GroupLayout.PREFERRED_SIZE, 117, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addGroup(PanelAlumnoLayout.createSequentialGroup()
+                        .addGroup(PanelAlumnoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(CuadroRNA, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGroup(PanelAlumnoLayout.createSequentialGroup()
+                                .addGap(9, 9, 9)
+                                .addComponent(CuadroCA, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(PanelAlumnoLayout.createSequentialGroup()
+                                .addGap(30, 30, 30)
+                                .addComponent(TxtConsultaAl, javax.swing.GroupLayout.PREFERRED_SIZE, 87, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 188, Short.MAX_VALUE)
+                        .addGroup(PanelAlumnoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(CuadroMA, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(CuadroRIA, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .addGap(65, 65, 65))))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PanelAlumnoLayout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(CuadroSalirRIA, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(CuadroSalirAl, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
         );
-        CuadroRIAluLayout.setVerticalGroup(
-            CuadroRIAluLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(CuadroRIAluLayout.createSequentialGroup()
-                .addGap(21, 21, 21)
-                .addComponent(TxtRIAlu)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 398, Short.MAX_VALUE)
-                .addComponent(CuadroSalirRIA, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(27, 27, 27))
+        PanelAlumnoLayout.setVerticalGroup(
+            PanelAlumnoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(PanelAlumnoLayout.createSequentialGroup()
+                .addGap(19, 19, 19)
+                .addGroup(PanelAlumnoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addGroup(PanelAlumnoLayout.createSequentialGroup()
+                        .addComponent(TxtAlumnoPanel)
+                        .addGap(33, 33, 33)
+                        .addGroup(PanelAlumnoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(CuadroRNA, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(CuadroMA, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(74, 74, 74)
+                        .addComponent(CuadroRIA, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 193, Short.MAX_VALUE)
+                        .addComponent(CuadroSalirAl, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(27, 27, 27))
+                    .addGroup(PanelAlumnoLayout.createSequentialGroup()
+                        .addComponent(CuadroCA, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(TxtConsultaAl)
+                        .addGap(259, 259, 259))))
         );
 
-        TablaAlumno.addTab("tab5", CuadroRIAlu);
+        TablaAlumno.addTab("tab1", PanelAlumno);
 
         CuadroRNAl.setBackground(new java.awt.Color(255, 255, 255));
 
@@ -1492,272 +1541,226 @@ public class menu extends javax.swing.JFrame
 
         TablaAlumno.addTab("tab2", CuadroRNAl);
 
-        PanelAlumno.setBackground(new java.awt.Color(255, 255, 255));
+        CuadroMAlu.setBackground(new java.awt.Color(255, 255, 255));
 
-        TxtAlumnoPanel.setFont(new java.awt.Font("Segoe UI Semibold", 0, 24)); // NOI18N
-        TxtAlumnoPanel.setText("Alumnos");
+        TxtMAlu.setFont(new java.awt.Font("Segoe UI Semibold", 0, 24)); // NOI18N
+        TxtMAlu.setText("Modificaciones");
 
-        CuadroRNA.setBackground(new java.awt.Color(204, 204, 255));
-        CuadroRNA.addMouseMotionListener(new java.awt.event.MouseMotionAdapter()
+        CuadroSalirMA.setBackground(new java.awt.Color(204, 204, 255));
+        CuadroSalirMA.addMouseMotionListener(new java.awt.event.MouseMotionAdapter()
         {
             public void mouseMoved(java.awt.event.MouseEvent evt)
             {
-                CuadroRNAMouseMoved(evt);
+                CuadroSalirMAMouseMoved(evt);
             }
         });
-        CuadroRNA.addMouseListener(new java.awt.event.MouseAdapter()
+        CuadroSalirMA.addMouseListener(new java.awt.event.MouseAdapter()
         {
             public void mouseClicked(java.awt.event.MouseEvent evt)
             {
-                CuadroRNAMouseClicked(evt);
+                CuadroSalirMAMouseClicked(evt);
             }
             public void mouseExited(java.awt.event.MouseEvent evt)
             {
-                CuadroRNAMouseExited(evt);
+                CuadroSalirMAMouseExited(evt);
             }
         });
 
-        TxtRegistroAl.setFont(new java.awt.Font("Corbel", 0, 18)); // NOI18N
-        TxtRegistroAl.setText("Registro Nuevo");
+        TxtModAlu.setFont(new java.awt.Font("Corbel", 0, 18)); // NOI18N
+        TxtModAlu.setText("Salir");
 
-        javax.swing.GroupLayout CuadroRNALayout = new javax.swing.GroupLayout(CuadroRNA);
-        CuadroRNA.setLayout(CuadroRNALayout);
-        CuadroRNALayout.setHorizontalGroup(
-            CuadroRNALayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, CuadroRNALayout.createSequentialGroup()
-                .addContainerGap(18, Short.MAX_VALUE)
-                .addComponent(TxtRegistroAl, javax.swing.GroupLayout.PREFERRED_SIZE, 133, javax.swing.GroupLayout.PREFERRED_SIZE)
+        javax.swing.GroupLayout CuadroSalirMALayout = new javax.swing.GroupLayout(CuadroSalirMA);
+        CuadroSalirMA.setLayout(CuadroSalirMALayout);
+        CuadroSalirMALayout.setHorizontalGroup(
+            CuadroSalirMALayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, CuadroSalirMALayout.createSequentialGroup()
+                .addContainerGap(33, Short.MAX_VALUE)
+                .addComponent(TxtModAlu)
+                .addGap(24, 24, 24))
+        );
+        CuadroSalirMALayout.setVerticalGroup(
+            CuadroSalirMALayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, CuadroSalirMALayout.createSequentialGroup()
+                .addContainerGap(16, Short.MAX_VALUE)
+                .addComponent(TxtModAlu)
                 .addContainerGap())
         );
-        CuadroRNALayout.setVerticalGroup(
-            CuadroRNALayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(CuadroRNALayout.createSequentialGroup()
-                .addGap(14, 14, 14)
-                .addComponent(TxtRegistroAl)
-                .addContainerGap(14, Short.MAX_VALUE))
-        );
 
-        CuadroMA.setBackground(new java.awt.Color(204, 204, 255));
-        CuadroMA.addMouseMotionListener(new java.awt.event.MouseMotionAdapter()
-        {
-            public void mouseMoved(java.awt.event.MouseEvent evt)
-            {
-                CuadroMAMouseMoved(evt);
-            }
-        });
-        CuadroMA.addMouseListener(new java.awt.event.MouseAdapter()
-        {
-            public void mouseClicked(java.awt.event.MouseEvent evt)
-            {
-                CuadroMAMouseClicked(evt);
-            }
-            public void mouseExited(java.awt.event.MouseEvent evt)
-            {
-                CuadroMAMouseExited(evt);
-            }
-        });
-
-        TxtModificacionesAl.setFont(new java.awt.Font("Corbel", 0, 18)); // NOI18N
-        TxtModificacionesAl.setText("Modificaciones");
-
-        javax.swing.GroupLayout CuadroMALayout = new javax.swing.GroupLayout(CuadroMA);
-        CuadroMA.setLayout(CuadroMALayout);
-        CuadroMALayout.setHorizontalGroup(
-            CuadroMALayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, CuadroMALayout.createSequentialGroup()
-                .addContainerGap(18, Short.MAX_VALUE)
-                .addComponent(TxtModificacionesAl, javax.swing.GroupLayout.PREFERRED_SIZE, 133, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap())
-        );
-        CuadroMALayout.setVerticalGroup(
-            CuadroMALayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(CuadroMALayout.createSequentialGroup()
-                .addGap(14, 14, 14)
-                .addComponent(TxtModificacionesAl)
-                .addContainerGap(14, Short.MAX_VALUE))
-        );
-
-        CuadroCA.setBackground(new java.awt.Color(204, 204, 255));
-        CuadroCA.addMouseMotionListener(new java.awt.event.MouseMotionAdapter()
-        {
-            public void mouseMoved(java.awt.event.MouseEvent evt)
-            {
-                CuadroCAMouseMoved(evt);
-            }
-        });
-        CuadroCA.addMouseListener(new java.awt.event.MouseAdapter()
-        {
-            public void mouseClicked(java.awt.event.MouseEvent evt)
-            {
-                CuadroCAMouseClicked(evt);
-            }
-            public void mouseExited(java.awt.event.MouseEvent evt)
-            {
-                CuadroCAMouseExited(evt);
-            }
-        });
-
-        jToggleButton1.addActionListener(new java.awt.event.ActionListener()
-        {
-            public void actionPerformed(java.awt.event.ActionEvent evt)
-            {
-                jToggleButton1ActionPerformed(evt);
-            }
-        });
-
-        javax.swing.GroupLayout CuadroCALayout = new javax.swing.GroupLayout(CuadroCA);
-        CuadroCA.setLayout(CuadroCALayout);
-        CuadroCALayout.setHorizontalGroup(
-            CuadroCALayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(CuadroCALayout.createSequentialGroup()
+        javax.swing.GroupLayout CuadroMAluLayout = new javax.swing.GroupLayout(CuadroMAlu);
+        CuadroMAlu.setLayout(CuadroMAluLayout);
+        CuadroMAluLayout.setHorizontalGroup(
+            CuadroMAluLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(CuadroMAluLayout.createSequentialGroup()
                 .addGap(16, 16, 16)
-                .addComponent(jToggleButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 88, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(12, Short.MAX_VALUE))
-        );
-        CuadroCALayout.setVerticalGroup(
-            CuadroCALayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(CuadroCALayout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jToggleButton1, javax.swing.GroupLayout.DEFAULT_SIZE, 23, Short.MAX_VALUE)
-                .addContainerGap())
-        );
-
-        CuadroRIA.setBackground(new java.awt.Color(204, 204, 255));
-        CuadroRIA.addMouseMotionListener(new java.awt.event.MouseMotionAdapter()
-        {
-            public void mouseMoved(java.awt.event.MouseEvent evt)
-            {
-                CuadroRIAMouseMoved(evt);
-            }
-        });
-        CuadroRIA.addMouseListener(new java.awt.event.MouseAdapter()
-        {
-            public void mouseClicked(java.awt.event.MouseEvent evt)
-            {
-                CuadroRIAMouseClicked(evt);
-            }
-            public void mouseExited(java.awt.event.MouseEvent evt)
-            {
-                CuadroRIAMouseExited(evt);
-            }
-        });
-
-        TxtReporteInfAl.setFont(new java.awt.Font("Corbel", 0, 18)); // NOI18N
-        TxtReporteInfAl.setText("Reporte de Informacion");
-
-        javax.swing.GroupLayout CuadroRIALayout = new javax.swing.GroupLayout(CuadroRIA);
-        CuadroRIA.setLayout(CuadroRIALayout);
-        CuadroRIALayout.setHorizontalGroup(
-            CuadroRIALayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, CuadroRIALayout.createSequentialGroup()
+                .addComponent(TxtMAlu, javax.swing.GroupLayout.PREFERRED_SIZE, 187, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, CuadroMAluLayout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(TxtReporteInfAl, javax.swing.GroupLayout.PREFERRED_SIZE, 133, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(CuadroSalirMA, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
         );
-        CuadroRIALayout.setVerticalGroup(
-            CuadroRIALayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(CuadroRIALayout.createSequentialGroup()
-                .addGap(14, 14, 14)
-                .addComponent(TxtReporteInfAl)
-                .addContainerGap(14, Short.MAX_VALUE))
-        );
-
-        CuadroSalirAl.setBackground(new java.awt.Color(204, 204, 255));
-        CuadroSalirAl.addMouseMotionListener(new java.awt.event.MouseMotionAdapter()
-        {
-            public void mouseMoved(java.awt.event.MouseEvent evt)
-            {
-                CuadroSalirAlMouseMoved(evt);
-            }
-        });
-        CuadroSalirAl.addMouseListener(new java.awt.event.MouseAdapter()
-        {
-            public void mouseClicked(java.awt.event.MouseEvent evt)
-            {
-                CuadroSalirAlMouseClicked(evt);
-            }
-            public void mouseExited(java.awt.event.MouseEvent evt)
-            {
-                CuadroSalirAlMouseExited(evt);
-            }
-        });
-
-        TxtSalirAl.setFont(new java.awt.Font("Corbel", 0, 18)); // NOI18N
-        TxtSalirAl.setText("Salir");
-
-        javax.swing.GroupLayout CuadroSalirAlLayout = new javax.swing.GroupLayout(CuadroSalirAl);
-        CuadroSalirAl.setLayout(CuadroSalirAlLayout);
-        CuadroSalirAlLayout.setHorizontalGroup(
-            CuadroSalirAlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, CuadroSalirAlLayout.createSequentialGroup()
-                .addContainerGap(29, Short.MAX_VALUE)
-                .addComponent(TxtSalirAl, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(23, 23, 23))
-        );
-        CuadroSalirAlLayout.setVerticalGroup(
-            CuadroSalirAlLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, CuadroSalirAlLayout.createSequentialGroup()
-                .addContainerGap(14, Short.MAX_VALUE)
-                .addComponent(TxtSalirAl)
-                .addContainerGap())
-        );
-
-        TxtConsultaAl.setFont(new java.awt.Font("Corbel", 0, 18)); // NOI18N
-        TxtConsultaAl.setText("Consulta");
-
-        javax.swing.GroupLayout PanelAlumnoLayout = new javax.swing.GroupLayout(PanelAlumno);
-        PanelAlumno.setLayout(PanelAlumnoLayout);
-        PanelAlumnoLayout.setHorizontalGroup(
-            PanelAlumnoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(PanelAlumnoLayout.createSequentialGroup()
-                .addGap(23, 23, 23)
-                .addGroup(PanelAlumnoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(PanelAlumnoLayout.createSequentialGroup()
-                        .addComponent(TxtAlumnoPanel, javax.swing.GroupLayout.PREFERRED_SIZE, 117, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                    .addGroup(PanelAlumnoLayout.createSequentialGroup()
-                        .addGroup(PanelAlumnoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(CuadroRNA, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addGroup(PanelAlumnoLayout.createSequentialGroup()
-                                .addGap(9, 9, 9)
-                                .addComponent(CuadroCA, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(PanelAlumnoLayout.createSequentialGroup()
-                                .addGap(30, 30, 30)
-                                .addComponent(TxtConsultaAl, javax.swing.GroupLayout.PREFERRED_SIZE, 87, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 188, Short.MAX_VALUE)
-                        .addGroup(PanelAlumnoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(CuadroMA, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(CuadroRIA, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                        .addGap(65, 65, 65))))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PanelAlumnoLayout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(CuadroSalirAl, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap())
-        );
-        PanelAlumnoLayout.setVerticalGroup(
-            PanelAlumnoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(PanelAlumnoLayout.createSequentialGroup()
+        CuadroMAluLayout.setVerticalGroup(
+            CuadroMAluLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(CuadroMAluLayout.createSequentialGroup()
                 .addGap(19, 19, 19)
-                .addGroup(PanelAlumnoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addGroup(PanelAlumnoLayout.createSequentialGroup()
-                        .addComponent(TxtAlumnoPanel)
-                        .addGap(33, 33, 33)
-                        .addGroup(PanelAlumnoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(CuadroRNA, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(CuadroMA, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(74, 74, 74)
-                        .addComponent(CuadroRIA, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 193, Short.MAX_VALUE)
-                        .addComponent(CuadroSalirAl, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(27, 27, 27))
-                    .addGroup(PanelAlumnoLayout.createSequentialGroup()
-                        .addComponent(CuadroCA, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(TxtConsultaAl)
-                        .addGap(259, 259, 259))))
+                .addComponent(TxtMAlu)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 396, Short.MAX_VALUE)
+                .addComponent(CuadroSalirMA, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(29, 29, 29))
         );
 
-        TablaAlumno.addTab("tab1", PanelAlumno);
+        TablaAlumno.addTab("tab3", CuadroMAlu);
+
+        CuadroCAlu.setBackground(new java.awt.Color(255, 255, 255));
+        CuadroCAlu.addAncestorListener(new javax.swing.event.AncestorListener()
+        {
+            public void ancestorAdded(javax.swing.event.AncestorEvent evt)
+            {
+                CuadroCAluAncestorAdded(evt);
+            }
+            public void ancestorMoved(javax.swing.event.AncestorEvent evt)
+            {
+                CuadroCAluAncestorMoved(evt);
+            }
+            public void ancestorRemoved(javax.swing.event.AncestorEvent evt)
+            {
+            }
+        });
+
+        TxtCAlu.setFont(new java.awt.Font("Segoe UI Semibold", 0, 24)); // NOI18N
+        TxtCAlu.setText("Consulta");
+
+        CuadroSalirCA.setBackground(new java.awt.Color(204, 204, 255));
+        CuadroSalirCA.addMouseMotionListener(new java.awt.event.MouseMotionAdapter()
+        {
+            public void mouseMoved(java.awt.event.MouseEvent evt)
+            {
+                CuadroSalirCAMouseMoved(evt);
+            }
+        });
+        CuadroSalirCA.addMouseListener(new java.awt.event.MouseAdapter()
+        {
+            public void mouseClicked(java.awt.event.MouseEvent evt)
+            {
+                CuadroSalirCAMouseClicked(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt)
+            {
+                CuadroSalirCAMouseExited(evt);
+            }
+        });
+
+        TxtSalirCA.setFont(new java.awt.Font("Corbel", 0, 18)); // NOI18N
+        TxtSalirCA.setText("Salir");
+
+        javax.swing.GroupLayout CuadroSalirCALayout = new javax.swing.GroupLayout(CuadroSalirCA);
+        CuadroSalirCA.setLayout(CuadroSalirCALayout);
+        CuadroSalirCALayout.setHorizontalGroup(
+            CuadroSalirCALayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, CuadroSalirCALayout.createSequentialGroup()
+                .addContainerGap(30, Short.MAX_VALUE)
+                .addComponent(TxtSalirCA, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(24, 24, 24))
+        );
+        CuadroSalirCALayout.setVerticalGroup(
+            CuadroSalirCALayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, CuadroSalirCALayout.createSequentialGroup()
+                .addContainerGap(16, Short.MAX_VALUE)
+                .addComponent(TxtSalirCA)
+                .addContainerGap())
+        );
+
+        javax.swing.GroupLayout CuadroCAluLayout = new javax.swing.GroupLayout(CuadroCAlu);
+        CuadroCAlu.setLayout(CuadroCAluLayout);
+        CuadroCAluLayout.setHorizontalGroup(
+            CuadroCAluLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(CuadroCAluLayout.createSequentialGroup()
+                .addGap(19, 19, 19)
+                .addComponent(TxtCAlu, javax.swing.GroupLayout.PREFERRED_SIZE, 109, javax.swing.GroupLayout.PREFERRED_SIZE))
+            .addGroup(CuadroCAluLayout.createSequentialGroup()
+                .addGap(493, 493, 493)
+                .addComponent(CuadroSalirCA, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+        );
+        CuadroCAluLayout.setVerticalGroup(
+            CuadroCAluLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(CuadroCAluLayout.createSequentialGroup()
+                .addGap(20, 20, 20)
+                .addComponent(TxtCAlu)
+                .addGap(399, 399, 399)
+                .addComponent(CuadroSalirCA, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+        );
+
+        TablaAlumno.addTab("Consul", CuadroCAlu);
+
+        CuadroRIAlu.setBackground(new java.awt.Color(255, 255, 255));
+
+        TxtRIAlu.setFont(new java.awt.Font("Segoe UI Semibold", 0, 24)); // NOI18N
+        TxtRIAlu.setText("Reporte de Información");
+
+        CuadroSalirRIA.setBackground(new java.awt.Color(204, 204, 255));
+        CuadroSalirRIA.addMouseMotionListener(new java.awt.event.MouseMotionAdapter()
+        {
+            public void mouseMoved(java.awt.event.MouseEvent evt)
+            {
+                CuadroSalirRIAMouseMoved(evt);
+            }
+        });
+        CuadroSalirRIA.addMouseListener(new java.awt.event.MouseAdapter()
+        {
+            public void mouseClicked(java.awt.event.MouseEvent evt)
+            {
+                CuadroSalirRIAMouseClicked(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt)
+            {
+                CuadroSalirRIAMouseExited(evt);
+            }
+        });
+
+        TxtSalirRIA.setFont(new java.awt.Font("Corbel", 0, 18)); // NOI18N
+        TxtSalirRIA.setText("Salir");
+
+        javax.swing.GroupLayout CuadroSalirRIALayout = new javax.swing.GroupLayout(CuadroSalirRIA);
+        CuadroSalirRIA.setLayout(CuadroSalirRIALayout);
+        CuadroSalirRIALayout.setHorizontalGroup(
+            CuadroSalirRIALayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, CuadroSalirRIALayout.createSequentialGroup()
+                .addContainerGap(32, Short.MAX_VALUE)
+                .addComponent(TxtSalirRIA, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(21, 21, 21))
+        );
+        CuadroSalirRIALayout.setVerticalGroup(
+            CuadroSalirRIALayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, CuadroSalirRIALayout.createSequentialGroup()
+                .addContainerGap(14, Short.MAX_VALUE)
+                .addComponent(TxtSalirRIA)
+                .addContainerGap())
+        );
+
+        javax.swing.GroupLayout CuadroRIAluLayout = new javax.swing.GroupLayout(CuadroRIAlu);
+        CuadroRIAlu.setLayout(CuadroRIAluLayout);
+        CuadroRIAluLayout.setHorizontalGroup(
+            CuadroRIAluLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(CuadroRIAluLayout.createSequentialGroup()
+                .addGap(19, 19, 19)
+                .addComponent(TxtRIAlu, javax.swing.GroupLayout.PREFERRED_SIZE, 288, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, CuadroRIAluLayout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(CuadroSalirRIA, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
+        );
+        CuadroRIAluLayout.setVerticalGroup(
+            CuadroRIAluLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(CuadroRIAluLayout.createSequentialGroup()
+                .addGap(21, 21, 21)
+                .addComponent(TxtRIAlu)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 398, Short.MAX_VALUE)
+                .addComponent(CuadroSalirRIA, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(27, 27, 27))
+        );
+
+        TablaAlumno.addTab("tab5", CuadroRIAlu);
 
         javax.swing.GroupLayout PanelAlumnosLayout = new javax.swing.GroupLayout(PanelAlumnos);
         PanelAlumnos.setLayout(PanelAlumnosLayout);
