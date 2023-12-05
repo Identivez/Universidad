@@ -8,6 +8,8 @@ import cjb.ci.CtrlInterfaz;
 import cjb.ci.Mensajes;
 import cjb.ci.Validaciones;
 import java.awt.Color;
+import java.awt.Image;
+import java.awt.Toolkit;
 import menu.Alumnos;
 import menu.Datos;
 import menu.HistorialClinico;
@@ -35,8 +37,20 @@ public class menu extends javax.swing.JFrame
         VerMas2.setText("<html>Ver más</html>");
         VerMas3.setText("<html>Ver más</html>");
         VerMas4.setText("<html>Ver más</html>");
-
+        
     }
+    
+    
+    //Icono del Jframe
+    
+    @Override
+    public Image getIconImage()
+    {
+        Image retValue = Toolkit.getDefaultToolkit().getImage(ClassLoader.getSystemResource("imagenes/logo.png"));
+        
+        return retValue;
+    }
+   
 
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
@@ -262,6 +276,7 @@ public class menu extends javax.swing.JFrame
         cvePer7 = new javax.swing.JTextField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setIconImage(getIconImage());
         setLocationByPlatform(true);
         setUndecorated(true);
         setResizable(false);
@@ -611,7 +626,7 @@ public class menu extends javax.swing.JFrame
         CuadroAlumnosLayout.setVerticalGroup(
             CuadroAlumnosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, CuadroAlumnosLayout.createSequentialGroup()
-                .addContainerGap(242, Short.MAX_VALUE)
+                .addContainerGap(238, Short.MAX_VALUE)
                 .addComponent(TxtAlumnos2)
                 .addGap(137, 137, 137)
                 .addComponent(PanelVerMas2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -735,7 +750,7 @@ public class menu extends javax.swing.JFrame
         CuadrosEnfermeriaLayout.setVerticalGroup(
             CuadrosEnfermeriaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, CuadrosEnfermeriaLayout.createSequentialGroup()
-                .addContainerGap(240, Short.MAX_VALUE)
+                .addContainerGap(236, Short.MAX_VALUE)
                 .addComponent(TxtEnfermeria2)
                 .addGap(139, 139, 139)
                 .addComponent(PanelVerMas4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -2647,7 +2662,7 @@ public class menu extends javax.swing.JFrame
                         .addComponent(cvePer1, javax.swing.GroupLayout.PREFERRED_SIZE, 206, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addContainerGap(171, Short.MAX_VALUE))
                     .addGroup(CuadroMPerLayout.createSequentialGroup()
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 112, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 113, Short.MAX_VALUE)
                         .addGroup(CuadroMPerLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
                             .addGroup(CuadroMPerLayout.createSequentialGroup()
                                 .addComponent(TxtOtraEnferRNP1)
