@@ -264,17 +264,29 @@ public class menu extends javax.swing.JFrame
         jScrollPane2 = new javax.swing.JScrollPane();
         jTextArea2 = new javax.swing.JTextArea();
         PanelEnfermeria = new javax.swing.JPanel();
-        TituloEnfermeria = new javax.swing.JLabel();
-        TxtMatriculaRNP3 = new javax.swing.JLabel();
-        cvePer3 = new javax.swing.JTextField();
-        TxtMatriculaRNP4 = new javax.swing.JLabel();
-        cvePer4 = new javax.swing.JTextField();
-        TxtMatriculaRNP5 = new javax.swing.JLabel();
-        cvePer5 = new javax.swing.JTextField();
-        TxtMatriculaRNP6 = new javax.swing.JLabel();
-        cvePer6 = new javax.swing.JTextField();
-        TxtMatriculaRNP7 = new javax.swing.JLabel();
-        cvePer7 = new javax.swing.JTextField();
+        TablaEnfermeria = new javax.swing.JTabbedPane();
+        PanelEnfermeria2 = new javax.swing.JPanel();
+        TxtEnfermeriaPanel = new javax.swing.JLabel();
+        CuadroCAE = new javax.swing.JPanel();
+        TxtCAE = new javax.swing.JLabel();
+        CuadroCDRE = new javax.swing.JPanel();
+        TxtCDRE = new javax.swing.JLabel();
+        CuadroSalirE = new javax.swing.JPanel();
+        TxtSalirEnf = new javax.swing.JLabel();
+        CuadroRCCE = new javax.swing.JPanel();
+        TxtRCCE = new javax.swing.JLabel();
+        CuadroRCCEnf = new javax.swing.JPanel();
+        TxtRCCEnf = new javax.swing.JLabel();
+        CuadroSalirRCCEnf = new javax.swing.JPanel();
+        TxtSalirRCCEnf = new javax.swing.JLabel();
+        CuadroCAEnf = new javax.swing.JPanel();
+        TxtCAEnf = new javax.swing.JLabel();
+        CuadroSalirCAEnfe = new javax.swing.JPanel();
+        CuadroSalirCAEnf = new javax.swing.JLabel();
+        CuadroCDREnf = new javax.swing.JPanel();
+        TxtCDREnf = new javax.swing.JLabel();
+        CuadroSalirCDREnf = new javax.swing.JPanel();
+        TxtSalirCDREnf = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setIconImage(getIconImage());
@@ -523,16 +535,16 @@ public class menu extends javax.swing.JFrame
         PanelSuperiorLayout.setHorizontalGroup(
             PanelSuperiorLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(PanelSuperiorLayout.createSequentialGroup()
-                .addGap(103, 103, 103)
+                .addGap(131, 131, 131)
                 .addComponent(TxtInicio2, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(422, Short.MAX_VALUE))
+                .addContainerGap(394, Short.MAX_VALUE))
         );
         PanelSuperiorLayout.setVerticalGroup(
             PanelSuperiorLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PanelSuperiorLayout.createSequentialGroup()
-                .addContainerGap(28, Short.MAX_VALUE)
+                .addContainerGap(16, Short.MAX_VALUE)
                 .addComponent(TxtInicio2)
-                .addGap(20, 20, 20))
+                .addGap(36, 36, 36))
         );
 
         TablaOpciones.setBackground(new java.awt.Color(255, 255, 255));
@@ -671,7 +683,7 @@ public class menu extends javax.swing.JFrame
         CuadroAlumnosLayout.setVerticalGroup(
             CuadroAlumnosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, CuadroAlumnosLayout.createSequentialGroup()
-                .addContainerGap(238, Short.MAX_VALUE)
+                .addContainerGap(240, Short.MAX_VALUE)
                 .addComponent(TxtAlumnos2)
                 .addGap(137, 137, 137)
                 .addComponent(PanelVerMas2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -805,7 +817,7 @@ public class menu extends javax.swing.JFrame
         CuadrosEnfermeriaLayout.setVerticalGroup(
             CuadrosEnfermeriaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, CuadrosEnfermeriaLayout.createSequentialGroup()
-                .addContainerGap(236, Short.MAX_VALUE)
+                .addContainerGap(238, Short.MAX_VALUE)
                 .addComponent(TxtEnfermeria2)
                 .addGap(139, 139, 139)
                 .addComponent(PanelVerMas4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -935,6 +947,8 @@ public class menu extends javax.swing.JFrame
         TablaOpciones.addTab("tab2", PanelFuncion);
 
         PanelAlumnos.setBackground(new java.awt.Color(255, 255, 255));
+
+        TablaAlumno.setBackground(new java.awt.Color(255, 255, 255));
 
         PanelAlumno.setBackground(new java.awt.Color(255, 255, 255));
 
@@ -2350,7 +2364,7 @@ public class menu extends javax.swing.JFrame
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 151, Short.MAX_VALUE)
                 .addGroup(PanelPersonal2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(CuadroMP, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(CuadroRIP, javax.swing.GroupLayout.DEFAULT_SIZE, 171, Short.MAX_VALUE))
+                    .addComponent(CuadroRIP, javax.swing.GroupLayout.PREFERRED_SIZE, 171, Short.MAX_VALUE))
                 .addGap(82, 82, 82))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PanelPersonal2Layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -2659,88 +2673,85 @@ public class menu extends javax.swing.JFrame
                             .addComponent(nombrePer, javax.swing.GroupLayout.PREFERRED_SIZE, 206, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(primerApPer, javax.swing.GroupLayout.PREFERRED_SIZE, 206, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(ComboBoxEstatusP1, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(74, 74, 74)
                         .addGroup(CuadroRNPerLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(CuadroRNPerLayout.createSequentialGroup()
-                                .addGap(96, 96, 96)
-                                .addComponent(CuadroSalirRNPer, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, CuadroRNPerLayout.createSequentialGroup()
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addGroup(CuadroRNPerLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(BotonCancelarPer)
-                                    .addComponent(BotonAceptarRNP))
-                                .addGap(14, 14, 14))))
-                    .addComponent(ComboBoxSexoP1, javax.swing.GroupLayout.PREFERRED_SIZE, 208, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(segundoApPer, javax.swing.GroupLayout.PREFERRED_SIZE, 206, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(ComboBoxDesnutricionP1, javax.swing.GroupLayout.PREFERRED_SIZE, 208, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(ComboBoxAlergiasP1, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(ComboBoxObesidadP1, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(ComboBoxSobrepesoP1, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(ComboBoxDiabetesP1, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(oEnferPer, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(50, Short.MAX_VALUE))
+                            .addComponent(BotonCancelarPer)
+                            .addComponent(BotonAceptarRNP))
+                        .addContainerGap(64, Short.MAX_VALUE))
+                    .addGroup(CuadroRNPerLayout.createSequentialGroup()
+                        .addGroup(CuadroRNPerLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(ComboBoxSexoP1, javax.swing.GroupLayout.PREFERRED_SIZE, 208, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(segundoApPer, javax.swing.GroupLayout.PREFERRED_SIZE, 206, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(ComboBoxDesnutricionP1, javax.swing.GroupLayout.PREFERRED_SIZE, 208, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(ComboBoxAlergiasP1, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(ComboBoxObesidadP1, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(ComboBoxSobrepesoP1, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(ComboBoxDiabetesP1, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(oEnferPer, javax.swing.GroupLayout.PREFERRED_SIZE, 205, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addContainerGap(212, Short.MAX_VALUE))))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, CuadroRNPerLayout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(CuadroSalirRNPer, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(30, 30, 30))
         );
         CuadroRNPerLayout.setVerticalGroup(
             CuadroRNPerLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, CuadroRNPerLayout.createSequentialGroup()
-                .addGroup(CuadroRNPerLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addGroup(CuadroRNPerLayout.createSequentialGroup()
-                        .addGap(0, 0, Short.MAX_VALUE)
-                        .addComponent(CuadroSalirRNPer, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(CuadroRNPerLayout.createSequentialGroup()
-                        .addComponent(TxtPersonalRN)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addGroup(CuadroRNPerLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(TxtMatriculaRNP)
-                            .addComponent(cvePer, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addGroup(CuadroRNPerLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(TxtNombreRNP)
-                            .addComponent(nombrePer, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(10, 10, 10)
-                        .addGroup(CuadroRNPerLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(TxtApePatRNP)
-                            .addGroup(CuadroRNPerLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                .addComponent(primerApPer, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(BotonAceptarRNP)))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addGroup(CuadroRNPerLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(TxtApeMatP)
-                            .addComponent(segundoApPer, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(10, 10, 10)
-                        .addGroup(CuadroRNPerLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(TxtGeneroRNP)
-                            .addComponent(ComboBoxSexoP1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addGroup(CuadroRNPerLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(TxtDesnutricionRNP)
-                            .addComponent(ComboBoxDesnutricionP1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(BotonCancelarPer))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addGroup(CuadroRNPerLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(TxtAlergiasRNP)
-                            .addComponent(ComboBoxAlergiasP1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addGroup(CuadroRNPerLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(TxtObesidadA2)
-                            .addComponent(ComboBoxObesidadP1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addGroup(CuadroRNPerLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(TxtSobrepesoA2)
-                            .addComponent(ComboBoxSobrepesoP1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addGroup(CuadroRNPerLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(ComboBoxDiabetesP1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(TxtDiabetesA2))
-                        .addGap(18, 18, 18)
-                        .addGroup(CuadroRNPerLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(oEnferPer, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(TxtOtraEnferRNP))
-                        .addGap(18, 18, 18)
-                        .addGroup(CuadroRNPerLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(ComboBoxEstatusP1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(TxtViveConRNP, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(41, 41, 41)))
-                .addGap(79, 79, 79))
+            .addGroup(CuadroRNPerLayout.createSequentialGroup()
+                .addComponent(TxtPersonalRN)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGroup(CuadroRNPerLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(TxtMatriculaRNP)
+                    .addComponent(cvePer, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(CuadroRNPerLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(TxtNombreRNP)
+                    .addComponent(nombrePer, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(10, 10, 10)
+                .addGroup(CuadroRNPerLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(TxtApePatRNP)
+                    .addGroup(CuadroRNPerLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(primerApPer, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(BotonAceptarRNP)))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(CuadroRNPerLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(TxtApeMatP)
+                    .addComponent(segundoApPer, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(10, 10, 10)
+                .addGroup(CuadroRNPerLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(TxtGeneroRNP)
+                    .addComponent(ComboBoxSexoP1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(CuadroRNPerLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(TxtDesnutricionRNP)
+                    .addComponent(ComboBoxDesnutricionP1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(BotonCancelarPer))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(CuadroRNPerLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(TxtAlergiasRNP)
+                    .addComponent(ComboBoxAlergiasP1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(CuadroRNPerLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(TxtObesidadA2)
+                    .addComponent(ComboBoxObesidadP1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(CuadroRNPerLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(TxtSobrepesoA2)
+                    .addComponent(ComboBoxSobrepesoP1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(CuadroRNPerLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(ComboBoxDiabetesP1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(TxtDiabetesA2))
+                .addGap(18, 18, 18)
+                .addGroup(CuadroRNPerLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(oEnferPer, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(TxtOtraEnferRNP))
+                .addGap(18, 18, 18)
+                .addGroup(CuadroRNPerLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(ComboBoxEstatusP1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(TxtViveConRNP, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(9, 9, 9)
+                .addComponent(CuadroSalirRNPer, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(76, 76, 76))
         );
 
         TablaPersonal.addTab("Registro", CuadroRNPer);
@@ -3126,19 +3137,17 @@ public class menu extends javax.swing.JFrame
         CuadroCPer.setLayout(CuadroCPerLayout);
         CuadroCPerLayout.setHorizontalGroup(
             CuadroCPerLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, CuadroCPerLayout.createSequentialGroup()
-                .addContainerGap(398, Short.MAX_VALUE)
-                .addComponent(CuadroSalirCPer, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(102, 102, 102))
             .addGroup(CuadroCPerLayout.createSequentialGroup()
-                .addGroup(CuadroCPerLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(CuadroCPerLayout.createSequentialGroup()
-                        .addGap(18, 18, 18)
-                        .addComponent(TxtCPer, javax.swing.GroupLayout.PREFERRED_SIZE, 163, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(CuadroCPerLayout.createSequentialGroup()
-                        .addGap(42, 42, 42)
-                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 526, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGroup(CuadroCPerLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(CuadroSalirCPer, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(CuadroCPerLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(CuadroCPerLayout.createSequentialGroup()
+                            .addGap(18, 18, 18)
+                            .addComponent(TxtCPer, javax.swing.GroupLayout.PREFERRED_SIZE, 163, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGroup(CuadroCPerLayout.createSequentialGroup()
+                            .addGap(42, 42, 42)
+                            .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 526, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                .addContainerGap(22, Short.MAX_VALUE))
         );
         CuadroCPerLayout.setVerticalGroup(
             CuadroCPerLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -3147,9 +3156,9 @@ public class menu extends javax.swing.JFrame
                 .addComponent(TxtCPer)
                 .addGap(18, 18, 18)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 38, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 36, Short.MAX_VALUE)
                 .addComponent(CuadroSalirCPer, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(27, 27, 27))
+                .addGap(31, 31, 31))
         );
 
         TablaPersonal.addTab("Consulta", CuadroCPer);
@@ -3208,29 +3217,26 @@ public class menu extends javax.swing.JFrame
         CuadroRIPerLayout.setHorizontalGroup(
             CuadroRIPerLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, CuadroRIPerLayout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGap(0, 0, Short.MAX_VALUE)
                 .addComponent(CuadroSalirRIPer, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(116, 116, 116))
+                .addGap(30, 30, 30))
             .addGroup(CuadroRIPerLayout.createSequentialGroup()
+                .addGap(15, 15, 15)
                 .addGroup(CuadroRIPerLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(CuadroRIPerLayout.createSequentialGroup()
-                        .addGap(15, 15, 15)
-                        .addComponent(TxtRIPer, javax.swing.GroupLayout.PREFERRED_SIZE, 276, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(CuadroRIPerLayout.createSequentialGroup()
-                        .addGap(59, 59, 59)
-                        .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 460, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(71, Short.MAX_VALUE))
+                    .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 554, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(TxtRIPer, javax.swing.GroupLayout.PREFERRED_SIZE, 276, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(21, Short.MAX_VALUE))
         );
         CuadroRIPerLayout.setVerticalGroup(
             CuadroRIPerLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(CuadroRIPerLayout.createSequentialGroup()
                 .addGap(17, 17, 17)
                 .addComponent(TxtRIPer)
-                .addGap(32, 32, 32)
-                .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 326, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 35, Short.MAX_VALUE)
+                .addGap(18, 18, 18)
+                .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 367, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(CuadroSalirRIPer, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(32, 32, 32))
+                .addGap(30, 30, 30))
         );
 
         TablaPersonal.addTab("Reporte de informacion", CuadroRIPer);
@@ -3252,141 +3258,435 @@ public class menu extends javax.swing.JFrame
 
         PanelEnfermeria.setBackground(new java.awt.Color(255, 255, 255));
 
-        TituloEnfermeria.setFont(new java.awt.Font("Segoe UI Semibold", 0, 24)); // NOI18N
-        TituloEnfermeria.setText("Enfermeria");
+        TablaEnfermeria.setBackground(new java.awt.Color(255, 255, 255));
 
-        TxtMatriculaRNP3.setFont(new java.awt.Font("Corbel", 0, 14)); // NOI18N
-        TxtMatriculaRNP3.setText("Clave del paciente");
+        PanelEnfermeria2.setBackground(new java.awt.Color(255, 255, 255));
 
-        cvePer3.addKeyListener(new java.awt.event.KeyAdapter()
+        TxtEnfermeriaPanel.setFont(new java.awt.Font("Segoe UI Semibold", 0, 24)); // NOI18N
+        TxtEnfermeriaPanel.setText("Enfermeria");
+
+        CuadroCAE.setBackground(new java.awt.Color(204, 204, 255));
+        CuadroCAE.addMouseMotionListener(new java.awt.event.MouseMotionAdapter()
         {
-            public void keyPressed(java.awt.event.KeyEvent evt)
+            public void mouseDragged(java.awt.event.MouseEvent evt)
             {
-                cvePer3KeyPressed(evt);
+                CuadroCAEMouseDragged(evt);
             }
-            public void keyTyped(java.awt.event.KeyEvent evt)
+            public void mouseMoved(java.awt.event.MouseEvent evt)
             {
-                cvePer3KeyTyped(evt);
+                CuadroCAEMouseMoved(evt);
+            }
+        });
+        CuadroCAE.addMouseListener(new java.awt.event.MouseAdapter()
+        {
+            public void mouseExited(java.awt.event.MouseEvent evt)
+            {
+                CuadroCAEMouseExited(evt);
             }
         });
 
-        TxtMatriculaRNP4.setFont(new java.awt.Font("Corbel", 0, 14)); // NOI18N
-        TxtMatriculaRNP4.setText("Padecimiento actual");
+        TxtCAE.setFont(new java.awt.Font("Corbel", 0, 18)); // NOI18N
+        TxtCAE.setText("Consultas Almacenadas");
 
-        cvePer4.addKeyListener(new java.awt.event.KeyAdapter()
+        javax.swing.GroupLayout CuadroCAELayout = new javax.swing.GroupLayout(CuadroCAE);
+        CuadroCAE.setLayout(CuadroCAELayout);
+        CuadroCAELayout.setHorizontalGroup(
+            CuadroCAELayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, CuadroCAELayout.createSequentialGroup()
+                .addContainerGap(18, Short.MAX_VALUE)
+                .addComponent(TxtCAE)
+                .addContainerGap())
+        );
+        CuadroCAELayout.setVerticalGroup(
+            CuadroCAELayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, CuadroCAELayout.createSequentialGroup()
+                .addContainerGap(19, Short.MAX_VALUE)
+                .addComponent(TxtCAE)
+                .addGap(14, 14, 14))
+        );
+
+        CuadroCDRE.setBackground(new java.awt.Color(204, 204, 255));
+        CuadroCDRE.addMouseMotionListener(new java.awt.event.MouseMotionAdapter()
         {
-            public void keyPressed(java.awt.event.KeyEvent evt)
+            public void mouseMoved(java.awt.event.MouseEvent evt)
             {
-                cvePer4KeyPressed(evt);
+                CuadroCDREMouseMoved(evt);
             }
-            public void keyTyped(java.awt.event.KeyEvent evt)
+        });
+        CuadroCDRE.addMouseListener(new java.awt.event.MouseAdapter()
+        {
+            public void mouseClicked(java.awt.event.MouseEvent evt)
             {
-                cvePer4KeyTyped(evt);
+                CuadroCDREMouseClicked(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt)
+            {
+                CuadroCDREMouseExited(evt);
             }
         });
 
-        TxtMatriculaRNP5.setFont(new java.awt.Font("Corbel", 0, 14)); // NOI18N
-        TxtMatriculaRNP5.setText("Antecedentes personales");
+        TxtCDRE.setFont(new java.awt.Font("Corbel", 0, 18)); // NOI18N
+        TxtCDRE.setText("Consultas dentro de un rango");
 
-        cvePer5.addKeyListener(new java.awt.event.KeyAdapter()
+        javax.swing.GroupLayout CuadroCDRELayout = new javax.swing.GroupLayout(CuadroCDRE);
+        CuadroCDRE.setLayout(CuadroCDRELayout);
+        CuadroCDRELayout.setHorizontalGroup(
+            CuadroCDRELayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, CuadroCDRELayout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(TxtCDRE)
+                .addGap(30, 30, 30))
+        );
+        CuadroCDRELayout.setVerticalGroup(
+            CuadroCDRELayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(CuadroCDRELayout.createSequentialGroup()
+                .addGap(16, 16, 16)
+                .addComponent(TxtCDRE)
+                .addContainerGap(19, Short.MAX_VALUE))
+        );
+
+        CuadroSalirE.setBackground(new java.awt.Color(204, 204, 255));
+        CuadroSalirE.addMouseMotionListener(new java.awt.event.MouseMotionAdapter()
         {
-            public void keyPressed(java.awt.event.KeyEvent evt)
+            public void mouseMoved(java.awt.event.MouseEvent evt)
             {
-                cvePer5KeyPressed(evt);
+                CuadroSalirEMouseMoved(evt);
             }
-            public void keyTyped(java.awt.event.KeyEvent evt)
+        });
+        CuadroSalirE.addMouseListener(new java.awt.event.MouseAdapter()
+        {
+            public void mouseClicked(java.awt.event.MouseEvent evt)
             {
-                cvePer5KeyTyped(evt);
+                CuadroSalirEMouseClicked(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt)
+            {
+                CuadroSalirEMouseExited(evt);
             }
         });
 
-        TxtMatriculaRNP6.setFont(new java.awt.Font("Corbel", 0, 14)); // NOI18N
-        TxtMatriculaRNP6.setText("Medicamento a recetar");
+        TxtSalirEnf.setFont(new java.awt.Font("Corbel", 0, 18)); // NOI18N
+        TxtSalirEnf.setText("Salir");
 
-        cvePer6.addKeyListener(new java.awt.event.KeyAdapter()
+        javax.swing.GroupLayout CuadroSalirELayout = new javax.swing.GroupLayout(CuadroSalirE);
+        CuadroSalirE.setLayout(CuadroSalirELayout);
+        CuadroSalirELayout.setHorizontalGroup(
+            CuadroSalirELayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, CuadroSalirELayout.createSequentialGroup()
+                .addContainerGap(29, Short.MAX_VALUE)
+                .addComponent(TxtSalirEnf, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(25, 25, 25))
+        );
+        CuadroSalirELayout.setVerticalGroup(
+            CuadroSalirELayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(CuadroSalirELayout.createSequentialGroup()
+                .addGap(14, 14, 14)
+                .addComponent(TxtSalirEnf)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        CuadroRCCE.setBackground(new java.awt.Color(204, 204, 255));
+        CuadroRCCE.addMouseMotionListener(new java.awt.event.MouseMotionAdapter()
         {
-            public void keyPressed(java.awt.event.KeyEvent evt)
+            public void mouseMoved(java.awt.event.MouseEvent evt)
             {
-                cvePer6KeyPressed(evt);
+                CuadroRCCEMouseMoved(evt);
             }
-            public void keyTyped(java.awt.event.KeyEvent evt)
+        });
+        CuadroRCCE.addMouseListener(new java.awt.event.MouseAdapter()
+        {
+            public void mouseClicked(java.awt.event.MouseEvent evt)
             {
-                cvePer6KeyTyped(evt);
+                CuadroRCCEMouseClicked(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt)
+            {
+                CuadroRCCEMouseExited(evt);
             }
         });
 
-        TxtMatriculaRNP7.setFont(new java.awt.Font("Corbel", 0, 14)); // NOI18N
-        TxtMatriculaRNP7.setText("Plan de tratamiento medico");
+        TxtRCCE.setFont(new java.awt.Font("Corbel", 0, 18)); // NOI18N
+        TxtRCCE.setText("Registro de consultorio clinico");
 
-        cvePer7.addKeyListener(new java.awt.event.KeyAdapter()
+        javax.swing.GroupLayout CuadroRCCELayout = new javax.swing.GroupLayout(CuadroRCCE);
+        CuadroRCCE.setLayout(CuadroRCCELayout);
+        CuadroRCCELayout.setHorizontalGroup(
+            CuadroRCCELayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(CuadroRCCELayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(TxtRCCE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        CuadroRCCELayout.setVerticalGroup(
+            CuadroRCCELayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(CuadroRCCELayout.createSequentialGroup()
+                .addGap(18, 18, 18)
+                .addComponent(TxtRCCE)
+                .addContainerGap(17, Short.MAX_VALUE))
+        );
+
+        javax.swing.GroupLayout PanelEnfermeria2Layout = new javax.swing.GroupLayout(PanelEnfermeria2);
+        PanelEnfermeria2.setLayout(PanelEnfermeria2Layout);
+        PanelEnfermeria2Layout.setHorizontalGroup(
+            PanelEnfermeria2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PanelEnfermeria2Layout.createSequentialGroup()
+                .addGap(0, 0, Short.MAX_VALUE)
+                .addComponent(CuadroCDRE, javax.swing.GroupLayout.PREFERRED_SIZE, 244, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(169, 169, 169))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PanelEnfermeria2Layout.createSequentialGroup()
+                .addGroup(PanelEnfermeria2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addGroup(PanelEnfermeria2Layout.createSequentialGroup()
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(CuadroSalirE, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(PanelEnfermeria2Layout.createSequentialGroup()
+                        .addGap(21, 21, 21)
+                        .addGroup(PanelEnfermeria2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(PanelEnfermeria2Layout.createSequentialGroup()
+                                .addComponent(CuadroRCCE, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 103, Short.MAX_VALUE)
+                                .addComponent(CuadroCAE, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(TxtEnfermeriaPanel, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                .addGap(27, 27, 27))
+        );
+        PanelEnfermeria2Layout.setVerticalGroup(
+            PanelEnfermeria2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(PanelEnfermeria2Layout.createSequentialGroup()
+                .addGap(15, 15, 15)
+                .addComponent(TxtEnfermeriaPanel)
+                .addGap(34, 34, 34)
+                .addGroup(PanelEnfermeria2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(CuadroCAE, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(CuadroRCCE, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(69, 69, 69)
+                .addComponent(CuadroCDRE, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 182, Short.MAX_VALUE)
+                .addComponent(CuadroSalirE, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(35, 35, 35))
+        );
+
+        TablaEnfermeria.addTab("tab1", PanelEnfermeria2);
+
+        CuadroRCCEnf.setBackground(new java.awt.Color(255, 255, 255));
+
+        TxtRCCEnf.setFont(new java.awt.Font("Segoe UI Semibold", 0, 24)); // NOI18N
+        TxtRCCEnf.setText("Registro de Consultorio Clinico");
+
+        CuadroSalirRCCEnf.setBackground(new java.awt.Color(204, 204, 255));
+        CuadroSalirRCCEnf.addMouseMotionListener(new java.awt.event.MouseMotionAdapter()
         {
-            public void keyPressed(java.awt.event.KeyEvent evt)
+            public void mouseMoved(java.awt.event.MouseEvent evt)
             {
-                cvePer7KeyPressed(evt);
-            }
-            public void keyTyped(java.awt.event.KeyEvent evt)
-            {
-                cvePer7KeyTyped(evt);
+                CuadroSalirRCCEnfMouseMoved(evt);
             }
         });
+        CuadroSalirRCCEnf.addMouseListener(new java.awt.event.MouseAdapter()
+        {
+            public void mouseClicked(java.awt.event.MouseEvent evt)
+            {
+                CuadroSalirRCCEnfMouseClicked(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt)
+            {
+                CuadroSalirRCCEnfMouseExited(evt);
+            }
+        });
+
+        TxtSalirRCCEnf.setFont(new java.awt.Font("Corbel", 0, 18)); // NOI18N
+        TxtSalirRCCEnf.setText("Salir");
+
+        javax.swing.GroupLayout CuadroSalirRCCEnfLayout = new javax.swing.GroupLayout(CuadroSalirRCCEnf);
+        CuadroSalirRCCEnf.setLayout(CuadroSalirRCCEnfLayout);
+        CuadroSalirRCCEnfLayout.setHorizontalGroup(
+            CuadroSalirRCCEnfLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, CuadroSalirRCCEnfLayout.createSequentialGroup()
+                .addContainerGap(32, Short.MAX_VALUE)
+                .addComponent(TxtSalirRCCEnf, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(21, 21, 21))
+        );
+        CuadroSalirRCCEnfLayout.setVerticalGroup(
+            CuadroSalirRCCEnfLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, CuadroSalirRCCEnfLayout.createSequentialGroup()
+                .addContainerGap(18, Short.MAX_VALUE)
+                .addComponent(TxtSalirRCCEnf)
+                .addContainerGap())
+        );
+
+        javax.swing.GroupLayout CuadroRCCEnfLayout = new javax.swing.GroupLayout(CuadroRCCEnf);
+        CuadroRCCEnf.setLayout(CuadroRCCEnfLayout);
+        CuadroRCCEnfLayout.setHorizontalGroup(
+            CuadroRCCEnfLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(CuadroRCCEnfLayout.createSequentialGroup()
+                .addGap(15, 15, 15)
+                .addComponent(TxtRCCEnf, javax.swing.GroupLayout.PREFERRED_SIZE, 349, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(226, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, CuadroRCCEnfLayout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(CuadroSalirRCCEnf, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(32, 32, 32))
+        );
+        CuadroRCCEnfLayout.setVerticalGroup(
+            CuadroRCCEnfLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(CuadroRCCEnfLayout.createSequentialGroup()
+                .addGap(15, 15, 15)
+                .addComponent(TxtRCCEnf)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 401, Short.MAX_VALUE)
+                .addComponent(CuadroSalirRCCEnf, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(31, 31, 31))
+        );
+
+        TablaEnfermeria.addTab("tab2", CuadroRCCEnf);
+
+        CuadroCAEnf.setBackground(new java.awt.Color(255, 255, 255));
+
+        TxtCAEnf.setFont(new java.awt.Font("Segoe UI Semibold", 0, 24)); // NOI18N
+        TxtCAEnf.setText("Consultas Almacenadas");
+
+        CuadroSalirCAEnfe.setBackground(new java.awt.Color(204, 204, 255));
+        CuadroSalirCAEnfe.addMouseMotionListener(new java.awt.event.MouseMotionAdapter()
+        {
+            public void mouseMoved(java.awt.event.MouseEvent evt)
+            {
+                CuadroSalirCAEnfeMouseMoved(evt);
+            }
+        });
+        CuadroSalirCAEnfe.addMouseListener(new java.awt.event.MouseAdapter()
+        {
+            public void mouseClicked(java.awt.event.MouseEvent evt)
+            {
+                CuadroSalirCAEnfeMouseClicked(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt)
+            {
+                CuadroSalirCAEnfeMouseExited(evt);
+            }
+        });
+
+        CuadroSalirCAEnf.setFont(new java.awt.Font("Corbel", 0, 18)); // NOI18N
+        CuadroSalirCAEnf.setText("Salir");
+
+        javax.swing.GroupLayout CuadroSalirCAEnfeLayout = new javax.swing.GroupLayout(CuadroSalirCAEnfe);
+        CuadroSalirCAEnfe.setLayout(CuadroSalirCAEnfeLayout);
+        CuadroSalirCAEnfeLayout.setHorizontalGroup(
+            CuadroSalirCAEnfeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, CuadroSalirCAEnfeLayout.createSequentialGroup()
+                .addContainerGap(33, Short.MAX_VALUE)
+                .addComponent(CuadroSalirCAEnf, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(21, 21, 21))
+        );
+        CuadroSalirCAEnfeLayout.setVerticalGroup(
+            CuadroSalirCAEnfeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(CuadroSalirCAEnfeLayout.createSequentialGroup()
+                .addGap(14, 14, 14)
+                .addComponent(CuadroSalirCAEnf)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        javax.swing.GroupLayout CuadroCAEnfLayout = new javax.swing.GroupLayout(CuadroCAEnf);
+        CuadroCAEnf.setLayout(CuadroCAEnfLayout);
+        CuadroCAEnfLayout.setHorizontalGroup(
+            CuadroCAEnfLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(CuadroCAEnfLayout.createSequentialGroup()
+                .addGap(20, 20, 20)
+                .addComponent(TxtCAEnf)
+                .addContainerGap(311, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, CuadroCAEnfLayout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(CuadroSalirCAEnfe, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(22, 22, 22))
+        );
+        CuadroCAEnfLayout.setVerticalGroup(
+            CuadroCAEnfLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(CuadroCAEnfLayout.createSequentialGroup()
+                .addGap(19, 19, 19)
+                .addComponent(TxtCAEnf)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 402, Short.MAX_VALUE)
+                .addComponent(CuadroSalirCAEnfe, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(30, 30, 30))
+        );
+
+        TablaEnfermeria.addTab("tab3", CuadroCAEnf);
+
+        CuadroCDREnf.setBackground(new java.awt.Color(255, 255, 255));
+
+        TxtCDREnf.setFont(new java.awt.Font("Segoe UI Semibold", 0, 24)); // NOI18N
+        TxtCDREnf.setText("Consultas Dentro de un Rango");
+
+        CuadroSalirCDREnf.setBackground(new java.awt.Color(204, 204, 255));
+        CuadroSalirCDREnf.addMouseMotionListener(new java.awt.event.MouseMotionAdapter()
+        {
+            public void mouseMoved(java.awt.event.MouseEvent evt)
+            {
+                CuadroSalirCDREnfMouseMoved(evt);
+            }
+        });
+        CuadroSalirCDREnf.addMouseListener(new java.awt.event.MouseAdapter()
+        {
+            public void mouseClicked(java.awt.event.MouseEvent evt)
+            {
+                CuadroSalirCDREnfMouseClicked(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt)
+            {
+                CuadroSalirCDREnfMouseExited(evt);
+            }
+        });
+
+        TxtSalirCDREnf.setFont(new java.awt.Font("Corbel", 0, 18)); // NOI18N
+        TxtSalirCDREnf.setText("Salir");
+
+        javax.swing.GroupLayout CuadroSalirCDREnfLayout = new javax.swing.GroupLayout(CuadroSalirCDREnf);
+        CuadroSalirCDREnf.setLayout(CuadroSalirCDREnfLayout);
+        CuadroSalirCDREnfLayout.setHorizontalGroup(
+            CuadroSalirCDREnfLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, CuadroSalirCDREnfLayout.createSequentialGroup()
+                .addContainerGap(31, Short.MAX_VALUE)
+                .addComponent(TxtSalirCDREnf, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(22, 22, 22))
+        );
+        CuadroSalirCDREnfLayout.setVerticalGroup(
+            CuadroSalirCDREnfLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(CuadroSalirCDREnfLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(TxtSalirCDREnf)
+                .addContainerGap(17, Short.MAX_VALUE))
+        );
+
+        javax.swing.GroupLayout CuadroCDREnfLayout = new javax.swing.GroupLayout(CuadroCDREnf);
+        CuadroCDREnf.setLayout(CuadroCDREnfLayout);
+        CuadroCDREnfLayout.setHorizontalGroup(
+            CuadroCDREnfLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(CuadroCDREnfLayout.createSequentialGroup()
+                .addGap(14, 14, 14)
+                .addComponent(TxtCDREnf, javax.swing.GroupLayout.PREFERRED_SIZE, 345, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(231, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, CuadroCDREnfLayout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(CuadroSalirCDREnf, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(21, 21, 21))
+        );
+        CuadroCDREnfLayout.setVerticalGroup(
+            CuadroCDREnfLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(CuadroCDREnfLayout.createSequentialGroup()
+                .addGap(19, 19, 19)
+                .addComponent(TxtCDREnf)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 395, Short.MAX_VALUE)
+                .addComponent(CuadroSalirCDREnf, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(34, 34, 34))
+        );
+
+        TablaEnfermeria.addTab("tab4", CuadroCDREnf);
 
         javax.swing.GroupLayout PanelEnfermeriaLayout = new javax.swing.GroupLayout(PanelEnfermeria);
         PanelEnfermeria.setLayout(PanelEnfermeriaLayout);
         PanelEnfermeriaLayout.setHorizontalGroup(
             PanelEnfermeriaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(PanelEnfermeriaLayout.createSequentialGroup()
-                .addGap(22, 22, 22)
-                .addGroup(PanelEnfermeriaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(PanelEnfermeriaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                        .addComponent(TxtMatriculaRNP3)
-                        .addComponent(TituloEnfermeria, javax.swing.GroupLayout.PREFERRED_SIZE, 131, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(PanelEnfermeriaLayout.createSequentialGroup()
-                        .addGap(21, 21, 21)
-                        .addGroup(PanelEnfermeriaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(TxtMatriculaRNP4)
-                            .addComponent(TxtMatriculaRNP6)
-                            .addComponent(TxtMatriculaRNP7)
-                            .addComponent(TxtMatriculaRNP5))))
-                .addGroup(PanelEnfermeriaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(PanelEnfermeriaLayout.createSequentialGroup()
-                        .addGap(17, 17, 17)
-                        .addGroup(PanelEnfermeriaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(cvePer4, javax.swing.GroupLayout.DEFAULT_SIZE, 300, Short.MAX_VALUE)
-                            .addComponent(cvePer3)
-                            .addComponent(cvePer6)
-                            .addComponent(cvePer5))
-                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                    .addGroup(PanelEnfermeriaLayout.createSequentialGroup()
-                        .addGap(18, 18, 18)
-                        .addComponent(cvePer7, javax.swing.GroupLayout.DEFAULT_SIZE, 355, Short.MAX_VALUE)
-                        .addContainerGap())))
+            .addComponent(TablaEnfermeria)
         );
         PanelEnfermeriaLayout.setVerticalGroup(
             PanelEnfermeriaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(PanelEnfermeriaLayout.createSequentialGroup()
-                .addGap(16, 16, 16)
-                .addComponent(TituloEnfermeria)
-                .addGap(18, 18, 18)
-                .addGroup(PanelEnfermeriaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(TxtMatriculaRNP3)
-                    .addComponent(cvePer4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 18, 18)
-                .addGroup(PanelEnfermeriaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(TxtMatriculaRNP4)
-                    .addComponent(cvePer3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(22, 22, 22)
-                .addGroup(PanelEnfermeriaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(cvePer6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(TxtMatriculaRNP5))
-                .addGap(18, 18, 18)
-                .addGroup(PanelEnfermeriaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(cvePer5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(TxtMatriculaRNP6))
-                .addGap(18, 18, 18)
-                .addGroup(PanelEnfermeriaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(TxtMatriculaRNP7)
-                    .addComponent(cvePer7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(268, Short.MAX_VALUE))
+                .addComponent(TablaEnfermeria, javax.swing.GroupLayout.PREFERRED_SIZE, 559, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE))
         );
 
         TablaOpciones.addTab("tab5", PanelEnfermeria);
@@ -4336,46 +4636,6 @@ public class menu extends javax.swing.JFrame
         // TODO add your handling code here:
     }//GEN-LAST:event_ComboBoxEstatusP5ActionPerformed
 
-    private void cvePer3KeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_cvePer3KeyPressed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_cvePer3KeyPressed
-
-    private void cvePer3KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_cvePer3KeyTyped
-        // TODO add your handling code here:
-    }//GEN-LAST:event_cvePer3KeyTyped
-
-    private void cvePer4KeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_cvePer4KeyPressed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_cvePer4KeyPressed
-
-    private void cvePer4KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_cvePer4KeyTyped
-        // TODO add your handling code here:
-    }//GEN-LAST:event_cvePer4KeyTyped
-
-    private void cvePer5KeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_cvePer5KeyPressed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_cvePer5KeyPressed
-
-    private void cvePer5KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_cvePer5KeyTyped
-        // TODO add your handling code here:
-    }//GEN-LAST:event_cvePer5KeyTyped
-
-    private void cvePer6KeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_cvePer6KeyPressed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_cvePer6KeyPressed
-
-    private void cvePer6KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_cvePer6KeyTyped
-        // TODO add your handling code here:
-    }//GEN-LAST:event_cvePer6KeyTyped
-
-    private void cvePer7KeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_cvePer7KeyPressed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_cvePer7KeyPressed
-
-    private void cvePer7KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_cvePer7KeyTyped
-        // TODO add your handling code here:
-    }//GEN-LAST:event_cvePer7KeyTyped
-
     private void ConsulAlumMouseEntered(java.awt.event.MouseEvent evt)//GEN-FIRST:event_ConsulAlumMouseEntered
     {//GEN-HEADEREND:event_ConsulAlumMouseEntered
         ConsulAlum.setText(Menu.consulta(menu.a, 1));
@@ -4386,6 +4646,111 @@ public class menu extends javax.swing.JFrame
     {//GEN-HEADEREND:event_ConsulPersoMouseEntered
        ConsulPerso.setText(Menu.consulta(menu.a, 2));
     }//GEN-LAST:event_ConsulPersoMouseEntered
+
+    private void CuadroRCCEMouseClicked(java.awt.event.MouseEvent evt)//GEN-FIRST:event_CuadroRCCEMouseClicked
+    {//GEN-HEADEREND:event_CuadroRCCEMouseClicked
+       TablaEnfermeria.setSelectedIndex(1);
+    }//GEN-LAST:event_CuadroRCCEMouseClicked
+
+    private void CuadroRCCEMouseMoved(java.awt.event.MouseEvent evt)//GEN-FIRST:event_CuadroRCCEMouseMoved
+    {//GEN-HEADEREND:event_CuadroRCCEMouseMoved
+        CuadroRCCE.setBackground(new Color(0, 8, 84));
+    }//GEN-LAST:event_CuadroRCCEMouseMoved
+
+    private void CuadroRCCEMouseExited(java.awt.event.MouseEvent evt)//GEN-FIRST:event_CuadroRCCEMouseExited
+    {//GEN-HEADEREND:event_CuadroRCCEMouseExited
+        CuadroRCCE.setBackground(new Color(242, 230, 255));
+    }//GEN-LAST:event_CuadroRCCEMouseExited
+
+    private void CuadroCAEMouseDragged(java.awt.event.MouseEvent evt)//GEN-FIRST:event_CuadroCAEMouseDragged
+    {//GEN-HEADEREND:event_CuadroCAEMouseDragged
+        TablaEnfermeria.setSelectedIndex(2);
+    }//GEN-LAST:event_CuadroCAEMouseDragged
+
+    private void CuadroCAEMouseMoved(java.awt.event.MouseEvent evt)//GEN-FIRST:event_CuadroCAEMouseMoved
+    {//GEN-HEADEREND:event_CuadroCAEMouseMoved
+        CuadroCAE.setBackground(new Color(0, 8, 84));
+    }//GEN-LAST:event_CuadroCAEMouseMoved
+
+    private void CuadroCAEMouseExited(java.awt.event.MouseEvent evt)//GEN-FIRST:event_CuadroCAEMouseExited
+    {//GEN-HEADEREND:event_CuadroCAEMouseExited
+        CuadroCAE.setBackground(new Color(242, 230, 255));
+    }//GEN-LAST:event_CuadroCAEMouseExited
+
+    private void CuadroCDREMouseClicked(java.awt.event.MouseEvent evt)//GEN-FIRST:event_CuadroCDREMouseClicked
+    {//GEN-HEADEREND:event_CuadroCDREMouseClicked
+        TablaEnfermeria.setSelectedIndex(3);
+    }//GEN-LAST:event_CuadroCDREMouseClicked
+
+    private void CuadroCDREMouseMoved(java.awt.event.MouseEvent evt)//GEN-FIRST:event_CuadroCDREMouseMoved
+    {//GEN-HEADEREND:event_CuadroCDREMouseMoved
+        CuadroCDRE.setBackground(new Color(0, 8, 84));
+    }//GEN-LAST:event_CuadroCDREMouseMoved
+
+    private void CuadroCDREMouseExited(java.awt.event.MouseEvent evt)//GEN-FIRST:event_CuadroCDREMouseExited
+    {//GEN-HEADEREND:event_CuadroCDREMouseExited
+        CuadroCDRE.setBackground(new Color(242, 230, 255));
+    }//GEN-LAST:event_CuadroCDREMouseExited
+
+    private void CuadroSalirEMouseClicked(java.awt.event.MouseEvent evt)//GEN-FIRST:event_CuadroSalirEMouseClicked
+    {//GEN-HEADEREND:event_CuadroSalirEMouseClicked
+         TablaOpciones.setSelectedIndex(0);
+    }//GEN-LAST:event_CuadroSalirEMouseClicked
+
+    private void CuadroSalirEMouseMoved(java.awt.event.MouseEvent evt)//GEN-FIRST:event_CuadroSalirEMouseMoved
+    {//GEN-HEADEREND:event_CuadroSalirEMouseMoved
+        CuadroSalirE.setBackground(new Color(0, 8, 84));
+    }//GEN-LAST:event_CuadroSalirEMouseMoved
+
+    private void CuadroSalirEMouseExited(java.awt.event.MouseEvent evt)//GEN-FIRST:event_CuadroSalirEMouseExited
+    {//GEN-HEADEREND:event_CuadroSalirEMouseExited
+        CuadroSalirE.setBackground(new Color(242, 230, 255));
+    }//GEN-LAST:event_CuadroSalirEMouseExited
+
+    private void CuadroSalirRCCEnfMouseClicked(java.awt.event.MouseEvent evt)//GEN-FIRST:event_CuadroSalirRCCEnfMouseClicked
+    {//GEN-HEADEREND:event_CuadroSalirRCCEnfMouseClicked
+        TablaEnfermeria.setSelectedIndex(0);
+    }//GEN-LAST:event_CuadroSalirRCCEnfMouseClicked
+
+    private void CuadroSalirRCCEnfMouseExited(java.awt.event.MouseEvent evt)//GEN-FIRST:event_CuadroSalirRCCEnfMouseExited
+    {//GEN-HEADEREND:event_CuadroSalirRCCEnfMouseExited
+        CuadroSalirRCCEnf.setBackground(new Color(242, 230, 255));
+    }//GEN-LAST:event_CuadroSalirRCCEnfMouseExited
+
+    private void CuadroSalirRCCEnfMouseMoved(java.awt.event.MouseEvent evt)//GEN-FIRST:event_CuadroSalirRCCEnfMouseMoved
+    {//GEN-HEADEREND:event_CuadroSalirRCCEnfMouseMoved
+        CuadroSalirRCCEnf.setBackground(new Color(0, 8, 84));
+    }//GEN-LAST:event_CuadroSalirRCCEnfMouseMoved
+
+    private void CuadroSalirCAEnfeMouseClicked(java.awt.event.MouseEvent evt)//GEN-FIRST:event_CuadroSalirCAEnfeMouseClicked
+    {//GEN-HEADEREND:event_CuadroSalirCAEnfeMouseClicked
+        TablaEnfermeria.setSelectedIndex(0);
+    }//GEN-LAST:event_CuadroSalirCAEnfeMouseClicked
+
+    private void CuadroSalirCAEnfeMouseMoved(java.awt.event.MouseEvent evt)//GEN-FIRST:event_CuadroSalirCAEnfeMouseMoved
+    {//GEN-HEADEREND:event_CuadroSalirCAEnfeMouseMoved
+       CuadroSalirCAEnfe.setBackground(new Color(0, 8, 84));
+    }//GEN-LAST:event_CuadroSalirCAEnfeMouseMoved
+
+    private void CuadroSalirCAEnfeMouseExited(java.awt.event.MouseEvent evt)//GEN-FIRST:event_CuadroSalirCAEnfeMouseExited
+    {//GEN-HEADEREND:event_CuadroSalirCAEnfeMouseExited
+       CuadroSalirCAEnfe.setBackground(new Color(242, 230, 255));
+    }//GEN-LAST:event_CuadroSalirCAEnfeMouseExited
+
+    private void CuadroSalirCDREnfMouseClicked(java.awt.event.MouseEvent evt)//GEN-FIRST:event_CuadroSalirCDREnfMouseClicked
+    {//GEN-HEADEREND:event_CuadroSalirCDREnfMouseClicked
+        TablaEnfermeria.setSelectedIndex(0);
+    }//GEN-LAST:event_CuadroSalirCDREnfMouseClicked
+
+    private void CuadroSalirCDREnfMouseMoved(java.awt.event.MouseEvent evt)//GEN-FIRST:event_CuadroSalirCDREnfMouseMoved
+    {//GEN-HEADEREND:event_CuadroSalirCDREnfMouseMoved
+        CuadroSalirCDREnf.setBackground(new Color(0, 8, 84));
+    }//GEN-LAST:event_CuadroSalirCDREnfMouseMoved
+
+    private void CuadroSalirCDREnfMouseExited(java.awt.event.MouseEvent evt)//GEN-FIRST:event_CuadroSalirCDREnfMouseExited
+    {//GEN-HEADEREND:event_CuadroSalirCDREnfMouseExited
+        CuadroSalirCDREnf.setBackground(new Color(242, 230, 255));
+    }//GEN-LAST:event_CuadroSalirCDREnfMouseExited
    
   
     // Variables declaration - do not modify//GEN-BEGIN:variables
@@ -4434,7 +4799,11 @@ public class menu extends javax.swing.JFrame
     private javax.swing.JTextArea ConsulPerso;
     private javax.swing.JPanel CuadroAlumnos;
     private javax.swing.JPanel CuadroCA;
+    private javax.swing.JPanel CuadroCAE;
+    private javax.swing.JPanel CuadroCAEnf;
     private javax.swing.JPanel CuadroCAlu;
+    private javax.swing.JPanel CuadroCDRE;
+    private javax.swing.JPanel CuadroCDREnf;
     private javax.swing.JPanel CuadroCP;
     private javax.swing.JPanel CuadroCPer;
     private javax.swing.JPanel CuadroFuncion;
@@ -4443,6 +4812,8 @@ public class menu extends javax.swing.JFrame
     private javax.swing.JPanel CuadroMP;
     private javax.swing.JPanel CuadroMPer;
     private javax.swing.JPanel CuadroPersonal;
+    private javax.swing.JPanel CuadroRCCE;
+    private javax.swing.JPanel CuadroRCCEnf;
     private javax.swing.JPanel CuadroRIA;
     private javax.swing.JPanel CuadroRIAlu;
     private javax.swing.JPanel CuadroRIP;
@@ -4453,11 +4824,16 @@ public class menu extends javax.swing.JFrame
     private javax.swing.JPanel CuadroRNPer;
     private javax.swing.JPanel CuadroSalirAl;
     private javax.swing.JPanel CuadroSalirCA;
+    private javax.swing.JLabel CuadroSalirCAEnf;
+    private javax.swing.JPanel CuadroSalirCAEnfe;
+    private javax.swing.JPanel CuadroSalirCDREnf;
     private javax.swing.JPanel CuadroSalirCPer;
+    private javax.swing.JPanel CuadroSalirE;
     private javax.swing.JPanel CuadroSalirFun;
     private javax.swing.JPanel CuadroSalirMA;
     private javax.swing.JPanel CuadroSalirMPer;
     private javax.swing.JPanel CuadroSalirP;
+    private javax.swing.JPanel CuadroSalirRCCEnf;
     private javax.swing.JPanel CuadroSalirRIA;
     private javax.swing.JPanel CuadroSalirRIPer;
     private javax.swing.JPanel CuadroSalirRNA;
@@ -4469,6 +4845,7 @@ public class menu extends javax.swing.JFrame
     private javax.swing.JPanel PanelAlumno;
     private javax.swing.JPanel PanelAlumnos;
     private javax.swing.JPanel PanelEnfermeria;
+    private javax.swing.JPanel PanelEnfermeria2;
     private javax.swing.JPanel PanelFuncion;
     private javax.swing.JPanel PanelInicio;
     private javax.swing.JPanel PanelIzq;
@@ -4482,11 +4859,11 @@ public class menu extends javax.swing.JFrame
     private javax.swing.JPanel PanelVerMas4;
     private javax.swing.JPanel Personal;
     private javax.swing.JTabbedPane TablaAlumno;
+    private javax.swing.JTabbedPane TablaEnfermeria;
     private javax.swing.JTabbedPane TablaOpciones;
     private javax.swing.JTabbedPane TablaPersonal;
     private javax.swing.JLabel TextoUNIVERSIDAD;
     private javax.swing.JLabel TituloComoFunciona1;
-    private javax.swing.JLabel TituloEnfermeria;
     private javax.swing.JPanel TituloFuncion;
     private javax.swing.JLabel TxtAlergiasA;
     private javax.swing.JLabel TxtAlergiasRNP;
@@ -4499,7 +4876,11 @@ public class menu extends javax.swing.JFrame
     private javax.swing.JLabel TxtApePatRNP;
     private javax.swing.JLabel TxtApellidoMatRNA;
     private javax.swing.JLabel TxtApellidoPatRNA;
+    private javax.swing.JLabel TxtCAE;
+    private javax.swing.JLabel TxtCAEnf;
     private javax.swing.JLabel TxtCAlu;
+    private javax.swing.JLabel TxtCDRE;
+    private javax.swing.JLabel TxtCDREnf;
     private javax.swing.JLabel TxtCP;
     private javax.swing.JLabel TxtCPer;
     private javax.swing.JLabel TxtCarreraRNA;
@@ -4514,6 +4895,7 @@ public class menu extends javax.swing.JFrame
     private javax.swing.JLabel TxtDiabetesA4;
     private javax.swing.JLabel TxtEnfermeria;
     private javax.swing.JLabel TxtEnfermeria2;
+    private javax.swing.JLabel TxtEnfermeriaPanel;
     private javax.swing.JLabel TxtFuncion;
     private javax.swing.JLabel TxtFuncion2;
     private javax.swing.JLabel TxtGeneroA;
@@ -4529,11 +4911,6 @@ public class menu extends javax.swing.JFrame
     private javax.swing.JLabel TxtMatriculaRNP;
     private javax.swing.JLabel TxtMatriculaRNP1;
     private javax.swing.JLabel TxtMatriculaRNP2;
-    private javax.swing.JLabel TxtMatriculaRNP3;
-    private javax.swing.JLabel TxtMatriculaRNP4;
-    private javax.swing.JLabel TxtMatriculaRNP5;
-    private javax.swing.JLabel TxtMatriculaRNP6;
-    private javax.swing.JLabel TxtMatriculaRNP7;
     private javax.swing.JLabel TxtModAlu;
     private javax.swing.JLabel TxtModificacionesAl;
     private javax.swing.JLabel TxtNombreRNA;
@@ -4550,6 +4927,8 @@ public class menu extends javax.swing.JFrame
     private javax.swing.JLabel TxtPersonal2;
     private javax.swing.JLabel TxtPersonalPanel;
     private javax.swing.JLabel TxtPersonalRN;
+    private javax.swing.JLabel TxtRCCE;
+    private javax.swing.JLabel TxtRCCEnf;
     private javax.swing.JLabel TxtRIAlu;
     private javax.swing.JLabel TxtRIP;
     private javax.swing.JLabel TxtRIPer;
@@ -4560,10 +4939,13 @@ public class menu extends javax.swing.JFrame
     private javax.swing.JLabel TxtReporteInfAl;
     private javax.swing.JLabel TxtSalirAl;
     private javax.swing.JLabel TxtSalirCA;
+    private javax.swing.JLabel TxtSalirCDREnf;
     private javax.swing.JLabel TxtSalirCPer;
+    private javax.swing.JLabel TxtSalirEnf;
     private javax.swing.JLabel TxtSalirFun;
     private javax.swing.JLabel TxtSalirMPer;
     private javax.swing.JLabel TxtSalirP;
+    private javax.swing.JLabel TxtSalirRCCEnf;
     private javax.swing.JLabel TxtSalirRIA;
     private javax.swing.JLabel TxtSalirRIP;
     private javax.swing.JLabel TxtSalirRNA;
@@ -4585,11 +4967,6 @@ public class menu extends javax.swing.JFrame
     private javax.swing.JTextField cvePer;
     private javax.swing.JTextField cvePer1;
     private javax.swing.JTextField cvePer2;
-    private javax.swing.JTextField cvePer3;
-    private javax.swing.JTextField cvePer4;
-    private javax.swing.JTextField cvePer5;
-    private javax.swing.JTextField cvePer6;
-    private javax.swing.JTextField cvePer7;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
