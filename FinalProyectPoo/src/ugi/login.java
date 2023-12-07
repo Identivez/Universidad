@@ -89,7 +89,7 @@ public class login extends javax.swing.JFrame
         barrasup.setLayout(barrasupLayout);
         barrasupLayout.setHorizontalGroup(
             barrasupLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 450, Short.MAX_VALUE)
+            .addGap(0, 421, Short.MAX_VALUE)
         );
         barrasupLayout.setVerticalGroup(
             barrasupLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -100,7 +100,6 @@ public class login extends javax.swing.JFrame
         PanelInicio.setLayout(PanelInicioLayout);
         PanelInicioLayout.setHorizontalGroup(
             PanelInicioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(barrasup, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
             .addGroup(PanelInicioLayout.createSequentialGroup()
                 .addGap(40, 40, 40)
                 .addGroup(PanelInicioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -115,6 +114,7 @@ public class login extends javax.swing.JFrame
                     .addComponent(txtContra, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(txtUsuario, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(usuario, javax.swing.GroupLayout.PREFERRED_SIZE, 260, javax.swing.GroupLayout.PREFERRED_SIZE)))
+            .addComponent(barrasup, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
         PanelInicioLayout.setVerticalGroup(
             PanelInicioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
